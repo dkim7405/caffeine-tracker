@@ -8,9 +8,9 @@ class db_conn:
         self,
         username: str = os.getenv("DB_USERNAME"),
         password: str = os.getenv("DB_PASSWORD"),
-        driver_name: str = 'SQL Server',
-        server_name: str = 'golem',
-        database_name: str = 'FinalProject_S1G6'
+        driver_name: str = os.getenv("DRIVER_NAME"),
+        server_name: str = os.getenv("SERVER_NAME"),
+        database_name: str = os.getenv("DB_NAME")
     ):
         self.username = username
         self.password = password

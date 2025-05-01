@@ -1,5 +1,5 @@
 To Activate:
-.venv\Scripts\activate
+venv\Scripts\activate
 
 To Deactivate:
 deactivate
@@ -9,5 +9,5 @@ Installed Packages:
     - pypyodbc
     - dotenv
 
-Reference:
-https://www.youtube.com/watch?v=ctQMqqEo4G8
+Server Posted:
+https://caffeine-tracker-4lpe.onrender.com

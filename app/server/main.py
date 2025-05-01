@@ -6,10 +6,10 @@ app = Flask(__name__)
 CORS(app) # Enable CORS for all routes
 
 db = db_conn()
-db.connect()
 
 @app.route('/')
 def home():
+    db.connect()
     return "Server is running!"
 
 @app.route('/drinks', methods=['GET'])

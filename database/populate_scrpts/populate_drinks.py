@@ -30,7 +30,7 @@ db = db_conn(
 db.connect()
 
 stmt = """
-    INSERT INTO Drink (name, [mg/oz], image_url, manufacturer_id)
+    INSERT INTO Drink (name, mg_per_oz, image_url, manufacturer_id)
     VALUES (?, ?, ?, (
         SELECT id FROM Manufacturer WHERE name = ?
     ))

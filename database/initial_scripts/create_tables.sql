@@ -35,7 +35,7 @@ CREATE TABLE [Manufacturer] (
 CREATE TABLE [Drink] (
     [id] int PRIMARY KEY IDENTITY(1,1),
     [name] nvarchar(50) NOT NULL UNIQUE,
-    [mg/oz] float NOT NULL,
+    [mg_per_oz] float NOT NULL,
     [image_url] nvarchar(300) NOT NULL,
     [manufacturer_id] int NULL REFERENCES [Manufacturer](id)
         ON DELETE SET NULL

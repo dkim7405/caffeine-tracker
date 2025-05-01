@@ -1,2 +1,2 @@
-.venv
-.env
+/app/server/.venv
+/app/server/.env

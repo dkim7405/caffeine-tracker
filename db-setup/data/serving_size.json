@@ -1,0 +1,272 @@
+[
+  {
+    "drink_type": "Chocolate Drink",
+    "common_serving_sizes": [
+      {
+        "name": "Small",
+        "amount_ml": 237,
+        "amount_oz": 8
+      },
+      {
+        "name": "Medium",
+        "amount_ml": 355,
+        "amount_oz": 12
+      },
+      {
+        "name": "Large",
+        "amount_ml": 473,
+        "amount_oz": 16
+      },
+      {
+        "name": "Bottle",
+        "amount_ml": 325,
+        "amount_oz": 11
+      },
+      {
+        "name": "Carton",
+        "amount_ml": 240,
+        "amount_oz": 8.1
+      }
+    ]
+  },
+  {
+    "drink_type": "Coffee",
+    "common_serving_sizes": [
+      {
+        "name": "Small (Short)",
+        "amount_ml": 237,
+        "amount_oz": 8
+      },
+      {
+        "name": "Medium (Tall)",
+        "amount_ml": 355,
+        "amount_oz": 12
+      },
+      {
+        "name": "Large (Grende)",
+        "amount_ml": 473,
+        "amount_oz": 16
+      },
+      {
+        "name": "Extra Large (Venti)",
+        "amount_ml": 591,
+        "amount_oz": 20
+      }
+    ]
+  },
+  {
+    "drink_type": "Energy Drink",
+    "common_serving_sizes": [
+      {
+        "name": "Small Can",
+        "amount_ml": 250,
+        "amount_oz": 8.45
+      },
+      {
+        "name": "Standard Can",
+        "amount_ml": 355,
+        "amount_oz": 12
+      },
+      {
+        "name": "Large Can",
+        "amount_ml": 473,
+        "amount_oz": 16
+      },
+      {
+        "name": "Extra Large Can",
+        "amount_ml": 500,
+        "amount_oz": 16.91
+      }
+    ]
+  },
+  {
+    "drink_type": "Nutritional Drink",
+    "common_serving_sizes": [
+      {
+        "name": "Single Bottle",
+        "amount_ml": 237,
+        "amount_oz": 8
+      },
+      {
+        "name": "Large Bottle",
+        "amount_ml": 325,
+        "amount_oz": 11
+      },
+      {
+        "name": "Carton",
+        "amount_ml": 250,
+        "amount_oz": 8.45
+      }
+    ]
+  },
+  {
+    "drink_type": "Other",
+    "common_serving_sizes": [
+      {
+        "name": "N/A",
+        "amount_ml": "N/A",
+        "amount_oz": "N/A"
+      }
+    ]
+  },
+  {
+    "drink_type": "Soda",
+    "common_serving_sizes": [
+      {
+        "name": "Can",
+        "amount_ml": 355,
+        "amount_oz": 12
+      },
+      {
+        "name": "Bottle (Small)",
+        "amount_ml": 500,
+        "amount_oz": 16.9
+      },
+      {
+        "name": "Bottle (Medium)",
+        "amount_ml": 591,
+        "amount_oz": 20
+      },
+      {
+        "name": "Bottle (Large)",
+        "amount_ml": 710,
+        "amount_oz": 24
+      },
+      {
+        "name": "Bottle (Extra Large)",
+        "amount_ml": 1000,
+        "amount_oz": 33.8
+      },
+      {
+        "name": "Fountain Drink (Small)",
+        "amount_ml": 355,
+        "amount_oz": 12
+      },
+      {
+        "name": "Fountain Drink (Medium)",
+        "amount_ml": 473,
+        "amount_oz": 16
+      },
+      {
+        "name": "Fountain Drink (Large)",
+        "amount_ml": 591,
+        "amount_oz": 20
+      },
+      {
+        "name": "Fountain Drink (Extra Large)",
+        "amount_ml": 946,
+        "amount_oz": 32
+      }
+    ]
+  },
+  {
+    "drink_type": "Sports Drink",
+    "common_serving_sizes": [
+      {
+        "name": "Small Bottle",
+        "amount_ml": 355,
+        "amount_oz": 12
+      },
+      {
+        "name": "Medium Bottle",
+        "amount_ml": 500,
+        "amount_oz": 16.9
+      },
+      {
+        "name": "Large Bottle",
+        "amount_ml": 591,
+        "amount_oz": 20
+      },
+      {
+        "name": "Extra Large Bottle",
+        "amount_ml": 946,
+        "amount_oz": 32
+      }
+    ]
+  },
+  {
+    "drink_type": "Supplement",
+    "common_serving_sizes": [
+      {
+        "name": "Single-serve packet",
+        "amount_ml": 237,
+        "amount_oz": 8
+      },
+      {
+        "name": "Bottle",
+        "amount_ml": 355,
+        "amount_oz": 12
+      },
+      {
+        "name": "Large bottle",
+        "amount_ml": 473,
+        "amount_oz": 16
+      },
+      {
+        "name": "Shot",
+        "amount_ml": 60,
+        "amount_oz": 2
+      }
+    ]
+  },
+  {
+    "drink_type": "Tea",
+    "common_serving_sizes": [
+      {
+        "name": "Cup",
+        "amount_ml": 240,
+        "amount_oz": 8.12
+      },
+      {
+        "name": "Mug",
+        "amount_ml": 350,
+        "amount_oz": 11.83
+      },
+      {
+        "name": "Small (to-go)",
+        "amount_ml": 355,
+        "amount_oz": 12
+      },
+      {
+        "name": "Medium (to-go)",
+        "amount_ml": 473,
+        "amount_oz": 16
+      },
+      {
+        "name": "Large (to-go)",
+        "amount_ml": 591,
+        "amount_oz": 20
+      }
+    ]
+  },
+  {
+    "drink_type": "Water",
+    "common_serving_sizes": [
+      {
+        "name": "Small Glass",
+        "amount_ml": 240,
+        "amount_oz": 8
+      },
+      {
+        "name": "Standard Bottle",
+        "amount_ml": 500,
+        "amount_oz": 16.9
+      },
+      {
+        "name": "Large Glass",
+        "amount_ml": 355,
+        "amount_oz": 12
+      },
+      {
+        "name": "Large Bottle",
+        "amount_ml": 1000,
+        "amount_oz": 33.8
+      },
+      {
+        "name": "Pitcher",
+        "amount_ml": 1890,
+        "amount_oz": 64
+      }
+    ]
+  }
+]

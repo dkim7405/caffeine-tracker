@@ -1,0 +1,13 @@
+To Activate:
+.venv\Scripts\activate
+
+To Deactivate:
+deactivate
+
+Installed Packages:
+    - flask
+    - pypyodbc
+    - dotenv
+
+Reference:
+https://www.youtube.com/watch?v=ctQMqqEo4G8

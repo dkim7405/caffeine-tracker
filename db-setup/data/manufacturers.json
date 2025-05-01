@@ -1,0 +1,1306 @@
+[
+    [
+
+        {
+          "name": "28-Black",
+          "website": "https://www.28black.com",
+          "location": "Wecker, Luxembourg",
+          "manf_of_drink": ["28 Black Energy Drink"]
+        },
+        {
+          "name": "3-Water",
+          "website": "https://drink3water.com",
+          "location": "Huntington, New York, United States",
+          "manf_of_drink": ["3 Water"]
+        },
+        { 
+          "name": "3D",
+          "website": "https://3denergydrinks.com",
+          "location": "Louisville, Kentucky, United States",
+          "manf_of_drink": ["3D Energy Drink"]
+        },
+        {
+          "name": "4-Purpose",
+          "website": "https://www.4purposeenergy.com",
+          "location": "Boston, Massachusetts, United States",
+          "manf_of_drink": ["4 Purpose Energy Drink"]
+        },
+        {
+          "name": "4C",
+          "website": "https://www.4c.com",
+          "location": "Brooklyn, New York, United States",
+          "manf_of_drink": ["4C Energy Drink Mix"]
+        },
+        {
+          "name": "5-Hour Energy",
+          "website": "https://www.5hourenergy.com",
+          "location": "Farmington Hills, Michigan, United States",
+          "manf_of_drink": [
+            "5 Hour Energy",
+            "5 Hour Energy Extra Strength"
+          ]
+        },
+        {
+          "name": "7-Eleven, Inc.",
+          "website": "https://www.7-eleven.com",
+          "location": "Irving, Texas, United States",
+          "manf_of_drink": [
+            "7 Eleven Brewed Coffee",
+            "7-Eleven Energy Shot"
+          ]
+        },
+        {
+          "name": "7-Up",
+          "website": "https://www.7up.com",
+          "location": "Plano, Texas, United States",
+          "manf_of_drink": ["7-Up"]
+        },
+        {
+          "name": "A",
+          "website": "https://ashoc.com",
+          "location": "Newport Beach, California, United States",
+          "manf_of_drink": ["A Shoc"]
+        },
+        {
+          "name": "ABB",
+          "website": "https://www.abbperformance.com",
+          "location": "Aurora, Illinois, United States",
+          "manf_of_drink": ["ABB Turbo Tea Zero"]
+        },
+        {
+            "name": "AMP",
+            "website": "https://www.mountaindew.com",
+            "location": "Purchase, New York, United States",
+            "manf_of_drink": [
+              "Mountain Dew Amp"
+            ]
+      
+        },
+        {
+          "name": "ALL IN",
+          "website": "http://drinkallin.com",
+          "location": "Seattle, Washington, United States",
+          "manf_of_drink": ["ALL IN Energy Drink"]
+        },
+        {
+          "name": "Alani Nu",
+          "website": "https://www.alaninu.com",
+          "location": "Louisville, Kentucky, United States",
+          "manf_of_drink": ["Alani Nu Energy Drink"]
+        },
+        {
+          "name": "Ale 8",
+          "website": "https://www.ale8one.com",
+          "location": "Winchester, Kentucky, United States",
+          "manf_of_drink": ["Ale 8 1"]
+        },
+        {
+            "name": "Alsa",
+            "website": "https://www.alsaenergy.com",
+            "location": "Ojai, California, United States",
+            "manf_of_drink": [
+                "Alsa Energy Drink Mix"
+            ]
+
+        },
+        {
+          "name": "Arizona Beverages",
+          "website": "https://www.drinkarizona.com",
+          "location": "Woodbury, New York, United States",
+          "manf_of_drink": [
+            "Arizona Arnold Palmer Half and Half",
+            "Arizona Energy Drink Rx",
+            "Arizona Iced Tea"
+          ]
+        },
+        {
+          "name": "AXIO",
+          "website": "https://www.lifevantage.com",
+          "location": "Sandy, Utah, United States",
+          "manf_of_drink": ["AXIO Energy Drink Mix"]
+        },
+        {
+          "name": "Advocare",
+          "website": "https://www.advocare.com",
+          "location": "Plano, Texas, United States",
+          "manf_of_drink": [
+            "Advocare Slam Energy Shot",
+            "Advocare Slim"
+          ]
+        },
+        {
+          "name": "Afri Cola",
+          "website": "https://www.afri-cola.com",
+          "location": "Cologne, Germany",
+          "manf_of_drink": ["Afri Cola"]
+        },
+        {
+          "name": "AHA",
+          "website": "https://www.drinkaha.com",
+          "location": "Atlanta, Georgia, United States",
+          "manf_of_drink": ["AHA Sparkling Water"]
+        },
+        {
+            "name": "Big Red, Inc.",
+            "website": "https://www.bigred.com",
+            "location": "Austin, Texas, United States",
+            "manf_of_drink": [
+              "Barqs Red Creme Soda",
+              "Barqs Root Beer",
+              "Diet Barqs Root Beer",
+              "Shasta Cola",
+              "Shasta Diet Cola",
+              "Shasta Mountain Rush",
+              "Xyience Energy Drink"
+            ]
+          },
+          {
+            "name": "Balance",
+            "website": "https://superfoodshot.com",
+            "location": "Kansas City, Missouri, United States",
+            "manf_of_drink": [
+              "Balance Active Shot",
+              "Balance Energy Shot"
+            ]
+          },
+          {
+            "name": "Bang",
+            "website": "https://www.bangenergy.com",
+            "location": "Weston, Florida, United States",
+            "manf_of_drink": [
+              "Bang Energy",
+              "Bang Keto Coffee",
+              "Bang Natural",
+              "Bang Shot",
+              "Bang Sweet Tea"
+            ]
+          },
+          {
+            "name": "Barqs",
+            "website": "https://www.coca-colacompany.com",
+            "location": "Atlanta, Georgia, United States",
+            "manf_of_drink": [
+              "Barqs Red Creme Soda"
+            ]
+          },
+          {
+            "name": "Barqs Root",
+            "website": "https://www.coca-colacompany.com",
+            "location": "Atlanta, Georgia, United States",
+            "manf_of_drink": [
+              "Barqs Root Beer",
+              "Diet Barqs Root Beer"
+            ]
+          },
+          {
+            "name": "Bawls",
+            "website": "https://www.bawls.com",
+            "location": "Twinsburg, Ohio, United States",
+            "manf_of_drink": [
+              "Bawls"
+            ]
+          },
+          {
+            "name": "BEEBAD",
+            "website": "https://www.beebad.com​",
+            "location": "Vado Ligure, Italy",
+            "manf_of_drink": [
+              "BEEBAD Energy Drink"
+            ]
+          },
+          {
+            "name": "BOOST (UK)",
+            "website": "https://www.boostdrinks.com",
+            "location": "Leeds, West Yorkshire, United Kingdom",
+            "manf_of_drink": [
+              "Boost Energy (UK)"
+            ]
+          },
+          {
+            "name": "Bai",
+            "website": "https://www.drinkbai.com",
+            "location": "Princeton, New Jersey, United States",
+            "manf_of_drink": [
+              "Bai Antioxidant Infusion",
+              "Bai Boost"
+            ]
+          },
+          {
+            "name": "Beaver Buzz",
+            "website": "https://beaverbuzz.com",
+            "location": "White Rock, British Columbia, Canada​",
+            "manf_of_drink": [
+              "Beaver Buzz Energy Drink"
+            ]
+          },
+          {
+            "name": "Berzerk",
+            "website": "https://www.caffeineinformer.com/caffeine-content/berzerk​",
+            "location": "United States​",
+            "manf_of_drink": [
+              "Berzerk Energy Drink Mix"
+            ]
+          },
+          {
+            "name": "Best Choice",
+            "website": "https://bestchoicebrand.com",
+            "location": "Kansas City, Missouri, United States",
+            "manf_of_drink": [
+              "Best Choice Strawberry Energy Drink Mix"
+            ]
+          },
+          {
+            "name": "Big Train",
+            "website": "https://www.bigtrain.com",
+            "location": "Foothill Ranch, California, United States",
+            "manf_of_drink": [
+              "Big Train Spiced Chai"
+            ]
+          },
+          {
+            "name": "Bigelow",
+            "website": "https://www.bigelowtea.com",
+            "location": "Fairfield, Connecticut, United States",
+            "manf_of_drink": [
+              "Bigelow Tea"
+            ]
+          },
+          {
+            "name": "Biggby",
+            "website": "https://www.biggby.com",
+            "location": "Lansing, Michigan, United States",
+            "manf_of_drink": [
+              "Biggby Brewed Coffee",
+              "Biggby Creamy Lattes",
+              "Biggby Espresso",
+              "Biggby Iced Coffee",
+              "Biggby Iced Tea"
+            ]
+          },
+          {
+            "name": "Bing",
+            "website": "https://bingbeverage.com",
+            "location": "Lakewood, Colorado, United States",
+            "manf_of_drink": [
+              "Bing Energy Drink"
+            ]
+          },
+          {
+            "name": "Biohazard",
+            "website": "https://biohazardcoffee.com/",
+            "location": "Brooklyn, New York, United States",
+            "manf_of_drink": [
+              "Biohazard Coffee"
+            ]
+          },
+          {
+            "name": "Bizzy",
+            "website": "https://www.bizzycoffee.com",
+            "location": "Minneapolis, Minnesota, United States",
+            "manf_of_drink": [
+              "Bizzy Cold Brew"
+            ]
+          },
+          {
+            "name": "Black Bruin",
+            "website": "https://blackbruin.com.tr/",
+            "location": "Hendek, Sakarya, Turkey​",
+            "manf_of_drink": [
+              "Black Bruin Energy Drink"
+            ]
+          },
+          {
+            "name": "Black Ink Coffee",
+            "website": "https://www.blackinkcoffee.com",
+            "location": "Grants Pass, Oregon, United States",
+            "manf_of_drink": [
+              "Black Ink Coffee"
+            ]
+          },
+          {
+            "name": "Black Insomnia Coffee",
+            "website": "https://www.blackinsomnia.us",
+            "location": "Miami, Florida, United States",
+            "manf_of_drink": [
+              "Black Insomnia Coffee"
+            ]
+          },
+          {
+            "name": "Black Label",
+            "website": "https://devilmountain.org/",
+            "location": "Pleasant Hill, California, United States",
+            "manf_of_drink": [
+              "Black Label Brewed Coffee"
+            ]
+          },
+          {
+            "name": "Blue Bolt",
+            "website": "https://www.sainsburys.co.uk/",
+            "location": "London, England, United Kingdom",
+            "manf_of_drink": [
+              "Blue Bolt (UK)"
+            ]
+          },
+          {
+            "name": "Blue Charge",
+            "website": "https://groceries.asda.com/",
+            "location": "Leeds, England, United Kingdom",
+            "manf_of_drink": [
+              "Blue Charge (UK)"
+            ]
+          },
+          {
+            "name": "Blue Spark",
+            "website": "https://www.tesco.com",
+            "location": "Welwyn Garden City, England, United Kingdom",
+            "manf_of_drink": [
+              "Blue Spark (UK)"
+            ]
+          },
+          {
+            "name": "Bomba",
+            "website": "https://www.bomba.hu/en",
+            "location": "Veresegyház, Hungary​",
+            "manf_of_drink": [
+              "Bomba (EU)"
+            ]
+          },
+          {
+            "name": "Boost",
+            "website": "https://www.boostdrinks.com",
+            "location": "Leeds, West Yorkshire, United Kingdom",
+            "manf_of_drink": [
+              "Boost Energy (UK)",
+              "Boost Nutritional Drink"
+            ]
+          },
+          {
+            "name": "Bubly",
+            "website": "https://www.bubly.com",
+            "location": "Purchase, New York, United States",
+            "manf_of_drink": [
+              "Bubly Bounce Sparkling Water",
+              "Bubly Sparkling Water"
+            ]
+      },
+      {
+        "name": "C4",
+        "website": "https://www.c4energy.com",
+        "location": "Austin, Texas, United States",
+        "manf_of_drink": [
+          "C4 On The Go",
+          "C4 Performance Energy",
+          "C4 Smart Energy Drink",
+          "C4 Ultimate Energy Drink"
+        ]
+  
+    },
+    {
+        "name": "CHIKE",
+        "website": "https://www.chikenutrition.com",
+        "location": "Abilene, Texas, United States",
+        "manf_of_drink": [
+          "CHIKE High Protein Iced Coffee"
+        ]
+      },
+      {
+        "name": "Cafe Bustelo",
+        "website": "https://www.cafebustelo.com",
+        "location": "Orrville, Ohio, United States",
+        "manf_of_drink": [
+          "Cafe Bustelo"
+        ]
+  
+    },
+    {
+        "name": "Cafe Con Leche",
+        "website": "https://www.starbucksathome.com/recipes/caffe-mocha",
+        "location": "Seattle, Washington, United States",
+        "manf_of_drink": [
+          "Cafe Con Leche"
+        ]
+      },
+      {
+        "name": "Caffe Mocha",
+        "website": "https://www.starbucksathome.com/recipes/caffe-mocha​",
+        "location": "Seattle, Washington, United States",
+        "manf_of_drink": [
+          "Caffe Mocha"
+        ]
+      },
+      {
+        "name": "Caffe Nero",
+        "website": "https://www.caffenero.com",
+        "location": "London, United Kingdom",
+        "manf_of_drink": [
+          "Caffe Nero Coffee"
+        ]
+      },
+      {
+        "name": "Carabao",
+        "website": "https://drinkcarabao.co.uk",
+        "location": "Reading, England, United Kingdom",
+        "manf_of_drink": [
+          "Carabao Energy Drink (UK)"
+        ]
+      },
+      {
+        "name": "Caribou Coffee",
+        "website": "https://www.cariboucoffee.com",
+        "location": "Brooklyn Center, Minnesota, United States",
+        "manf_of_drink": [
+          "Caribou BOUsted Sparkling Water",
+          "Caribou Brewed Coffee",
+          "Caribou Canned Cold Brew"
+        ]
+      },
+      {
+        "name": "Chick-fil-A",
+        "website": "https://www.chick-fil-a.com",
+        "location": "College Park, Georgia, United States",
+        "manf_of_drink": [
+          "Chick-fil-A Brewed Coffee",
+          "Chick-fil-A Frosted Coffee"
+        ]
+      },
+      {
+        "name": "Choffy",
+        "website": "https://www.choffy.com",
+        "location": "Seattle, Washington, United States",
+        "manf_of_drink": [
+          "Choffy (roasted cacao)"
+        ]
+      },
+      {
+        "name": "Club Mate",
+        "website": "https://www.club-mate.de",
+        "location": "Munich, Germany",
+        "manf_of_drink": [
+          "Club Mate (EU)"
+        ]
+      },
+      {
+        "name": "Coffee Bean & Tea Leaf",
+        "website": "https://www.coffeebean.com",
+        "location": "Los Angeles, California, United States",
+        "manf_of_drink": [
+          "Coffee Bean & Tea leaf Coffee"
+        ]
+      },
+      {
+        "name": "Coffee Friend",
+        "website": "https://www.coffeefriend.co.uk/",
+        "location": "Vilnius, Lithuania",
+        "manf_of_drink": [
+          "Coffee Friend Brewed Coffee"
+        ]
+      },
+      {
+        "name": "Coffee Leaf",
+        "website": "https://www.wisemonkeytea.com",
+        "location": "Vancouver, British Columbia, Canada",
+        "manf_of_drink": [
+          "Coffee Leaf Tea"
+        ]
+      },
+      {
+        "name": "Crave",
+        "website": "https://www.cravedrinks.com",
+        "location": ": Manchester, England, United Kingdom",
+        "manf_of_drink": [
+          "Crave Energy Drink (UK)"
+        ]
+      },
+      {
+        "name": "Crystal Light",
+        "website": "https://www.crystallight.com",
+        "location": "Northfield, Illinois, United States",
+        "manf_of_drink": [
+          "Crystal Light Iced Tea"
+        ]
+    },
+    {
+        "name": "DRY",
+        "website": "https://www.drysparkling.com",
+        "location": "Seattle, Washington, United States",
+        "manf_of_drink": [
+          "DRY Soda Plus+C"
+        ]
+      },
+      {
+        "name": "DaVinci",
+        "website": "https://lotusplantpower.com/",
+        "location": "Seattle, Washington, United States",
+        "manf_of_drink": [
+          "DaVinci Energy Infusion"
+        ]
+      },
+      {
+        "name": "Dr Pepper",
+        "website": "https://www.drpepper.com",
+        "location": "Plano, Texas, United States ",
+        "manf_of_drink": [
+          "Diet Dr Pepper"
+        ]
+      },
+      {
+        "name": "Dr Shasta",
+        "website": "https://www.shastapop.com",
+        "location": "Hayward, California, United States",
+        "manf_of_drink": [
+          "Dr Shasta Soda"
+        ]
+      },
+      {
+        "name": "Dunkin' Donuts",
+        "website": "https://www.dunkindonuts.com",
+        "location": "Canton, Massachusetts, United States",
+        "manf_of_drink": [
+          "Dunkin Donuts Shot In The Dark",
+          "Dunkin Sparkd Energy",
+          "Dunkin' Cold Brew",
+          "Dunkin' Donuts Brewed Coffee",
+          "Dunkin' Donuts Dunkaccino",
+          "Dunkin' Donuts Extra Charged Coffee",
+          "Dunkin' Donuts Iced Coffee",
+          "Dunkin' Donuts Iced Latte",
+          "Dunkin' Donuts Iced Tea",
+          "Dunkin' Donuts Latte"
+        ]
+  
+    },
+    {
+      "name": "Dutch Bros",
+      "website": "https://www.dutchbros.com",
+      "location": "Grants Pass, Oregon, United States",
+      "manf_of_drink": [
+        "Dutch Bros Coffee (Classic)"
+      ]
+    },
+    {
+        "name": "EUROSHOPPER",
+        "website": "https://www.booker.co.uk",
+        "location": "Wellingborough, England, United Kingdom",
+        "manf_of_drink": [
+          "Euro Shopper Energy Drink (EU)"
+        ]
+    },
+    {
+        "name": "Fakeer",
+        "website": "https://www.fakeer.cz​",
+        "location": "Prague, Czech Republic​",
+        "manf_of_drink": [
+          "Fakeer Energy Drink (EU)"
+        ]
+      },
+      {
+        "name": "Fanta",
+        "website": "https://www.coca-colacompany.com",
+        "location": "Atlanta, Georgia, United States",
+        "manf_of_drink": [
+          "Fanta"
+        ]
+      },
+      {
+        "name": "Fitz",
+        "website": "https://fritz-kola.com/en",
+        "location": "Hamburg, Germany",
+        "manf_of_drink": [
+          "Fitz Kola (EU)"
+        ]  
+    },
+    {
+        "name": "Gloria Jean's",
+        "website": "https://www.gloriajeans.com",
+        "location": "Castle Hill, Sydney, Australia",
+        "manf_of_drink": [
+          "Gloria Jean's Coffee"
+        ]
+    },
+    {
+        "name": "Greek",
+        "website": "https://www.kafekopteialoumidi.gr",
+        "location": "Piraeus, Greece",
+        "manf_of_drink": [
+          "Greek Coffee (Metrios)"
+        ]
+      },
+      {
+        "name": "Guayaki",
+        "website": "https://guayaki.com",
+        "location": "Sebastopol, California, United States",
+        "manf_of_drink": [
+          "Guayaki Canned Yerba Mate",
+          "Guayaki Yerba Mate Bottled Tea"
+        ]
+      },
+      {
+        "name": "Guru Beverage Co.",
+        "website": "https://www.guruenergy.com",
+        "location": "Montreal, Quebec, Canada",
+        "manf_of_drink": [
+          "Guru Energy Drink"
+        ]
+      },
+      {
+        "name": "Hell Energy",
+        "website": "http://www.hellenergy.com",
+        "location": "Szikszó, Hungary",
+        "manf_of_drink": [
+          "Hell Energy Drink (EU)"
+        ]
+      },
+      {
+        "name": "High Voltage",
+        "website": "https://www.highvoltagecoffee.com.au",
+        "location": "Wamberal, New South Wales, Australia",
+        "manf_of_drink": [
+          "High Voltage Coffee (AU)"
+        ]
+      },
+      {
+        "name": "Hype",
+        "website": "https://www.hype.com",
+        "location": "Dubai, United Arab Emirates",
+        "manf_of_drink": [
+          "Hype Energy Drink (EU)"
+        ]
+      },
+      {
+        "name": "Irn Bru",
+        "website": "https://irn-bru.co.uk",
+        "location": "Cumbernauld, Scotland, United Kingdom",
+        "manf_of_drink": [
+          "Irn Bru (UK)"
+        ]
+      },
+      {
+        "name": "Jolt",
+        "website": "https://www.joltcola.com",
+        "location": "Rochester, New York, United States",
+        "manf_of_drink": [
+          "Jolt Cola"
+        ]
+    },
+    {
+        "name": "Kill Cliff",
+        "website": "https://killcliff.com",
+        "location": "Atlanta, Georgia, United States",
+        "manf_of_drink": [
+          "Kill Cliff CBD Drink"
+        ]
+    },
+    {
+        "name": "Killer Coffee",
+        "website": "https://killercoffeeco.com.au",
+        "location": "Silverwater, New South Wales, Australia",
+        "manf_of_drink": [
+          "Killer Coffee (AU)"
+        ]
+            
+    },
+    {
+        "name": "La Colombe",
+        "website": "https://www.lacolombe.com",
+        "location": "Philadelphia, Pennsylvania, United States",
+        "manf_of_drink": [
+          "La Colombe Coffee Draft Latte"
+        ]
+    },
+    {
+        "name": "Lipton",
+        "website": "https://www.lipton.com",
+        "location": "London, United Kingdom",
+        "manf_of_drink": [
+          "Lipton Iced Tea",
+          "Lipton Natural Energy Tea",
+          "Lipton Tea"
+        ]
+    },
+    {
+        "name": "Lucozade",
+        "website": "https://www.lucozade.com",
+        "location": "Uxbridge, England, United Kingdom",
+        "manf_of_drink": [
+          "Lucozade"
+        ]
+    },
+    {
+        "name": "Mello Yello",
+        "website": "https://www.coca-cola.com/us/en/brands/melloyello",
+        "location": "Atlanta, Georgia, United States",
+        "manf_of_drink": [
+          "Mello Yello"
+        ]
+    },
+    {
+      "name": "Monster Beverage Corporation",
+      "website": "https://www.monsterbevcorp.com",
+      "location": "Corona, California, United States",
+      "manf_of_drink": [
+        "Monster Assault",
+        "Monster Dragon Tea",
+        "Monster Energy",
+        "Monster Hydro",
+        "Monster Import",
+        "Monster Killer Brew",
+        "Monster Lo-Carb",
+        "Monster Mango Loco",
+        "Monster Mule",
+        "Monster Nitro",
+        "Monster Pipeline Punch",
+        "Monster Rehab",
+        "Monster Reserve",
+        "Monster Ripper Energy Juice (UK)",
+        "Monster The Doctor VR46 (UK)",
+        "Monster Tour Water",
+        "Monster Ultra",
+        "Monster Zero Sugar",
+        "NOS Energy Drink",
+        "Reign Storm",
+        "Reign Total Body Fuel"
+      ]
+    },
+    {
+        "name": "Mtn Dew",
+        "website": "https://www.mountaindew.com",
+        "location": "Purchase, New York, United States",
+        "manf_of_drink": [
+          "Mountain Dew",
+          "Mountain Dew Baja Blast",
+          "Mountain Dew Code Red",
+          "Mountain Dew Energy",
+          "Mountain Dew Game Fuel",
+          "Mountain Dew Kickstart",
+          "Mountain Dew Live Wire",
+          "Mountain Dew Major Melon",
+          "Mountain Dew Spark",
+          "Mountain Dew Voltage",
+          "Mountain Dew Zero Sugar"
+        ]
+            
+    },
+    {
+        "name": "NOCCO",
+        "website": "https://nocco.com",
+        "location": "Stockholm, Sweden",
+        "manf_of_drink": [
+          "NOCCO Energy Drink (EU)"
+        ]
+    },
+    {
+      "name": "National Beverage Corporation",
+      "website": "https://www.nationalbeverage.com",
+      "location": "Plantation, Florida, United States",
+      "manf_of_drink": [
+        "Rip It Energy Fuel",
+        "Rip It Shot",
+        "Sun Drop",
+        "Sunkist Orange Soda"
+      ]
+    },
+    {
+        "name": "Nesquik",
+        "website": "https://www.nesquik.com",
+        "location": "Vevey, Vaud, Switzerland",
+        "manf_of_drink": [
+          "Nesquik Energy Drink"
+        ]
+    },
+    {
+      "name": "Nutrabolt",
+      "website": "https://www.nutrabolt.com",
+      "location": "Austin, Texas, United States",
+      "manf_of_drink": [
+        "C4 On The Go",
+        "C4 Performance Energy",
+        "C4 Smart Energy Drink",
+        "C4 Ultimate Energy Drink"
+      ]
+    },
+    {
+        "name": "OKF",
+        "website": "https://okf.kr",
+        "location": "Gangnam-gu, Seoul, South Korea",
+        "manf_of_drink": [
+          "OKF Premium Energy (EU)"
+        ]
+      },
+      {
+        "name": "Oca",
+        "website": "https://www.drinkoca.com",
+        "location": "San Juan, Puerto Rico, United States",
+        "manf_of_drink": [
+          "Oca Plant Based Energy"
+        ]
+      },
+      {
+        "name": "Ovaltine",
+        "website": "https://www.nestleusa.com/brands/drinks/ovaltine",
+        "location": "Arlington, Virginia, United States",
+        "manf_of_drink": [
+          "Ovaltine Iced Coffee"
+        ]
+      },
+      {
+        "name": "Pimp Juice",
+        "website": "http://www.pimpjuiceaustralia.com.au",
+        "location": "St. Louis, Missouri, United States",
+        "manf_of_drink": [
+          "Pimp Juice"
+        ]
+      },
+      {
+        "name": "Pirate Energy",
+        "website": "http://www.pirate-energy.com",
+        "location": "Austin, Texas, United States",
+        "manf_of_drink": [
+          "Pirate Energy Drink"
+        ]
+      },
+      {
+        "name": "Polar",
+        "website": "https://polarseltzer.com",
+        "location": "Worcester, Massachusetts, United States",
+        "manf_of_drink": [
+          "Polar Seltzer Arctic Summer"
+        ]
+      },
+      {
+        "name": "Power Horse",
+        "website": "https://www.power-horse.com",
+        "location": "Linz, Austria",
+        "manf_of_drink": [
+          "Power Horse Energy Drink (EU)"
+        ]
+      },
+      {
+        "name": "Premium",
+        "website": "http://www.premium-cola.de",
+        "location": "Hamburg, Germany",
+        "manf_of_drink": [
+          "Premium Cola (EU)"
+        ]
+      },
+      {
+        "name": "Pure",
+        "website": "https://www.cofain.at",
+        "location": "Austria",
+        "manf_of_drink": [
+          "Pure Cofain 699 (EU)"
+        ]
+    },
+    {
+        "name": "RC Cola",
+        "website": "https://rccolainternational.com",
+        "location": "Columbus, Georgia, United States",
+        "manf_of_drink": [
+          "Diet RC Cola"
+        ]
+      },
+      {
+        "name": "Redline",
+        "website": "http://vpxsports.com",
+        "location": "Weston, Florida, United States",
+        "manf_of_drink": [
+          "Redline Max 300",
+          "Redline Princess"
+        ]
+      },
+      {
+        "name": "Redline Xtreme",
+        "website": "http://vpxsports.com",
+        "location": "Weston, Florida, United States",
+        "manf_of_drink": [
+          "Redline Xtreme Energy Drink",
+          "Redline Xtreme Shot"
+        ]
+      },
+      {
+        "name": "Red Thunder",
+        "website": "https://www.aldi.us",
+        "location": "Batavia, Illinois, United States",
+        "manf_of_drink": [
+          "Red Thunder Energy Drink",
+          "Red Thunder Energy Shot",
+          "Red Thunder Extra Strength"
+        ]
+      
+    },
+    {
+        "name": "Redline",
+        "website": "http://vpxsports.com",
+        "location": "Weston, Florida, United States",
+        "manf_of_drink": [
+          "Redline Max 300",
+          "Redline Princess"
+        ]
+      },
+      {
+        "name": "Redline Xtreme",
+        "website": "http://vpxsports.com",
+        "location": "Weston, Florida, United States",
+        "manf_of_drink": [
+          "Redline Xtreme Energy Drink",
+          "Redline Xtreme Shot"
+        ]
+      },
+      {
+        "name": "Reign",
+        "website": "https://reignbodyfuel.com/en-us/",
+        "location": "Corona, California, United States",
+        "manf_of_drink": [
+          "Reign Storm",
+          "Reign Total Body Fuel"
+        ]
+      },
+      {
+        "name": "Relentless",
+        "website": "http://www.relentlessenergy.com",
+        "location": "Corona, California, United States",
+        "manf_of_drink": [
+          "Relentless Energy Drink"
+        ]
+      },
+      {
+        "name": "Rockstar",
+        "website": "https://www.rockstarenergy.com",
+        "location": "Las Vegas, Nevada, United States",
+        "manf_of_drink": [
+          "Rockstar Boom",
+          "Rockstar Energy Drink (Original)",
+          "Rockstar Halo Infinite",
+          "Rockstar Juiced",
+          "Rockstar Organic Energy Drink",
+          "Rockstar Punched",
+          "Rockstar Pure Zero",
+          "Rockstar Recovery",
+          "Rockstar Sugar Free",
+          "Rockstar Thermo",
+          "Rockstar Unplugged",
+          "Rockstar XDurance",
+          "Rockstar Zero Carb"
+        ]
+      },
+      {
+        "name": "SK Energy",
+        "website": "http://www.skenergyshots.com",
+        "location": "New York, New York, United States",
+        "manf_of_drink": [
+          "SK Energy Shot"
+        ]
+      },
+      {
+        "name": "SQWCH",
+        "website": "Unknown",
+        "location": "Unknown",
+        "manf_of_drink": [
+          "SQWCH Energy Shot"
+        ]
+            
+      
+    },
+    {
+        "name": "Saint Louis Bread Co.",
+        "website": "https://www.panerabread.com",
+        "location": "Fenton, Missouri, United States",
+        "manf_of_drink": [
+          "Saint Louis Bread Co. Iced Coffee"
+        ]
+      },
+      {
+        "name": "Seagram's",
+        "website": "http://www.seagram.com",
+        "location": "Montreal, Quebec, Canada",
+        "manf_of_drink": [
+          "Seagram's Iced Tea"
+        ]
+      },
+      {
+        "name": "Slammers",
+        "website": "https://www.refresco.com",
+        "location": "Beesd, Gelderland, Netherlands",
+        "manf_of_drink": [
+          "Slammers Energy Drink (EU)"
+        ]
+      },
+      {
+        "name": "Snapple",
+        "website": "https://www.snapple.com",
+        "location": "Plano, Texas, United States",
+        "manf_of_drink": [
+          "Snapple Tea"
+        ]
+      },
+      {
+        "name": "SoBe",
+        "website": "https://www.sobe.com",
+        "location": "Purchase, New York, United States",
+        "manf_of_drink": [
+          "SoBe Elixir"
+        ]
+      },
+      {
+        "name": "Solimo",
+        "website": "https://www.amazon.com",
+        "location": "Seattle, Washington, United States",
+        "manf_of_drink": [
+          "Solimo Red Energy Drink"
+        ]
+      },
+      {
+        "name": "Source 1899",
+        "website": "https://www.morrisons.com",
+        "location": "Bradford, England, United Kingdom",
+        "manf_of_drink": [
+          "Source 1899 (UK)"
+        ]
+    },
+    {
+      "name": "Starbucks Corporation",
+      "website": "https://www.starbucks.com",
+      "location": "Seattle, Washington, United States",
+      "manf_of_drink": [
+        "Starbucks 2X Coffee Pods",
+        "Starbucks Bottled Iced Coffee",
+        "Starbucks Canned Nitro Cold Brew",
+        "Starbucks Caramel Macchiato",
+        "Starbucks Cold & Crafted",
+        "Starbucks Cold Brew Bottled",
+        "Starbucks Cold Brew Canned",
+        "Starbucks Cold Brew Coffee",
+        "Starbucks Cordusio Mocha",
+        "Starbucks Decaf Coffee",
+        "Starbucks Doubleshot Energy",
+        "Starbucks Doubleshot Espresso",
+        "Starbucks Frappuccino (Bottled)",
+        "Starbucks Tripleshot Energy"
+      ]
+    },
+    {
+        "name": "Sunrise",
+        "website": "https://drinksunrise.com",
+        "location": "Flushing, New York, United States",
+        "manf_of_drink": [
+          "Sunrise Energy Drink (NZ)"
+        ]
+      },
+      {
+        "name": "Surge",
+        "website": "https://www.surgeenergydrink.com",
+        "location": "United Arab Emirates",
+        "manf_of_drink": [
+          "Surge (UK)"
+        ]
+      },
+      {
+        "name": "Sweet Leaf Tea Company",
+        "website": "https://sweetleaftea.com",
+        "location": "Austin, Texas, United States",
+        "manf_of_drink": [
+          "Sweet Leaf Tea"
+        ]
+      },
+      {
+        "name": "TAFT Coffee Co.",
+        "website": "https://www.taftcoffee.com",
+        "location": "Istanbul, Turkey",
+        "manf_of_drink": [
+          "Taft Coffee (EU)"
+        ]
+      },
+      {
+        "name": "RIOT Energy",
+        "website": "https://riot.energy",
+        "location": "Venice Beach, California, United States",
+        "manf_of_drink": [
+          "Tea Riot Plant Based Energy"
+        ]
+      },
+      {
+        "name": "Teavana Corporation",
+        "website": "https://www.teavana.com",
+        "location": "Seattle, Washington, United States",
+        "manf_of_drink": [
+          "Teavana Iced Tea"
+        ]
+    },
+    {
+      "name": "The Coca-Cola Company",
+      "website": "https://www.coca-colacompany.com",
+      "location": "Atlanta, Georgia, United States",
+      "manf_of_drink": [
+        "Coca Cola Plus",
+        "Coca-Cola Caffeine Free",
+        "Coca-Cola Cherry",
+        "Coca-Cola Cherry Vanilla",
+        "Coca-Cola Cherry Zero Sugar",
+        "Coca-Cola Classic",
+        "Coca-Cola Energy",
+        "Coca-Cola Orange Vanilla",
+        "Coca-Cola Vanilla",
+        "Coca-Cola Vanilla Zero Sugar",
+        "Coca-Cola With Coffee",
+        "Coca-Cola Zero Sugar",
+        "Diet Coke",
+        "Diet Coke with Splenda",
+        "Mello Yello"
+      ]
+    },
+    {
+      "name": "Tim Hortons",
+      "website": "https://www.timhortons.com",
+      "location": "Toronto, Ontario, Canada",
+      "manf_of_drink": [
+        "Tim Hortons Large Brewed Coffee",
+        "Tim Hortons Small French Vanilla Coffee"
+      ]
+    },
+    {
+        "name": "Twig",
+        "website": "http://www.maeda-en.com",
+        "location": "Irvine, California, United States",
+        "manf_of_drink": [
+          "Twig Tea (Kukicha)"
+        ]
+    },
+    {
+        "name": "V8",
+        "website": "https://www.v8juice.com",
+        "location": "Chicago, Illinois, United States",
+        "manf_of_drink": [
+          "V8 +Energy"
+        ]
+  
+      },
+      {
+        "name": "Vault",
+        "website": "https://www.coca-colacompany.com",
+        "location": "Atlanta, Georgia, United States",
+        "manf_of_drink": [
+          "Vault Soda"
+        ]
+      },
+      {
+        "name": "Vernors",
+        "website": "https://www.drpeppersnapplegroup.com/brands/vernors",
+        "location": "Plano, Texas, United States",
+        "manf_of_drink": [
+          "Vernors Ginger Ale"
+        ]
+      },
+      {
+        "name": "Vega",
+        "website": "https://myvega.com",
+        "location": "Burnaby, British Columbia, Canada",
+        "manf_of_drink": [
+          "Vega Protein & Energy"
+        ]
+      },
+      {
+        "name": "Venom",
+        "website": "https://www.venomenergy.com",
+        "location": "Plano, Texas, United States",
+        "manf_of_drink": [
+          "Venom Energy"
+        ]
+    },
+    {
+        "name": "Vibe",
+        "website": "https://vibeenergydrink.com.br/en/",
+        "location": "Rua Dr Luiz Mendes de Almeida, 790, Sorocaba, São Paulo, Brazil",
+        "manf_of_drink": [
+          "Twig Tea (Kukicha)"
+        ]
+      },
+      {
+        "name": "Viso",
+        "website": "https://visoenergy.com/",
+        "location": "1661 West Ave #398867, Miami Beach, Florida, United States",
+        "manf_of_drink": [
+          "Viso Energy Drink"
+        ]
+    },
+    {
+        "name": "Viter",
+        "website": "https://viterenergy.com",
+        "location": "Las Vegas, Nevada, United States",
+        "manf_of_drink": [
+          "Viter Energy Mints"
+        ]
+      },
+      {
+        "name": "Wired",
+        "website": "https://www.wiredenergydrink.com/?utm_source=chatgpt.com",
+        "location": "Everett, Washington, United States",
+        "manf_of_drink": [
+          "Wired X344 Energy Drink"
+        ]
+      },
+      {
+        "name": "XO",
+        "website": "https://www.xoenergyonline.com/",
+        "location": "Forest Hills, New York, United States",
+        "manf_of_drink": [
+          "XO Energy Drink"
+        ]
+      },
+      {
+        "name": "Xing",
+        "website": "https://xingtea.com",
+        "location": "Boulder, Colorado, United States",
+        "manf_of_drink": [
+          "Xing Tea"
+        ]
+      },
+      {
+        "name": "XS",
+        "website": "https://www.xsenergydrink.com",
+        "location": "Corona, California, United States",
+        "manf_of_drink": [
+          "XS Energy Drink"
+        ]
+      },
+      {
+        "name": "YMateina",
+        "website": "https://mateina.com",
+        "location": "Montreal, Quebec, Canada",
+        "manf_of_drink": [
+          "YMateina Yerba Mate"
+        ]
+      },
+      {
+        "name": "Yerba",
+        "website": "https://guayaki.com/",
+        "location": "Sebastopol, California, United States",
+        "manf_of_drink": [
+          "Yerba Mate Tea"
+        ]
+      },
+      {
+        "name": "Yerbae",
+        "website": "https://yerbae.com",
+        "location": "Scottsdale, Arizona, United States",
+        "manf_of_drink": [
+          "Yerbae Sparkling Water"
+        ]
+      },
+      {
+        "name": "Zipfizz",
+        "website": "https://www.zipfizz.com",
+        "location": "Mill Creek, Washington, United States",
+        "manf_of_drink": [
+          "Zipfizz Energy Shot"
+        ]
+      },
+      {
+        "name": "Zola",
+        "website": "https://www.drinkzola.com",
+        "location": "San Francisco, California, United States",
+        "manf_of_drink": [
+          "Zola Energy Drink"
+        ]
+    }
+  ]
+]
+  

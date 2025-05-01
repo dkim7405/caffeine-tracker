@@ -1,0 +1,3862 @@
+[
+  {
+    "drink_name": "28 Black Energy Drink",
+    "manufacturer": "Calidris 28 Deutschland GmbH",
+    "location": "Trier, Germany",
+    "website": "https://www.28black.com/"
+  },
+  {
+    "drink_name": "3 Water",
+    "manufacturer": "N/A",
+    "location": "N/A",
+    "website": "N/A"
+  },
+  {
+    "drink_name": "3D Energy Drink",
+    "manufacturer": "3D Energy",
+    "location": "United States",
+    "website": "https://www.3denergydrinks.com/"
+  },
+  {
+    "drink_name": "4 Purpose Energy Drink",
+    "manufacturer": "4 Purpose Energy",
+    "location": "New York, USA",
+    "website": "https://4purposeenergy.com"
+  },
+  {
+    "drink_name": "4C Energy Drink Mix",
+    "manufacturer": "4C Foods Corp.",
+    "location": "Brooklyn, New York, USA",
+    "website": "https://www.4c.com/"
+  },
+  {
+    "drink_name": "5 Hour Energy",
+    "manufacturer": "Living Essentials LLC",
+    "location": "Farmington Hills, Michigan, USA",
+    "website": "https://5hourenergy.com"
+  },
+  {
+    "drink_name": "5 Hour Energy Extra Strength",
+    "manufacturer": "Living Essentials LLC",
+    "location": "Farmington Hills, Michigan, USA",
+    "website": "https://5hourenergy.com"
+  },
+  {
+    "drink_name": "7 Eleven Brewed Coffee",
+    "manufacturer": "7-Eleven, Inc.",
+    "location": "Irving, Texas, USA",
+    "website": "https://www.7-eleven.com/"
+  },
+  {
+    "drink_name": "7-Eleven Energy Shot",
+    "manufacturer": "7-Eleven, Inc.",
+    "location": "Irving, Texas, USA",
+    "website": "https://www.7-eleven.com/"
+  },
+  {
+    "drink_name": "7-Up",
+    "manufacturer": "Keurig Dr Pepper",
+    "location": "Plano, Texas, USA",
+    "website": "https://www.7up.com/"
+  },
+  {
+    "drink_name": "A Shoc",
+    "manufacturer": "Keurig Dr Pepper",
+    "location": "Frisco, Texas, USA",
+    "website": "https://ashoc.com/"
+  },
+  {
+    "drink_name": "A&W Cream Soda",
+    "manufacturer": "Keurig Dr Pepper",
+    "location": "Plano, Texas, USA",
+    "website": "https://www.rootbeer.com/"
+  },
+  {
+    "drink_name": "ABB Turbo Tea Zero",
+    "manufacturer": "American Body Building (ABB)",
+    "location": "Aurora, Illinois, USA",
+    "website": "https://www.americanbodybuilding.com/"
+  },
+  {
+    "drink_name": "Accelerator",
+    "manufacturer": "Keurig Dr Pepper",
+    "location": "Frisco, Texas, USA",
+    "website": "https://www.acceleratoractiveenergy.com/"
+  },
+  {
+    "drink_name": "Advocare Slam Energy Shot",
+    "manufacturer": "AdvoCare International, LLC",
+    "location": "Richardson, Texas, USA",
+    "website": "https://www.advocare.com"
+  },
+  {
+    "drink_name": "Advocare Slim",
+    "manufacturer": "AdvoCare International, LLC",
+    "location": "Richardson, Texas, USA",
+    "website": "https://www.advocare.com/"
+  },
+  {
+    "drink_name": "Afri Cola",
+    "manufacturer": "Fritz-Kola GmbH",
+    "location": "Hamburg, Germany",
+    "website": "https://afri.de/"
+  },
+  {
+    "drink_name": "AHA Sparkling Water",
+    "manufacturer": "The Coca-Cola Company",
+    "location": "Atlanta, Georgia, USA",
+    "website": "https://www.drinkaha.com/"
+  },
+  {
+    "drink_name": "Alani Nu Energy Drink",
+    "manufacturer": "Alani Nutrition",
+    "location": "Louisville, Kentucky, USA",
+    "website": "https://www.alaninu.com"
+  },
+  {
+    "drink_name": "Ale 8 1",
+    "manufacturer": "Ale-8-One Bottling Company",
+    "location": "Winchester, Kentucky, USA",
+    "website": "https://ale8one.com"
+  },
+  {
+    "drink_name": "ALL IN Energy Drink",
+    "manufacturer": "ALL IN",
+    "location": "Brazil",
+    "website": "https://www.allin.com.br/"
+  },
+  {
+    "drink_name": "Alpine Start Instant Coffee",
+    "manufacturer": "Alpine Start",
+    "location": "Boulder, Colorado, USA",
+    "website": "https://alpinestartfoods.com"
+  },
+  {
+    "drink_name": "Alsa Energy Drink Mix",
+    "manufacturer": "Alsa LLC",
+    "location": "Chicago, Illinois, USA",
+    "website": "https://www.alsaenergy.com"
+  },
+  {
+    "drink_name": "Americano Coffee",
+    "manufacturer": "N/A",
+    "location": "N/A",
+    "website": "N/A"
+  },
+  {
+    "drink_name": "AMIN.O. Energy Drink",
+    "manufacturer": "Optimum Nutrition",
+    "location": "Downers Grove, Illinois, USA",
+    "website": "https://www.optimumnutrition.com"
+  },
+  {
+    "drink_name": "Amino Force Energy Drink",
+    "manufacturer": "ABB Performance (American Body Building)",
+    "location": "Aurora, Illinois, USA",
+    "website": "https://www.abbperformance.com/"
+  },
+  {
+    "drink_name": "Arbonne Energy Fizz Stck",
+    "manufacturer": "Arbonne International, LLC",
+    "location": "Irvine, California, USA",
+    "website": "https://www.arbonne.com"
+  },
+  {
+    "drink_name": "Arby's Jamocha Shake",
+    "manufacturer": "Arby's",
+    "location": "Atlanta, Georgia, USA",
+    "website": "https://www.arbys.com/"
+  },
+  {
+    "drink_name": "Arizona Arnold Palmer Half and Half",
+    "manufacturer": "Arizona Beverages USA",
+    "location": "Woodbury, New York, USA",
+    "website": "https://www.drinkarizona.com"
+  },
+  {
+    "drink_name": "Arizona Energy Drink Rx",
+    "manufacturer": "Arizona Beverages USA LLC",
+    "location": "Woodbury, New York, USA",
+    "website": "https://www.drinkarizona.com/"
+  },
+  {
+    "drink_name": "Arizona Iced Tea",
+    "manufacturer": "Arizona Beverages USA LLC",
+    "location": "Woodbury, New York, USA",
+    "website": "https://www.drinkarizona.com/"
+  },
+  {
+    "drink_name": "Arti Sparkling Water",
+    "manufacturer": "Arti",
+    "location": "Los Angeles, California, USA",
+    "website": "https://artidrinks.com/"
+  },
+  {
+    "drink_name": "AXIO Energy Drink Mix",
+    "manufacturer": "LifeVantage Corporation",
+    "location": "Sandy, Utah, USA",
+    "website": "https://www.lifevantage.com/"
+  },
+  {
+    "drink_name": "Bai Antioxidant Infusion",
+    "manufacturer": "Bai Brands LLC",
+    "location": "Trenton, New Jersey, USA",
+    "website": "https://www.drinkbai.com/"
+  },
+  {
+    "drink_name": "Bai Boost",
+    "manufacturer": "Keurig Dr Pepper",
+    "location": "Burlington, Massachusetts, USA",
+    "website": "https://www.drinkbai.com/"
+  },
+  {
+    "drink_name": "Balance Active Shot",
+    "manufacturer": "Balance",
+    "location": "N/A",
+    "website": "https://drinkbalance.com/"
+  },
+  {
+    "drink_name": "Balance Energy Shot",
+    "manufacturer": "Balance Energy",
+    "location": "N/A",
+    "website": "https://balanceenergyshot.com/"
+  },
+  {
+    "drink_name": "Bang Energy",
+    "manufacturer": "Vital Pharmaceuticals, Inc. (VPX)",
+    "location": "Weston, Florida, USA",
+    "website": "https://bangenergy.com/"
+  },
+  {
+    "drink_name": "Bang Keto Coffee",
+    "manufacturer": "Vital Pharmaceuticals, Inc. (VPX)",
+    "location": "Weston, Florida, USA",
+    "website": "https://bangenergy.com"
+  },
+  {
+    "drink_name": "Bang Natural",
+    "manufacturer": "Vital Pharmaceuticals, Inc. (VPX)",
+    "location": "Weston, Florida, USA",
+    "website": "https://bangenergy.com/"
+  },
+  {
+    "drink_name": "Bang Shot",
+    "manufacturer": "Vital Pharmaceuticals, Inc. (VPX)",
+    "location": "Weston, Florida, USA",
+    "website": "https://bangenergy.com"
+  },
+  {
+    "drink_name": "Bang Sweet Tea",
+    "manufacturer": "Vital Pharmaceuticals, Inc. (VPX)",
+    "location": "Weston, Florida, USA",
+    "website": "https://bangenergy.com"
+  },
+  {
+    "drink_name": "Barista Bros Iced Coffee",
+    "manufacturer": "The Coca-Cola Company",
+    "location": "Australia",
+    "website": "https://www.baristabros.com.au/"
+  },
+  {
+    "drink_name": "Barqs Red Creme Soda",
+    "manufacturer": "The Coca-Cola Company",
+    "location": "Atlanta, Georgia, USA",
+    "website": "https://www.barqs.com/"
+  },
+  {
+    "drink_name": "Barqs Root Beer",
+    "manufacturer": "The Coca-Cola Company",
+    "location": "Atlanta, Georgia, USA",
+    "website": "https://www.barqs.com/"
+  },
+  {
+    "drink_name": "Baskin Robbins Cappuccino Blast",
+    "manufacturer": "Baskin-Robbins",
+    "location": "Canton, Massachusetts, USA",
+    "website": "https://www.baskinrobbins.com/"
+  },
+  {
+    "drink_name": "Bawls",
+    "manufacturer": "Bawls Acquisition LLC",
+    "location": "Twinsburg, Ohio, USA",
+    "website": "https://www.bawls.com/"
+  },
+  {
+    "drink_name": "BE Beyond Energy Drink",
+    "manufacturer": "BE International",
+    "location": "Malaysia",
+    "website": "https://beintl.com"
+  },
+  {
+    "drink_name": "Beaver Buzz Energy Drink",
+    "manufacturer": "Double D Beverage Co.",
+    "location": "Surrey, British Columbia, Canada",
+    "website": "https://www.beaverbuzz.com/"
+  },
+  {
+    "drink_name": "BEEBAD Energy Drink",
+    "manufacturer": "Matteo Bertozzi Srl",
+    "location": "Italy",
+    "website": "https://www.beebad.com/"
+  },
+  {
+    "drink_name": "Berocca",
+    "manufacturer": "Bayer",
+    "location": "Leverkusen, Germany",
+    "website": "https://www.berocca.com/"
+  },
+  {
+    "drink_name": "Berzerk Energy Drink Mix",
+    "manufacturer": "Berzerk Energy",
+    "location": "USA",
+    "website": "https://www.berzerkenergy.com"
+  },
+  {
+    "drink_name": "Best Choice Strawberry Energy Drink Mix",
+    "manufacturer": "Best Choice (Associated Wholesale Grocers, Inc.)",
+    "location": "Kansas City, Kansas, USA",
+    "website": "https://bestchoicebrand.com/"
+  },
+  {
+    "drink_name": "Big Red Soda",
+    "manufacturer": "Big Red, Inc.",
+    "location": "Austin, Texas, USA",
+    "website": "https://www.bigred.com/"
+  },
+  {
+    "drink_name": "Big Train Java Chip Ice Coffee",
+    "manufacturer": "Big Train",
+    "location": "Santa Margarita, California, USA",
+    "website": "https://www.bigtrain.com/"
+  },
+  {
+    "drink_name": "Big Train Spiced Chai",
+    "manufacturer": "Big Train",
+    "location": "Santa Margarita, California, USA",
+    "website": "https://www.bigtrain.com/"
+  },
+  {
+    "drink_name": "Bigelow Tea",
+    "manufacturer": "R.C. Bigelow, Inc.",
+    "location": "Fairfield, Connecticut, USA",
+    "website": "https://www.bigelowtea.com/"
+  },
+  {
+    "drink_name": "Biggby Brewed Coffee",
+    "manufacturer": "Biggby Coffee",
+    "location": "East Lansing, Michigan, USA",
+    "website": "https://www.biggby.com/"
+  },
+  {
+    "drink_name": "Biggby Creamy Lattes",
+    "manufacturer": "Biggby Coffee",
+    "location": "East Lansing, Michigan, USA",
+    "website": "https://www.biggby.com"
+  },
+  {
+    "drink_name": "Biggby Espresso",
+    "manufacturer": "Biggby Coffee",
+    "location": "East Lansing, Michigan, USA",
+    "website": "https://www.biggby.com"
+  },
+  {
+    "drink_name": "Biggby Iced Coffee",
+    "manufacturer": "Biggby Coffee",
+    "location": "East Lansing, Michigan, USA",
+    "website": "https://www.biggby.com"
+  },
+  {
+    "drink_name": "Biggby Iced Tea",
+    "manufacturer": "Biggby Coffee",
+    "location": "East Lansing, Michigan, USA",
+    "website": "https://www.biggby.com"
+  },
+  {
+    "drink_name": "Bing Energy Drink",
+    "manufacturer": "Bing Beverage Company",
+    "location": "Denver, Colorado, USA",
+    "website": "https://www.bingbeverage.com/"
+  },
+  {
+    "drink_name": "Biohazard Coffee",
+    "manufacturer": "Biohazard Coffee",
+    "location": "New York, USA",
+    "website": "https://biohazardcoffee.com"
+  },
+  {
+    "drink_name": "Bizzy Cold Brew",
+    "manufacturer": "Bizzy Coffee",
+    "location": "Minneapolis, Minnesota, USA",
+    "website": "https://www.bizzycoffee.com"
+  },
+  {
+    "drink_name": "Black Bruin Energy Drink",
+    "manufacturer": "Black Bruin Beverages",
+    "location": "India",
+    "website": "https://www.blackbruin.in/"
+  },
+  {
+    "drink_name": "Black Ink Coffee",
+    "manufacturer": "Black Ink Coffee Company",
+    "location": "Maine, USA",
+    "website": "https://blackinkcoffee.com"
+  },
+  {
+    "drink_name": "Black Insomnia Coffee",
+    "manufacturer": "Black Insomnia Coffee Company",
+    "location": "Cape Town, South Africa",
+    "website": "https://www.blackinsomnia.coffee/"
+  },
+  {
+    "drink_name": "Black Label Brewed Coffee",
+    "manufacturer": "Devoci\u00f3n Coffee",
+    "location": "Brooklyn, New York, USA",
+    "website": "https://www.devocion.com/"
+  },
+  {
+    "drink_name": "Bloom Energy",
+    "manufacturer": "Bloom Nutrition LLC",
+    "location": "New York, NY, USA",
+    "website": "https://www.bloomnu.com/"
+  },
+  {
+    "drink_name": "Blu Frog Energy Drink",
+    "manufacturer": "MonaVie",
+    "location": "South Jordan, Utah, USA",
+    "website": "https://www.monavie.com"
+  },
+  {
+    "drink_name": "Blue Bolt (UK)",
+    "manufacturer": "Tesco",
+    "location": "United Kingdom",
+    "website": "https://www.tesco.com/"
+  },
+  {
+    "drink_name": "Blue Charge (UK)",
+    "manufacturer": "Aldi",
+    "location": "United Kingdom",
+    "website": "https://www.aldi.co.uk"
+  },
+  {
+    "drink_name": "Blue Spark (UK)",
+    "manufacturer": "Lidl",
+    "location": "United Kingdom",
+    "website": "https://www.lidl.co.uk/"
+  },
+  {
+    "drink_name": "Bodyarmour Edge",
+    "manufacturer": "BodyArmor (a brand of The Coca-Cola Company)",
+    "location": "Atlanta, Georgia, USA",
+    "website": "https://www.drinkbodyarmor.com/"
+  },
+  {
+    "drink_name": "Bomb Energy Drink",
+    "manufacturer": "Bomb Energy",
+    "location": "Canada",
+    "website": "https://www.bombenergy.ca/"
+  },
+  {
+    "drink_name": "Bomba (EU)",
+    "manufacturer": "BOMBA! Energy",
+    "location": "Austria",
+    "website": "https://www.bomba-energy.com/"
+  },
+  {
+    "drink_name": "Boost Energy (UK)",
+    "manufacturer": "Boost Drinks Ltd",
+    "location": "Leeds, United Kingdom",
+    "website": "https://www.boostdrinks.com/"
+  },
+  {
+    "drink_name": "Boost Nutritional Drink",
+    "manufacturer": "Nestl\u00e9 Health Science",
+    "location": "Vevey, Switzerland",
+    "website": "https://www.boost.com/"
+  },
+  {
+    "drink_name": "Bottled Iced Coffee Dunkin Donuts",
+    "manufacturer": "The Coca-Cola Company",
+    "location": "Atlanta, Georgia, USA",
+    "website": "https://www.dunkinathome.com/products/bottled-iced-coffee"
+  },
+  {
+    "drink_name": "BreinFuel",
+    "manufacturer": "BreinFuel, Inc.",
+    "location": "Scottsdale, Arizona, USA",
+    "website": "https://breinfuel.com"
+  },
+  {
+    "drink_name": "Brew Dr Kombucha Uplift",
+    "manufacturer": "Brew Dr. Kombucha",
+    "location": "Portland, Oregon, USA",
+    "website": "https://www.brewdrkombucha.com"
+  },
+  {
+    "drink_name": "Brisk Iced Tea",
+    "manufacturer": "PepsiCo (in partnership with Unilever)",
+    "location": "Purchase, New York, USA",
+    "website": "https://www.drinkbrisk.com/"
+  },
+  {
+    "drink_name": "Brown Rice Tea",
+    "manufacturer": "N/A",
+    "location": "N/A",
+    "website": "N/A"
+  },
+  {
+    "drink_name": "Bubbl'r Sparkling Water",
+    "manufacturer": "Wis-Pak, Inc.",
+    "location": "Watertown, Wisconsin, USA",
+    "website": "https://www.drinkbubblr.com/"
+  },
+  {
+    "drink_name": "Bubly Bounce Sparkling Water",
+    "manufacturer": "PepsiCo",
+    "location": "Purchase, New York, USA",
+    "website": "https://www.bubly.com/"
+  },
+  {
+    "drink_name": "Bubly Sparkling Water",
+    "manufacturer": "PepsiCo",
+    "location": "Purchase, New York, USA",
+    "website": "https://www.bubly.com/"
+  },
+  {
+    "drink_name": "Bucked Up",
+    "manufacturer": "DAS Labs",
+    "location": "Utah, USA",
+    "website": "https://www.buckedup.com/"
+  },
+  {
+    "drink_name": "Bulletproof Coffee",
+    "manufacturer": "Bulletproof 360, Inc.",
+    "location": "Seattle, Washington, USA",
+    "website": "https://www.bulletproof.com"
+  },
+  {
+    "drink_name": "Burn Energy Drink",
+    "manufacturer": "The Coca-Cola Company",
+    "location": "Atlanta, Georgia, USA",
+    "website": "https://www.burn.com/"
+  },
+  {
+    "drink_name": "C4 On The Go",
+    "manufacturer": "Cellucor",
+    "location": "Austin, Texas, USA",
+    "website": "https://www.cellucor.com"
+  },
+  {
+    "drink_name": "C4 Performance Energy",
+    "manufacturer": "Nutrabolt",
+    "location": "Austin, Texas, USA",
+    "website": "https://www.c4energy.com/"
+  },
+  {
+    "drink_name": "C4 Smart Energy Drink",
+    "manufacturer": "Nutrabolt",
+    "location": "Austin, Texas, USA",
+    "website": "https://www.c4energy.com/"
+  },
+  {
+    "drink_name": "C4 Ultimate Energy Drink",
+    "manufacturer": "Nutrabolt",
+    "location": "Austin, Texas, USA",
+    "website": "https://www.c4energy.com/"
+  },
+  {
+    "drink_name": "Cafe Bustelo",
+    "manufacturer": "The J.M. Smucker Company",
+    "location": "Orrville, Ohio, USA",
+    "website": "https://www.cafebustelo.com/"
+  },
+  {
+    "drink_name": "Cafe Con Leche",
+    "manufacturer": "N/A",
+    "location": "N/A",
+    "website": "N/A"
+  },
+  {
+    "drink_name": "Caffe Mocha",
+    "manufacturer": "N/A",
+    "location": "N/A",
+    "website": "N/A"
+  },
+  {
+    "drink_name": "Caffe Nero Coffee",
+    "manufacturer": "Caff\u00e8 Nero Group Ltd",
+    "location": "London, United Kingdom",
+    "website": "https://caffenero.com"
+  },
+  {
+    "drink_name": "Califia Farms Cold Brew Coffee",
+    "manufacturer": "Califia Farms",
+    "location": "Los Angeles, California, USA",
+    "website": "https://www.califiafarms.com"
+  },
+  {
+    "drink_name": "Canada Dry Green Tea Ginger Ale",
+    "manufacturer": "Keurig Dr Pepper",
+    "location": "Burlington, Massachusetts, USA",
+    "website": "https://www.canadadry.com/"
+  },
+  {
+    "drink_name": "Cannonball Coffee Maximum Charge (UK)",
+    "manufacturer": "Cannonball Coffee Co.",
+    "location": "Bournemouth, United Kingdom",
+    "website": "https://cannonballcoffee.co.uk/"
+  },
+  {
+    "drink_name": "Cappuccino",
+    "manufacturer": "N/A",
+    "location": "N/A",
+    "website": "N/A"
+  },
+  {
+    "drink_name": "Carabao Energy Drink (UK)",
+    "manufacturer": "Carabao Tawandang Co. Ltd.",
+    "location": "Bangkok, Thailand",
+    "website": "https://www.carabaoenergy.co.uk/"
+  },
+  {
+    "drink_name": "Caribou BOUsted Sparkling Water",
+    "manufacturer": "Caribou Coffee",
+    "location": "Brooklyn Center, Minnesota, USA",
+    "website": "https://www.cariboucoffee.com/"
+  },
+  {
+    "drink_name": "Caribou Brewed Coffee",
+    "manufacturer": "Caribou Coffee Company",
+    "location": "Brooklyn Center, Minnesota, USA",
+    "website": "https://www.cariboucoffee.com"
+  },
+  {
+    "drink_name": "Caribou Canned Cold Brew",
+    "manufacturer": "Caribou Coffee",
+    "location": "Brooklyn Center, Minnesota, USA",
+    "website": "https://www.cariboucoffee.com"
+  },
+  {
+    "drink_name": "Cascara",
+    "manufacturer": "N/A",
+    "location": "N/A",
+    "website": "N/A"
+  },
+  {
+    "drink_name": "CBD Coffee",
+    "manufacturer": "N/A",
+    "location": "N/A",
+    "website": "N/A"
+  },
+  {
+    "drink_name": "Celsius Energy Drink",
+    "manufacturer": "Celsius Holdings, Inc.",
+    "location": "Boca Raton, Florida, USA",
+    "website": "https://www.celsius.com"
+  },
+  {
+    "drink_name": "Celsius Stevia",
+    "manufacturer": "Celsius Holdings, Inc.",
+    "location": "Boca Raton, Florida, USA",
+    "website": "https://www.celsius.com"
+  },
+  {
+    "drink_name": "Chai Tea",
+    "manufacturer": "N/A",
+    "location": "N/A",
+    "website": "N/A"
+  },
+  {
+    "drink_name": "Chameleon Cold Brew Coffee",
+    "manufacturer": "Chameleon Cold-Brew",
+    "location": "Austin, Texas, USA",
+    "website": "https://www.chameleoncoldbrew.com/"
+  },
+  {
+    "drink_name": "Chameleon Cold Brew RTD",
+    "manufacturer": "Chameleon Cold-Brew",
+    "location": "Austin, Texas, USA",
+    "website": "https://www.chameleoncoldbrew.com/"
+  },
+  {
+    "drink_name": "Chameleon Cold Brew With Milk",
+    "manufacturer": "Chameleon Cold-Brew",
+    "location": "Austin, Texas, USA",
+    "website": "https://www.chameleoncoldbrew.com/"
+  },
+  {
+    "drink_name": "Cheerwine",
+    "manufacturer": "Carolina Beverage Corporation",
+    "location": "Salisbury, North Carolina, USA",
+    "website": "https://www.cheerwine.com/"
+  },
+  {
+    "drink_name": "Chick-fil-A Brewed Coffee",
+    "manufacturer": "Chick-fil-A, Inc.",
+    "location": "Atlanta, Georgia, USA",
+    "website": "https://www.chick-fil-a.com/"
+  },
+  {
+    "drink_name": "Chick-fil-A Frosted Coffee",
+    "manufacturer": "Chick-fil-A, Inc.",
+    "location": "Atlanta, Georgia, USA",
+    "website": "https://www.chick-fil-a.com/"
+  },
+  {
+    "drink_name": "Chick-fil-A Iced Coffee",
+    "manufacturer": "Chick-fil-A, Inc.",
+    "location": "Atlanta, Georgia, USA",
+    "website": "https://www.chick-fil-a.com/"
+  },
+  {
+    "drink_name": "Chick-fil-A Iced Tea",
+    "manufacturer": "Chick-fil-A, Inc.",
+    "location": "Atlanta, Georgia, USA",
+    "website": "https://www.chick-fil-a.com/"
+  },
+  {
+    "drink_name": "Choffy (roasted cacao)",
+    "manufacturer": "Choffy Inc.",
+    "location": "Newport Beach, California, USA",
+    "website": "https://www.choffy.com"
+  },
+  {
+    "drink_name": "Cintron Energy Drink",
+    "manufacturer": "Cintron World, Inc.",
+    "location": "Miami, Florida, USA",
+    "website": "https://cintronworld.com/"
+  },
+  {
+    "drink_name": "Clif Shot Energy Gel",
+    "manufacturer": "Clif Bar & Company",
+    "location": "Emeryville, California, USA",
+    "website": "https://www.clifbar.com"
+  },
+  {
+    "drink_name": "Club Mate (EU)",
+    "manufacturer": "Loscher Brewery",
+    "location": "M\u00fcnchsteinach, Germany",
+    "website": "https://www.club-mate.de/"
+  },
+  {
+    "drink_name": "Coca Cola Plus",
+    "manufacturer": "The Coca-Cola Company",
+    "location": "Atlanta, Georgia, USA",
+    "website": "https://www.coca-cola.com/"
+  },
+  {
+    "drink_name": "Coca-Cola Caffeine Free",
+    "manufacturer": "The Coca-Cola Company",
+    "location": "Atlanta, Georgia, USA",
+    "website": "https://www.coca-cola.com/"
+  },
+  {
+    "drink_name": "Coca-Cola Cherry",
+    "manufacturer": "The Coca-Cola Company",
+    "location": "Atlanta, Georgia, USA",
+    "website": "https://www.coca-cola.com/"
+  },
+  {
+    "drink_name": "Coca-Cola Cherry Vanilla",
+    "manufacturer": "The Coca-Cola Company",
+    "location": "Atlanta, Georgia, USA",
+    "website": "https://www.coca-cola.com"
+  },
+  {
+    "drink_name": "Coca-Cola Cherry Zero Sugar",
+    "manufacturer": "The Coca-Cola Company",
+    "location": "Atlanta, Georgia, USA",
+    "website": "https://www.coca-cola.com/"
+  },
+  {
+    "drink_name": "Coca-Cola Classic",
+    "manufacturer": "The Coca-Cola Company",
+    "location": "Atlanta, Georgia, USA",
+    "website": "https://www.coca-cola.com/"
+  },
+  {
+    "drink_name": "Coca-Cola Energy",
+    "manufacturer": "The Coca-Cola Company",
+    "location": "Atlanta, Georgia, USA",
+    "website": "https://www.coca-cola.com/"
+  },
+  {
+    "drink_name": "Coca-Cola Orange Vanilla",
+    "manufacturer": "The Coca-Cola Company",
+    "location": "Atlanta, Georgia, USA",
+    "website": "https://www.coca-cola.com/"
+  },
+  {
+    "drink_name": "Coca-Cola Vanilla",
+    "manufacturer": "The Coca-Cola Company",
+    "location": "Atlanta, Georgia, USA",
+    "website": "https://www.coca-cola.com/"
+  },
+  {
+    "drink_name": "Coca-Cola Vanilla Zero Sugar",
+    "manufacturer": "The Coca-Cola Company",
+    "location": "Atlanta, Georgia, USA",
+    "website": "https://www.coca-cola.com/"
+  },
+  {
+    "drink_name": "Coca-Cola With Coffee",
+    "manufacturer": "The Coca-Cola Company",
+    "location": "Atlanta, Georgia, USA",
+    "website": "https://www.coca-cola.com/"
+  },
+  {
+    "drink_name": "Coca-Cola Zero Sugar",
+    "manufacturer": "The Coca-Cola Company",
+    "location": "Atlanta, Georgia, USA",
+    "website": "https://www.coca-cola.com/"
+  },
+  {
+    "drink_name": "Cocaine Energy Drink",
+    "manufacturer": "Redux Beverages",
+    "location": "Las Vegas, Nevada, USA",
+    "website": "https://drinkcocaine.com/"
+  },
+  {
+    "drink_name": "Coffee",
+    "manufacturer": "N/A",
+    "location": "N/A",
+    "website": "N/A"
+  },
+  {
+    "drink_name": "Coffee (Decaf, Instant)",
+    "manufacturer": "N/A",
+    "location": "N/A",
+    "website": "N/A"
+  },
+  {
+    "drink_name": "Coffee (Instant)",
+    "manufacturer": "N/A",
+    "location": "N/A",
+    "website": "N/A"
+  },
+  {
+    "drink_name": "Coffee (Moka Pot)",
+    "manufacturer": "N/A",
+    "location": "N/A",
+    "website": "N/A"
+  },
+  {
+    "drink_name": "Coffee Bean & Tea leaf Coffee",
+    "manufacturer": "The Coffee Bean & Tea Leaf",
+    "location": "Los Angeles, California, USA",
+    "website": "https://www.coffeebean.com"
+  },
+  {
+    "drink_name": "Coffee Friend Brewed Coffee",
+    "manufacturer": "Coffee Friend",
+    "location": "N/A",
+    "website": "https://www.coffeefriend.co.uk/"
+  },
+  {
+    "drink_name": "Coffee Leaf Tea",
+    "manufacturer": "N/A",
+    "location": "N/A",
+    "website": "N/A"
+  },
+  {
+    "drink_name": "COGO Caffeinated Hot Chocolate",
+    "manufacturer": "COGO",
+    "location": "N/A",
+    "website": "https://www.drinkcogo.com/"
+  },
+  {
+    "drink_name": "Cold Brew Tea",
+    "manufacturer": "N/A",
+    "location": "N/A",
+    "website": "N/A"
+  },
+  {
+    "drink_name": "CoolBrew Coffee",
+    "manufacturer": "New Orleans Coffee Company",
+    "location": "New Orleans, Louisiana, USA",
+    "website": "https://coolbrew.com"
+  },
+  {
+    "drink_name": "Costa Coffee",
+    "manufacturer": "Costa Coffee",
+    "location": "Dunstable, Bedfordshire, United Kingdom",
+    "website": "https://www.costa.co.uk/"
+  },
+  {
+    "drink_name": "Cran Energy Juice",
+    "manufacturer": "Ocean Spray",
+    "location": "Lakeville-Middleboro, Massachusetts, USA",
+    "website": "https://www.oceanspray.com/"
+  },
+  {
+    "drink_name": "Crave Energy Drink (UK)",
+    "manufacturer": "Crave Drinks Ltd",
+    "location": "United Kingdom",
+    "website": "https://www.cravedrinks.com/"
+  },
+  {
+    "drink_name": "Crio Bru Brewed Cacao",
+    "manufacturer": "Crio Bru",
+    "location": "Lindon, Utah, USA",
+    "website": "https://criobru.com"
+  },
+  {
+    "drink_name": "Crunk Energy Drink",
+    "manufacturer": "CRUNK!!! Energy",
+    "location": "Atlanta, Georgia, USA",
+    "website": "https://www.crunkenergy.com/"
+  },
+  {
+    "drink_name": "Crystal Light Energy Mix",
+    "manufacturer": "Kraft Heinz",
+    "location": "Chicago, Illinois, USA",
+    "website": "https://www.crystallight.com/"
+  },
+  {
+    "drink_name": "Crystal Light Iced Tea",
+    "manufacturer": "Kraft Heinz",
+    "location": "Chicago, Illinois, USA",
+    "website": "https://www.crystallight.com/"
+  },
+  {
+    "drink_name": "Dare Iced Coffee",
+    "manufacturer": "Lion Dairy & Drinks",
+    "location": "Australia",
+    "website": "https://www.dareicedcoffee.com.au/"
+  },
+  {
+    "drink_name": "Dark Dog Organic Energy",
+    "manufacturer": "Dark Dog",
+    "location": "Austria",
+    "website": "https://www.darkdog.com/"
+  },
+  {
+    "drink_name": "Death Wish Canned Cold Brew",
+    "manufacturer": "Death Wish Coffee Company",
+    "location": "Saratoga Springs, New York, USA",
+    "website": "https://www.deathwishcoffee.com"
+  },
+  {
+    "drink_name": "Death Wish Coffee",
+    "manufacturer": "Death Wish Coffee Co.",
+    "location": "Saratoga Springs, New York, USA",
+    "website": "https://www.deathwishcoffee.com"
+  },
+  {
+    "drink_name": "Death Wish Latte",
+    "manufacturer": "Death Wish Coffee Company",
+    "location": "Saratoga Springs, New York, USA",
+    "website": "https://www.deathwishcoffee.com"
+  },
+  {
+    "drink_name": "Decaf Coffee",
+    "manufacturer": "N/A",
+    "location": "N/A",
+    "website": "N/A"
+  },
+  {
+    "drink_name": "Demon Energy Drink",
+    "manufacturer": "Demon Energy Limited",
+    "location": "Auckland, New Zealand",
+    "website": "https://www.demonenergy.com/"
+  },
+  {
+    "drink_name": "Diet Barqs Root Beer",
+    "manufacturer": "The Coca-Cola Company",
+    "location": "Atlanta, Georgia, USA",
+    "website": "https://www.barqs.com/"
+  },
+  {
+    "drink_name": "Diet Cheerwine",
+    "manufacturer": "Cheerwine Bottling Company",
+    "location": "Salisbury, North Carolina, USA",
+    "website": "https://cheerwine.com"
+  },
+  {
+    "drink_name": "Diet Coke",
+    "manufacturer": "The Coca-Cola Company",
+    "location": "Atlanta, Georgia, USA",
+    "website": "https://www.coca-cola.com/"
+  },
+  {
+    "drink_name": "Diet Coke with Splenda",
+    "manufacturer": "The Coca-Cola Company",
+    "location": "Atlanta, Georgia, USA",
+    "website": "https://www.coca-cola.com"
+  },
+  {
+    "drink_name": "Diet Dr Pepper",
+    "manufacturer": "Keurig Dr Pepper",
+    "location": "Frisco, Texas, USA",
+    "website": "https://www.drpepper.com/"
+  },
+  {
+    "drink_name": "Diet Mountain Dew",
+    "manufacturer": "PepsiCo",
+    "location": "Purchase, New York, USA",
+    "website": "https://www.mountaindew.com/"
+  },
+  {
+    "drink_name": "Diet Pepsi",
+    "manufacturer": "PepsiCo, Inc.",
+    "location": "Purchase, New York, USA",
+    "website": "https://www.pepsi.com/"
+  },
+  {
+    "drink_name": "Diet RC Cola",
+    "manufacturer": "Keurig Dr Pepper",
+    "location": "Plano, Texas, USA",
+    "website": "https://www.drpepper.com/"
+  },
+  {
+    "drink_name": "Diet Wild Cherry Pepsi",
+    "manufacturer": "PepsiCo",
+    "location": "Purchase, New York, USA",
+    "website": "https://www.pepsi.com/"
+  },
+  {
+    "drink_name": "doc Soda",
+    "manufacturer": "The Coca-Cola Company",
+    "location": "Atlanta, Georgia, USA",
+    "website": "https://www.coca-cola.com/"
+  },
+  {
+    "drink_name": "Double Cola",
+    "manufacturer": "The Double Cola Company",
+    "location": "Chattanooga, Tennessee, USA",
+    "website": "https://doublecola.com/"
+  },
+  {
+    "drink_name": "Dr Pepper",
+    "manufacturer": "Keurig Dr Pepper",
+    "location": "Frisco, Texas, USA",
+    "website": "https://www.drpepper.com/"
+  },
+  {
+    "drink_name": "Dr Pepper 10",
+    "manufacturer": "Keurig Dr Pepper",
+    "location": "Frisco, Texas, USA",
+    "website": "https://www.drpepper.com/"
+  },
+  {
+    "drink_name": "Dr Pepper Zero Sugar",
+    "manufacturer": "Keurig Dr Pepper",
+    "location": "Frisco, Texas, USA",
+    "website": "https://www.drpepper.com/"
+  },
+  {
+    "drink_name": "Dr Shasta Soda",
+    "manufacturer": "Shasta Beverages, Inc.",
+    "location": "Hayward, California, USA",
+    "website": "https://www.shastapop.com/"
+  },
+  {
+    "drink_name": "Driftaway Coffee",
+    "manufacturer": "Driftaway Coffee",
+    "location": "Brooklyn, New York, USA",
+    "website": "https://driftaway.coffee"
+  },
+  {
+    "drink_name": "Dripdash Kyoto Coffee",
+    "manufacturer": "Dripdash",
+    "location": "Palo Alto, California, USA",
+    "website": "https://www.dripdash.com/"
+  },
+  {
+    "drink_name": "Duff Energy Drink",
+    "manufacturer": "Boston America Corp.",
+    "location": "Woburn, Massachusetts, USA",
+    "website": "https://www.bostonamerica.com/"
+  },
+  {
+    "drink_name": "Dunkin Donuts Shot In The Dark",
+    "manufacturer": "Dunkin' (Dunkin' Brands Group, Inc.)",
+    "location": "Canton, Massachusetts, USA",
+    "website": "https://www.dunkindonuts.com/"
+  },
+  {
+    "drink_name": "Dunkin Sparkd Energy",
+    "manufacturer": "Dunkin'",
+    "location": "Canton, Massachusetts, USA",
+    "website": "https://www.dunkindonuts.com/"
+  },
+  {
+    "drink_name": "Dunkin' Cold Brew",
+    "manufacturer": "Dunkin' Brands",
+    "location": "Canton, Massachusetts, USA",
+    "website": "https://www.dunkindonuts.com/"
+  },
+  {
+    "drink_name": "Dunkin' Donuts Brewed Coffee",
+    "manufacturer": "Dunkin' Brands Group, Inc.",
+    "location": "Canton, Massachusetts, USA",
+    "website": "https://www.dunkindonuts.com/"
+  },
+  {
+    "drink_name": "Dunkin' Donuts Dunkaccino",
+    "manufacturer": "Dunkin' Donuts",
+    "location": "Canton, Massachusetts, USA",
+    "website": "https://www.dunkindonuts.com/"
+  },
+  {
+    "drink_name": "Dunkin' Donuts Extra Charged Coffee",
+    "manufacturer": "Dunkin' Brands",
+    "location": "Canton, Massachusetts, USA",
+    "website": "https://www.dunkindonuts.com/"
+  },
+  {
+    "drink_name": "Dunkin' Donuts Iced Coffee",
+    "manufacturer": "Dunkin' Brands Group, Inc.",
+    "location": "Canton, Massachusetts, USA",
+    "website": "https://www.dunkindonuts.com/"
+  },
+  {
+    "drink_name": "Dunkin' Donuts Iced Latte",
+    "manufacturer": "Dunkin' Brands Group, Inc.",
+    "location": "Canton, Massachusetts, USA",
+    "website": "https://www.dunkindonuts.com/"
+  },
+  {
+    "drink_name": "Dunkin' Donuts Iced Tea",
+    "manufacturer": "Dunkin' Brands Group, Inc.",
+    "location": "Canton, Massachusetts, USA",
+    "website": "https://www.dunkindonuts.com/"
+  },
+  {
+    "drink_name": "Dunkin' Donuts Latte",
+    "manufacturer": "Dunkin' Brands Group, Inc.",
+    "location": "Canton, Massachusetts, USA",
+    "website": "https://www.dunkindonuts.com/"
+  },
+  {
+    "drink_name": "Dutch Bros Blue Rebel Energy Drink",
+    "manufacturer": "Dutch Bros Coffee",
+    "location": "Grants Pass, Oregon, USA",
+    "website": "https://www.dutchbros.com/"
+  },
+  {
+    "drink_name": "Dutch Bros Coffee (Classic)",
+    "manufacturer": "Dutch Bros Coffee",
+    "location": "Grants Pass, Oregon, USA",
+    "website": "https://www.dutchbros.com/"
+  },
+  {
+    "drink_name": "DynaPep",
+    "manufacturer": "Intocell Inc.",
+    "location": "Boca Raton, Florida, USA",
+    "website": "http://www.dynapep.com/"
+  },
+  {
+    "drink_name": "E6 Energy Shot",
+    "manufacturer": "E6 Energy",
+    "location": "N/A",
+    "website": "https://e6energy.com/"
+  },
+  {
+    "drink_name": "EBOOST Energy Drink Mix",
+    "manufacturer": "EBOOST",
+    "location": "New York, NY, USA",
+    "website": "https://www.eboost.com"
+  },
+  {
+    "drink_name": "EBOOST Super Fuel",
+    "manufacturer": "EBOOST",
+    "location": "New York, NY, USA",
+    "website": "https://www.eboost.com"
+  },
+  {
+    "drink_name": "EBOOST Workout Crusher Mix",
+    "manufacturer": "EBOOST",
+    "location": "New York, NY, USA",
+    "website": "https://www.eboost.com"
+  },
+  {
+    "drink_name": "Eight O'Clock Coffee",
+    "manufacturer": "Eight O'Clock Coffee Company",
+    "location": "Montvale, New Jersey, USA",
+    "website": "https://www.eightoclock.com/"
+  },
+  {
+    "drink_name": "Einstein Bros Coffee",
+    "manufacturer": "Einstein Bros. Bagels",
+    "location": "Lakewood, Colorado, USA",
+    "website": "https://www.einsteinbros.com/"
+  },
+  {
+    "drink_name": "Electric Monkey Wild Energy Drink",
+    "manufacturer": "Electric Monkey",
+    "location": "Netherlands",
+    "website": "https://www.electricmonkey.com/"
+  },
+  {
+    "drink_name": "EnerBee Energy Drink",
+    "manufacturer": "EnerBee",
+    "location": "Los Angeles, California, USA",
+    "website": "https://enerbee.com"
+  },
+  {
+    "drink_name": "Equip Pure Energy Shot",
+    "manufacturer": "Equip Foods",
+    "location": "San Diego, California, USA",
+    "website": "https://equipfoods.com"
+  },
+  {
+    "drink_name": "Espresso Monster",
+    "manufacturer": "Monster Beverage Corporation",
+    "location": "Corona, California, USA",
+    "website": "https://www.monsterenergy.com/"
+  },
+  {
+    "drink_name": "Espresso Shot",
+    "manufacturer": "N/A",
+    "location": "N/A",
+    "website": "N/A"
+  },
+  {
+    "drink_name": "Eternal Energy Extra Strength",
+    "manufacturer": "Eternal Energy",
+    "location": "USA",
+    "website": "https://www.eternalenergy.com/"
+  },
+  {
+    "drink_name": "Eternal Energy Shot",
+    "manufacturer": "Eternal Energy",
+    "location": "N/A",
+    "website": "https://www.eternalenergy.com/"
+  },
+  {
+    "drink_name": "Euro Shopper Energy Drink (EU)",
+    "manufacturer": "Euro Shopper",
+    "location": "Netherlands",
+    "website": "https://www.euroshopper.com/"
+  },
+  {
+    "drink_name": "Fakeer Energy Drink (EU)",
+    "manufacturer": "Fakeer s.r.o.",
+    "location": "Czech Republic",
+    "website": "https://www.fakeer.com/"
+  },
+  {
+    "drink_name": "Fanta",
+    "manufacturer": "The Coca-Cola Company",
+    "location": "Atlanta, Georgia, USA",
+    "website": "https://www.fanta.com/"
+  },
+  {
+    "drink_name": "Fast Lane Black Tea",
+    "manufacturer": "Celestial Seasonings",
+    "location": "Boulder, Colorado, USA",
+    "website": "https://www.celestialseasonings.com/"
+  },
+  {
+    "drink_name": "Faygo Cola",
+    "manufacturer": "Faygo Beverages, Inc.",
+    "location": "Detroit, Michigan, USA",
+    "website": "https://www.faygo.com/"
+  },
+  {
+    "drink_name": "Faygo Moon Mist",
+    "manufacturer": "Faygo Beverages, Inc.",
+    "location": "Detroit, Michigan, USA",
+    "website": "https://www.faygo.com/"
+  },
+  {
+    "drink_name": "Flat White",
+    "manufacturer": "N/A",
+    "location": "N/A",
+    "website": "N/A"
+  },
+  {
+    "drink_name": "Folgers Coffee",
+    "manufacturer": "The J.M. Smucker Company",
+    "location": "Orrville, Ohio, USA",
+    "website": "https://www.folgerscoffee.com/"
+  },
+  {
+    "drink_name": "Forto Organic Coffee Shot",
+    "manufacturer": "Dyla LLC",
+    "location": "New York, NY, USA",
+    "website": "https://www.fortocoffee.com/"
+  },
+  {
+    "drink_name": "Freeway Cola",
+    "manufacturer": "Lidl Stiftung & Co. KG",
+    "location": "Neckarsulm, Germany",
+    "website": "https://www.lidl.com/"
+  },
+  {
+    "drink_name": "Fresca",
+    "manufacturer": "The Coca-Cola Company",
+    "location": "Atlanta, Georgia, USA",
+    "website": "https://www.fresca.com/"
+  },
+  {
+    "drink_name": "Fritz Kola (EU)",
+    "manufacturer": "fritz-kola GmbH",
+    "location": "Hamburg, Germany",
+    "website": "https://www.fritz-kola.com/"
+  },
+  {
+    "drink_name": "Full Throttle Energy Drink",
+    "manufacturer": "Monster Beverage Corporation",
+    "location": "Corona, California, USA",
+    "website": "https://www.fullthrottleenergy.com/"
+  },
+  {
+    "drink_name": "Fuze Iced Tea",
+    "manufacturer": "The Coca-Cola Company",
+    "location": "Atlanta, Georgia, USA",
+    "website": "https://www.fuzebev.com/"
+  },
+  {
+    "drink_name": "Gatorade Bolt 24 Energize",
+    "manufacturer": "PepsiCo",
+    "location": "Purchase, New York, USA",
+    "website": "https://www.gatorade.com"
+  },
+  {
+    "drink_name": "Gatorade Fast Twitch",
+    "manufacturer": "PepsiCo",
+    "location": "Purchase, New York, USA",
+    "website": "https://www.gatorade.com"
+  },
+  {
+    "drink_name": "GFuel Cans",
+    "manufacturer": "G Fuel, LLC",
+    "location": "West Babylon, New York, USA",
+    "website": "https://gfuel.com"
+  },
+  {
+    "drink_name": "GFuel Energy Drink Mix",
+    "manufacturer": "G Fuel (Gamma Labs, LLC)",
+    "location": "West Babylon, New York, USA",
+    "website": "https://gfuel.com"
+  },
+  {
+    "drink_name": "Ghost Energy Drink",
+    "manufacturer": "Ghost LLC",
+    "location": "Henderson, Nevada, USA",
+    "website": "https://www.ghostenergy.com/"
+  },
+  {
+    "drink_name": "Ginger Ale",
+    "manufacturer": "N/A",
+    "location": "N/A",
+    "website": "N/A"
+  },
+  {
+    "drink_name": "Gloria Jean's Coffee",
+    "manufacturer": "Gloria Jean's Coffees",
+    "location": "Castle Hill, New South Wales, Australia",
+    "website": "https://www.gloriajeanscoffees.com.au/"
+  },
+  {
+    "drink_name": "Go Fast Energy Drink",
+    "manufacturer": "Go Fast Sports & Beverage Co.",
+    "location": "Denver, Colorado, USA",
+    "website": "https://www.gofast.com/"
+  },
+  {
+    "drink_name": "Go Fast High Octane Energy Drink",
+    "manufacturer": "Go Fast Sports & Beverage Co.",
+    "location": "Denver, Colorado, USA",
+    "website": "https://www.gofast.com/"
+  },
+  {
+    "drink_name": "Go Girl Energy Drink",
+    "manufacturer": "Nor-Cal Beverage Co., Inc.",
+    "location": "Sacramento, California, USA",
+    "website": "https://www.gogirlenergy.com/"
+  },
+  {
+    "drink_name": "Goat Fuel",
+    "manufacturer": "GOAT Fuel, Inc.",
+    "location": "Beverly Hills, California, USA",
+    "website": "https://goatfuel.com"
+  },
+  {
+    "drink_name": "Gold Peak Coffee",
+    "manufacturer": "The Coca-Cola Company",
+    "location": "Atlanta, Georgia, USA",
+    "website": "https://www.goldpeakbeverages.com/"
+  },
+  {
+    "drink_name": "Gold Peak Tea",
+    "manufacturer": "The Coca-Cola Company",
+    "location": "Atlanta, Georgia, USA",
+    "website": "https://www.goldpeakbeverages.com/"
+  },
+  {
+    "drink_name": "Gothrider Gasoline Coffee",
+    "manufacturer": "Gothrider",
+    "location": "Montreal, Quebec, Canada",
+    "website": "https://gothrider.com/"
+  },
+  {
+    "drink_name": "Gourmesso Coffee Pods",
+    "manufacturer": "Gourmesso",
+    "location": "Berlin, Germany",
+    "website": "https://www.gourmesso.com/"
+  },
+  {
+    "drink_name": "Great Value Energy Drink Enhancers",
+    "manufacturer": "Walmart Inc.",
+    "location": "Bentonville, Arkansas, USA",
+    "website": "https://www.walmart.com"
+  },
+  {
+    "drink_name": "Great Value Energy Drink Mix",
+    "manufacturer": "Walmart Inc.",
+    "location": "Bentonville, Arkansas, USA",
+    "website": "https://www.walmart.com"
+  },
+  {
+    "drink_name": "Greek Coffee (Metrios)",
+    "manufacturer": "N/A",
+    "location": "Greece",
+    "website": "N/A"
+  },
+  {
+    "drink_name": "Green Cola",
+    "manufacturer": "Green Cola Company",
+    "location": "Orestiada, Greece",
+    "website": "https://www.greencola.com/"
+  },
+  {
+    "drink_name": "Gridlock Energy Drink",
+    "manufacturer": "Dollar General",
+    "location": "Goodlettsville, Tennessee, USA",
+    "website": "https://www.dollargeneral.com"
+  },
+  {
+    "drink_name": "Guayaki Canned Yerba Mate",
+    "manufacturer": "Guayak\u00ed Sustainable Rainforest Products, Inc.",
+    "location": "Sebastopol, California, USA",
+    "website": "https://guayaki.com"
+  },
+  {
+    "drink_name": "Guayaki Yerba Mate Bottled Tea",
+    "manufacturer": "Guayak\u00ed Sustainable Rainforest Products, Inc.",
+    "location": "Sebastopol, California, USA",
+    "website": "https://guayaki.com"
+  },
+  {
+    "drink_name": "Guayusa Tea",
+    "manufacturer": "N/A",
+    "location": "N/A",
+    "website": "N/A"
+  },
+  {
+    "drink_name": "GURU Energy Drink",
+    "manufacturer": "GURU Beverage Co.",
+    "location": "Montreal, Quebec, Canada",
+    "website": "https://www.guruenergy.com"
+  },
+  {
+    "drink_name": "GURU Sparkling Energy Water",
+    "manufacturer": "GURU Beverage Co.",
+    "location": "Montreal, Quebec, Canada",
+    "website": "https://www.guruenergy.com"
+  },
+  {
+    "drink_name": "GymBrew Coffee",
+    "manufacturer": "GymBrew",
+    "location": "United Kingdom",
+    "website": "https://gymbrew.com"
+  },
+  {
+    "drink_name": "Hell Energy Coffee",
+    "manufacturer": "Hell Energy",
+    "location": "Hungary",
+    "website": "https://www.hellenergy.com/"
+  },
+  {
+    "drink_name": "Hell Energy Drink (EU)",
+    "manufacturer": "Hell Energy Magyarorsz\u00e1g Kft.",
+    "location": "Hungary",
+    "website": "https://www.hellenergy.com/"
+  },
+  {
+    "drink_name": "Heroec Energy Water",
+    "manufacturer": "Heroec",
+    "location": "N/A",
+    "website": "https://heroec.com/"
+  },
+  {
+    "drink_name": "Hi Ball Energy Drink",
+    "manufacturer": "HiBall Energy (a brand of Anheuser-Busch)",
+    "location": "St. Louis, Missouri, USA",
+    "website": "https://www.hiballenergy.com/"
+  },
+  {
+    "drink_name": "HICAF Tea",
+    "manufacturer": "The Republic of Tea",
+    "location": "Larkspur, California, USA",
+    "website": "https://www.republicoftea.com"
+  },
+  {
+    "drink_name": "High Brew Coffee",
+    "manufacturer": "High Brew Coffee, Inc.",
+    "location": "Austin, Texas, USA",
+    "website": "https://www.highbrewcoffee.com/"
+  },
+  {
+    "drink_name": "High Voltage Coffee (AU)",
+    "manufacturer": "High Voltage Coffee Co.",
+    "location": "Australia",
+    "website": "https://www.highvoltagecoffee.com.au/"
+  },
+  {
+    "drink_name": "Hint Caffeine Kick Water",
+    "manufacturer": "Hint, Inc.",
+    "location": "San Francisco, California, USA",
+    "website": "https://www.drinkhint.com"
+  },
+  {
+    "drink_name": "Honest Iced Tea",
+    "manufacturer": "The Coca-Cola Company",
+    "location": "Atlanta, Georgia, USA",
+    "website": "https://www.honesttea.com/"
+  },
+  {
+    "drink_name": "Hyde Xtreme",
+    "manufacturer": "ProSupps",
+    "location": "United States",
+    "website": "https://www.prosupps.com"
+  },
+  {
+    "drink_name": "Hype Energy Drink (EU)",
+    "manufacturer": "Hype Energy",
+    "location": "Monaco",
+    "website": "https://www.hype.com/"
+  },
+  {
+    "drink_name": "IBC Root Beer",
+    "manufacturer": "Keurig Dr Pepper",
+    "location": "Plano, Texas, USA",
+    "website": "https://www.drpeppersnapplegroup.com/brands/ibc"
+  },
+  {
+    "drink_name": "Illy Issimo Cafe",
+    "manufacturer": "Illycaff\u00e8 S.p.A.",
+    "location": "Trieste, Italy",
+    "website": "https://www.illy.com/"
+  },
+  {
+    "drink_name": "Inca Kola",
+    "manufacturer": "The Coca-Cola Company",
+    "location": "Lima, Peru",
+    "website": "https://www.incakola.com/"
+  },
+  {
+    "drink_name": "Indulgio Cappuccino",
+    "manufacturer": "Indulgio",
+    "location": "Minnetonka, Minnesota, USA",
+    "website": "https://www.indulgio.com/"
+  },
+  {
+    "drink_name": "Inko's White Tea Energy",
+    "manufacturer": "Inko's Tea",
+    "location": "New York, USA",
+    "website": "https://www.inkostea.com/"
+  },
+  {
+    "drink_name": "International Delight Iced Coffee",
+    "manufacturer": "Danone North America",
+    "location": "Broomfield, Colorado, USA",
+    "website": "https://www.internationaldelight.com/"
+  },
+  {
+    "drink_name": "Irn Bru (UK)",
+    "manufacturer": "A.G. Barr plc",
+    "location": "Cumbernauld, Scotland, UK",
+    "website": "https://www.irn-bru.co.uk/"
+  },
+  {
+    "drink_name": "Java Kick Coffee Cola",
+    "manufacturer": "Java Kick, Inc.",
+    "location": "Las Vegas, Nevada, USA",
+    "website": "http://www.javakick.com"
+  },
+  {
+    "drink_name": "Java Monster",
+    "manufacturer": "Monster Beverage Corporation",
+    "location": "Corona, California, USA",
+    "website": "https://www.monsterenergy.com/"
+  },
+  {
+    "drink_name": "Java Monster 300",
+    "manufacturer": "Monster Beverage Corporation",
+    "location": "Corona, California, USA",
+    "website": "https://www.monsterenergy.com/"
+  },
+  {
+    "drink_name": "Javvy Coffee Concentrate",
+    "manufacturer": "Javvy",
+    "location": "Austin, Texas, USA",
+    "website": "https://javvycoffee.com"
+  },
+  {
+    "drink_name": "Joker Mad Energy",
+    "manufacturer": "PepsiCo",
+    "location": "Purchase, New York, USA",
+    "website": "https://www.pepsico.com/"
+  },
+  {
+    "drink_name": "Juice Monster",
+    "manufacturer": "Monster Beverage Corporation",
+    "location": "Corona, California, USA",
+    "website": "https://www.monsterenergy.com/"
+  },
+  {
+    "drink_name": "Juvee",
+    "manufacturer": "Juvee, Inc.",
+    "location": "Los Angeles, California, USA",
+    "website": "https://www.drinkjuvee.com/"
+  },
+  {
+    "drink_name": "K Cup Decaf",
+    "manufacturer": "Keurig Dr Pepper",
+    "location": "Burlington, Massachusetts, USA",
+    "website": "https://www.keurig.com/"
+  },
+  {
+    "drink_name": "K Cup Tea",
+    "manufacturer": "Keurig Dr Pepper (various licensed brands)",
+    "location": "Burlington, Massachusetts, USA",
+    "website": "https://www.keurig.com/"
+  },
+  {
+    "drink_name": "K-Cup Coffee",
+    "manufacturer": "Keurig Dr Pepper",
+    "location": "Burlington, Massachusetts, USA",
+    "website": "https://www.keurig.com/"
+  },
+  {
+    "drink_name": "Kaffn8 Liquified Caffeine",
+    "manufacturer": "Kaffn8",
+    "location": "United States",
+    "website": "https://kaffn8.com/"
+  },
+  [
+    {
+      "drink_name": "Kickapoo Soda: Joy Juice",
+      "manufacturer": "Monarch Beverage Company",
+      "location": "Atlanta, Georgia, USA",
+      "website": "https://www.monarchbeverage.com/"
+    },
+    {
+      "drink_name": "Kickapoo Soda: Fruit Shine",
+      "manufacturer": "Monarch Beverage Company",
+      "location": "Atlanta, Georgia, USA",
+      "website": "https://www.monarchbeverage.com/"
+    }
+  ],
+  {
+    "drink_name": "Kill Cliff Energy X Recover",
+    "manufacturer": "Kill Cliff, Inc.",
+    "location": "Atlanta, Georgia, USA",
+    "website": "https://killcliff.com"
+  },
+  {
+    "drink_name": "Kill Cliff Ignite",
+    "manufacturer": "Kill Cliff, Inc.",
+    "location": "Atlanta, Georgia, USA",
+    "website": "https://killcliff.com"
+  },
+  {
+    "drink_name": "Killer Coffee (AU)",
+    "manufacturer": "Killer Coffee Co.",
+    "location": "Sydney, Australia",
+    "website": "https://killercoffee.com.au/"
+  },
+  {
+    "drink_name": "Kin Spritz",
+    "manufacturer": "Kin Euphorics",
+    "location": "New York, NY, USA",
+    "website": "https://www.kineuphorics.com/"
+  },
+  {
+    "drink_name": "Kirkland Energy Shot",
+    "manufacturer": "Costco Wholesale Corporation",
+    "location": "Issaquah, Washington, USA",
+    "website": "https://www.costco.com"
+  },
+  {
+    "drink_name": "KOE Kombucha",
+    "manufacturer": "Stratus Group",
+    "location": "Los Angeles, California, USA",
+    "website": "https://www.drinkkoe.com/"
+  },
+  {
+    "drink_name": "Kombucha Tea",
+    "manufacturer": "N/A",
+    "location": "N/A",
+    "website": "N/A"
+  },
+  {
+    "drink_name": "Kona Gold Energy Drink",
+    "manufacturer": "Kona Gold LLC",
+    "location": "Melbourne, Florida, USA",
+    "website": "https://www.konagoldhemp.com/"
+  },
+  {
+    "drink_name": "La Colombe Cold Brew",
+    "manufacturer": "La Colombe Coffee Roasters",
+    "location": "Philadelphia, Pennsylvania, USA",
+    "website": "https://www.lacolombe.com"
+  },
+  {
+    "drink_name": "La Colombe Draft Latte",
+    "manufacturer": "La Colombe Coffee Roasters",
+    "location": "Philadelphia, Pennsylvania, USA",
+    "website": "https://www.lacolombe.com"
+  },
+  {
+    "drink_name": "La Croix Sparkling Water",
+    "manufacturer": "National Beverage Corp.",
+    "location": "Fort Lauderdale, Florida, USA",
+    "website": "https://www.lacroixwater.com/"
+  },
+  {
+    "drink_name": "Latte",
+    "manufacturer": "N/A",
+    "location": "N/A",
+    "website": "N/A"
+  },
+  {
+    "drink_name": "LevlUp Gaming Booster",
+    "manufacturer": "LevlUp GmbH",
+    "location": "G\u00f6ttingen, Germany",
+    "website": "https://www.levlup.com/"
+  },
+  {
+    "drink_name": "Limitless Sparkling Water",
+    "manufacturer": "Limitless",
+    "location": "Chicago, Illinois, USA",
+    "website": "https://limitlesscoffee.com/"
+  },
+  {
+    "drink_name": "Lipton Iced Tea",
+    "manufacturer": "PepsiCo and Unilever (via Pepsi Lipton Partnership)",
+    "location": "Purchase, New York, USA and London, United Kingdom",
+    "website": "https://www.lipton.com/"
+  },
+  {
+    "drink_name": "Lipton Natural Energy Tea",
+    "manufacturer": "Lipton (Unilever)",
+    "location": "London, United Kingdom / Rotterdam, Netherlands",
+    "website": "https://www.lipton.com/"
+  },
+  {
+    "drink_name": "Lipton Tea",
+    "manufacturer": "Unilever",
+    "location": "London, United Kingdom / Rotterdam, Netherlands",
+    "website": "https://www.lipton.com/"
+  },
+  {
+    "drink_name": "Liquid Death Iced Tea",
+    "manufacturer": "Liquid Death",
+    "location": "Santa Monica, California, USA",
+    "website": "https://liquiddeath.com"
+  },
+  {
+    "drink_name": "Liquid Help Energy Drink",
+    "manufacturer": "Liquid Help, LLC",
+    "location": "Miami, Florida, USA",
+    "website": "https://liquidhelpenergy.com"
+  },
+  {
+    "drink_name": "Liquid Ice Energy Drink",
+    "manufacturer": "Liquid Management Partners, LLC",
+    "location": "New York, USA",
+    "website": "https://www.liquidiceenergy.com/"
+  },
+  {
+    "drink_name": "Live+  Energy Drink",
+    "manufacturer": "Frucor Suntory",
+    "location": "Auckland, New Zealand",
+    "website": "https://www.frucorsuntory.com/"
+  },
+  {
+    "drink_name": "Long Black",
+    "manufacturer": "N/A",
+    "location": "N/A",
+    "website": "N/A"
+  },
+  {
+    "drink_name": "Lucozade",
+    "manufacturer": "Suntory Beverage & Food Ltd",
+    "location": "London, United Kingdom",
+    "website": "https://www.lucozade.com/"
+  },
+  {
+    "drink_name": "LYFT Energy Mix",
+    "manufacturer": "LYFT",
+    "location": "N/A",
+    "website": "https://www.lyftenergy.com/"
+  },
+  {
+    "drink_name": "M-150 Energy Drink",
+    "manufacturer": "Osotspa Co., Ltd.",
+    "location": "Bangkok, Thailand",
+    "website": "https://www.osotspa.com/en"
+  },
+  {
+    "drink_name": "Mamma Chia Energy",
+    "manufacturer": "Mamma Chia",
+    "location": "Carlsbad, California, USA",
+    "website": "https://www.mammachia.com/"
+  },
+  {
+    "drink_name": "Mana Energy Potion",
+    "manufacturer": "Harcos Laboratories",
+    "location": "Los Angeles, California, USA",
+    "website": "https://www.manapotions.com/"
+  },
+  {
+    "drink_name": "Marquis Energy Drink",
+    "manufacturer": "Marquis Beverages, Inc.",
+    "location": "Los Angeles, California, USA",
+    "website": "https://drinkmarquis.com"
+  },
+  {
+    "drink_name": "Master Brew Kombucha",
+    "manufacturer": "KeVita, Inc.",
+    "location": "Ventura, California, USA",
+    "website": "https://www.kevita.com/"
+  },
+  {
+    "drink_name": "Matcha Tea",
+    "manufacturer": "N/A",
+    "location": "Japan",
+    "website": "N/A"
+  },
+  {
+    "drink_name": "MATI Energy Drink",
+    "manufacturer": "MATI Energy",
+    "location": "Durham, North Carolina, USA",
+    "website": "https://www.matienergy.com"
+  },
+  {
+    "drink_name": "Maxwell House Coffee",
+    "manufacturer": "Kraft Heinz",
+    "location": "Chicago, Illinois, USA",
+    "website": "https://www.maxwellhousecoffee.com/"
+  },
+  {
+    "drink_name": "Maxwell House Max Boost Coffee",
+    "manufacturer": "Kraft Heinz",
+    "location": "Chicago, Illinois, USA",
+    "website": "https://www.maxwellhousecoffee.com/"
+  },
+  {
+    "drink_name": "McDonalds (McCafe) Latte",
+    "manufacturer": "McDonald's Corporation",
+    "location": "Chicago, Illinois, USA",
+    "website": "https://www.mcdonalds.com/"
+  },
+  {
+    "drink_name": "McDonalds (McCafe) Mocha",
+    "manufacturer": "McDonald's Corporation",
+    "location": "Chicago, Illinois, USA",
+    "website": "https://www.mcdonalds.com/"
+  },
+  {
+    "drink_name": "McDonalds Coffee",
+    "manufacturer": "McDonald's Corporation",
+    "location": "Chicago, Illinois, USA",
+    "website": "https://www.mcdonalds.com"
+  },
+  {
+    "drink_name": "McDonalds Iced Coffee",
+    "manufacturer": "McDonald's Corporation",
+    "location": "Chicago, Illinois, USA",
+    "website": "https://www.mcdonalds.com/"
+  },
+  {
+    "drink_name": "McDonalds Sweet Tea",
+    "manufacturer": "McDonald's Corporation",
+    "location": "Chicago, Illinois, USA",
+    "website": "https://www.mcdonalds.com"
+  },
+  {
+    "drink_name": "Mega Monster Energy Drink",
+    "manufacturer": "Monster Beverage Corporation",
+    "location": "Corona, California, USA",
+    "website": "https://www.monsterenergy.com/"
+  },
+  {
+    "drink_name": "Mello Yello",
+    "manufacturer": "The Coca-Cola Company",
+    "location": "Atlanta, Georgia, USA",
+    "website": "https://www.coca-cola.com/us/en/brands/mello-yello"
+  },
+  {
+    "drink_name": "Meltdown Ketone Drink",
+    "manufacturer": "VPX Sports",
+    "location": "Weston, Florida, USA",
+    "website": "https://bangenergy.com/"
+  },
+  {
+    "drink_name": "MiO Energy Water Enhancer",
+    "manufacturer": "Kraft Heinz",
+    "location": "Chicago, Illinois, USA",
+    "website": "https://www.makeitmio.com/"
+  },
+  {
+    "drink_name": "Monster Assault",
+    "manufacturer": "Monster Beverage Corporation",
+    "location": "Corona, California, USA",
+    "website": "https://www.monsterenergy.com/"
+  },
+  {
+    "drink_name": "Monster Dragon Tea",
+    "manufacturer": "Monster Beverage Corporation",
+    "location": "Corona, California, USA",
+    "website": "https://www.monsterenergy.com/"
+  },
+  {
+    "drink_name": "Monster Energy",
+    "manufacturer": "Monster Beverage Corporation",
+    "location": "Corona, California, USA",
+    "website": "https://www.monsterenergy.com/"
+  },
+  {
+    "drink_name": "Monster Hydro",
+    "manufacturer": "Monster Beverage Corporation",
+    "location": "Corona, California, USA",
+    "website": "https://www.monsterenergy.com/"
+  },
+  {
+    "drink_name": "Monster Import",
+    "manufacturer": "Monster Beverage Corporation",
+    "location": "Corona, California, USA",
+    "website": "https://www.monsterenergy.com/"
+  },
+  {
+    "drink_name": "Monster Killer Brew",
+    "manufacturer": "Monster Beverage Corporation",
+    "location": "Corona, California, USA",
+    "website": "https://www.monsterenergy.com/"
+  },
+  {
+    "drink_name": "Monster Lo-Carb",
+    "manufacturer": "Monster Beverage Corporation",
+    "location": "Corona, California, USA",
+    "website": "https://www.monsterenergy.com/"
+  },
+  {
+    "drink_name": "Monster Mango Loco",
+    "manufacturer": "Monster Beverage Corporation",
+    "location": "Corona, California, USA",
+    "website": "https://www.monsterenergy.com/"
+  },
+  {
+    "drink_name": "Monster Mule",
+    "manufacturer": "Monster Beverage Corporation",
+    "location": "Corona, California, USA",
+    "website": "https://www.monsterenergy.com/"
+  },
+  {
+    "drink_name": "Monster Nitro",
+    "manufacturer": "Monster Beverage Corporation",
+    "location": "Corona, California, USA",
+    "website": "https://www.monsterenergy.com/"
+  },
+  {
+    "drink_name": "Monster Pipeline Punch",
+    "manufacturer": "Monster Beverage Corporation",
+    "location": "Corona, California, USA",
+    "website": "https://www.monsterenergy.com/"
+  },
+  {
+    "drink_name": "Monster Rehab",
+    "manufacturer": "Monster Beverage Corporation",
+    "location": "Corona, California, USA",
+    "website": "https://www.monsterenergy.com/"
+  },
+  {
+    "drink_name": "Monster Reserve",
+    "manufacturer": "Monster Beverage Corporation",
+    "location": "Corona, California, USA",
+    "website": "https://www.monsterenergy.com/"
+  },
+  {
+    "drink_name": "Monster Ripper Energy Juice (UK)",
+    "manufacturer": "Monster Beverage Corporation",
+    "location": "Corona, California, USA",
+    "website": "https://www.monsterenergy.com/"
+  },
+  {
+    "drink_name": "Monster The Doctor VR46 (UK)",
+    "manufacturer": "Monster Energy",
+    "location": "Corona, California, USA",
+    "website": "https://www.monsterenergy.com/"
+  },
+  {
+    "drink_name": "Monster Tour Water",
+    "manufacturer": "Monster Beverage Corporation",
+    "location": "Corona, California, USA",
+    "website": "https://www.monsterenergy.com/"
+  },
+  {
+    "drink_name": "Monster Ultra",
+    "manufacturer": "Monster Beverage Corporation",
+    "location": "Corona, California, USA",
+    "website": "https://www.monsterenergy.com/"
+  },
+  {
+    "drink_name": "Monster Zero Sugar",
+    "manufacturer": "Monster Beverage Corporation",
+    "location": "Corona, California, USA",
+    "website": "https://www.monsterenergy.com/"
+  },
+  {
+    "drink_name": "Moose Juice Energy Drink",
+    "manufacturer": "Muscle Moose",
+    "location": "United Kingdom",
+    "website": "https://musclemoose.co.uk/"
+  },
+  {
+    "drink_name": "Morning Thunder Tea",
+    "manufacturer": "Celestial Seasonings",
+    "location": "Boulder, Colorado, USA",
+    "website": "https://www.celestialseasonings.com/"
+  },
+  {
+    "drink_name": "Mother Energy Drink",
+    "manufacturer": "The Coca-Cola Company",
+    "location": "Australia",
+    "website": "https://www.motherenergydrink.com.au/"
+  },
+  {
+    "drink_name": "Mount Hagen Instant Coffee",
+    "manufacturer": "Mount Hagen",
+    "location": "Germany",
+    "website": "https://www.mounthagen.de/en/"
+  },
+  {
+    "drink_name": "Mountain Dew",
+    "manufacturer": "PepsiCo",
+    "location": "Purchase, New York, USA",
+    "website": "https://www.mountaindew.com/"
+  },
+  {
+    "drink_name": "Mountain Dew Amp",
+    "manufacturer": "PepsiCo",
+    "location": "Purchase, New York, USA",
+    "website": "https://www.mountaindew.com/"
+  },
+  {
+    "drink_name": "Mountain Dew Baja Blast",
+    "manufacturer": "PepsiCo",
+    "location": "Purchase, New York, USA",
+    "website": "https://www.mountaindew.com/"
+  },
+  {
+    "drink_name": "Mountain Dew Code Red",
+    "manufacturer": "PepsiCo",
+    "location": "Purchase, New York, USA",
+    "website": "https://www.mountaindew.com/"
+  },
+  {
+    "drink_name": "Mountain Dew Energy",
+    "manufacturer": "PepsiCo",
+    "location": "Purchase, New York, USA",
+    "website": "https://www.mountaindew.com/"
+  },
+  {
+    "drink_name": "Mountain Dew Game Fuel",
+    "manufacturer": "PepsiCo",
+    "location": "Purchase, New York, USA",
+    "website": "https://www.mountaindew.com/products/game-fuel/"
+  },
+  {
+    "drink_name": "Mountain Dew Kickstart",
+    "manufacturer": "PepsiCo",
+    "location": "Purchase, New York, USA",
+    "website": "https://www.mountaindew.com/products/kickstart/"
+  },
+  {
+    "drink_name": "Mountain Dew Live Wire",
+    "manufacturer": "PepsiCo",
+    "location": "Purchase, New York, USA",
+    "website": "https://www.mountaindew.com/"
+  },
+  {
+    "drink_name": "Mountain Dew Major Melon",
+    "manufacturer": "PepsiCo",
+    "location": "Purchase, New York, USA",
+    "website": "https://www.mountaindew.com/"
+  },
+  {
+    "drink_name": "Mountain Dew Spark",
+    "manufacturer": "PepsiCo",
+    "location": "Purchase, New York, USA",
+    "website": "https://www.mountaindew.com/"
+  },
+  {
+    "drink_name": "Mountain Dew Voltage",
+    "manufacturer": "PepsiCo",
+    "location": "Purchase, New York, USA",
+    "website": "https://www.mountaindew.com/"
+  },
+  {
+    "drink_name": "Mountain Dew Zero Sugar",
+    "manufacturer": "PepsiCo",
+    "location": "Purchase, New York, USA",
+    "website": "https://www.mountaindew.com/"
+  },
+  {
+    "drink_name": "Moxie Soda",
+    "manufacturer": "Keurig Dr Pepper",
+    "location": "Burlington, Massachusetts, USA",
+    "website": "https://www.drpepper.com"
+  },
+  {
+    "drink_name": "Mucho Mango Energy Drink",
+    "manufacturer": "AriZona Beverages",
+    "location": "Woodbury, New York, USA",
+    "website": "https://www.drinkarizona.com"
+  },
+  {
+    "drink_name": "Mug Root Beer",
+    "manufacturer": "PepsiCo",
+    "location": "Purchase, New York, USA",
+    "website": "https://www.pepsicobeveragefacts.com/Home/Product?formula=F0000008&form=RTD&package=CAN"
+  },
+  {
+    "drink_name": "Muscle Milk Coffee House",
+    "manufacturer": "CytoSport, Inc.",
+    "location": "Walnut Creek, California, USA",
+    "website": "https://www.musclemilk.com/"
+  },
+  {
+    "drink_name": "Muscle Monster",
+    "manufacturer": "Monster Beverage Corporation",
+    "location": "Corona, California, USA",
+    "website": "https://www.monsterenergy.com/"
+  },
+  {
+    "drink_name": "Mushroom Coffee",
+    "manufacturer": "Four Sigmatic",
+    "location": "Helsinki, Finland",
+    "website": "https://www.foursigmatic.com/"
+  },
+  {
+    "drink_name": "Nerd Focus",
+    "manufacturer": "Nerd Focus, LLC",
+    "location": "San Antonio, Texas, USA",
+    "website": "https://nerdfocus.com"
+  },
+  {
+    "drink_name": "Nescafe 3 in 1 Instant Coffee",
+    "manufacturer": "Nestl\u00e9",
+    "location": "Vevey, Switzerland",
+    "website": "https://www.nescafe.com/"
+  },
+  {
+    "drink_name": "Nescafe Dolce Gusto",
+    "manufacturer": "Nestl\u00e9",
+    "location": "Vevey, Switzerland",
+    "website": "https://www.dolce-gusto.com/"
+  },
+  {
+    "drink_name": "Nescafe Gold",
+    "manufacturer": "Nestl\u00e9",
+    "location": "Vevey, Switzerland",
+    "website": "https://www.nescafe.com/"
+  },
+  {
+    "drink_name": "Nescafe Ice Java",
+    "manufacturer": "Nestl\u00e9",
+    "location": "Vevey, Switzerland",
+    "website": "https://www.nescafe.com/"
+  },
+  {
+    "drink_name": "Nescafe Ricoffy",
+    "manufacturer": "Nestl\u00e9",
+    "location": "Vevey, Switzerland",
+    "website": "https://www.nescafe.com/za/products/ricoffy"
+  },
+  {
+    "drink_name": "Nespresso Coffee Capsules",
+    "manufacturer": "Nestl\u00e9 Nespresso S.A.",
+    "location": "Lausanne, Switzerland",
+    "website": "https://www.nespresso.com/"
+  },
+  {
+    "drink_name": "Nestea Iced Tea",
+    "manufacturer": "Nestl\u00e9",
+    "location": "Vevey, Switzerland",
+    "website": "https://www.nestea.com/"
+  },
+  {
+    "drink_name": "Nestle Milo",
+    "manufacturer": "Nestl\u00e9",
+    "location": "Vevey, Switzerland",
+    "website": "https://www.nestle.com/brands/milo"
+  },
+  {
+    "drink_name": "Neu Nootropic Shot",
+    "manufacturer": "Neu Nootropic",
+    "location": "United Kingdom",
+    "website": "https://www.neuroot.com/"
+  },
+  {
+    "drink_name": "Neuro Sonic",
+    "manufacturer": "Neuro Brands, LLC",
+    "location": "Santa Monica, California, USA",
+    "website": "https://www.drinkneuro.com/"
+  },
+  {
+    "drink_name": "NOCCO Energy Drink (EU)",
+    "manufacturer": "No Carbs Company AB",
+    "location": "Stockholm, Sweden",
+    "website": "https://nocco.com/"
+  },
+  {
+    "drink_name": "Noocaf Smart Coffee",
+    "manufacturer": "Noocaf",
+    "location": "United States",
+    "website": "https://noocaf.com"
+  },
+  {
+    "drink_name": "NOS Energy Drink",
+    "manufacturer": "Monster Beverage Corporation",
+    "location": "Corona, California, USA",
+    "website": "https://www.drinknos.com/"
+  },
+  {
+    "drink_name": "Nutramint Smart Serum",
+    "manufacturer": "N/A",
+    "location": "N/A",
+    "website": "N/A"
+  },
+  {
+    "drink_name": "Nuun Sport",
+    "manufacturer": "Nuun Hydration",
+    "location": "Seattle, Washington, USA",
+    "website": "https://nuunlife.com"
+  },
+  {
+    "drink_name": "OCA Energy Drink",
+    "manufacturer": "OCA",
+    "location": "Miami, Florida, USA",
+    "website": "https://www.drinkoca.com/"
+  },
+  {
+    "drink_name": "Ocean Spray Brew",
+    "manufacturer": "Ocean Spray Cranberries, Inc.",
+    "location": "Lakeville-Middleboro, Massachusetts, USA",
+    "website": "https://www.oceanspray.com/"
+  },
+  {
+    "drink_name": "Octane Energy Drink Mix",
+    "manufacturer": "Accelerated Intelligence Inc.",
+    "location": "USA",
+    "website": "https://getoctane.com"
+  },
+  {
+    "drink_name": "Oi Ocha Green Tea",
+    "manufacturer": "Ito En, Ltd.",
+    "location": "Tokyo, Japan",
+    "website": "https://www.itoen-global.com/"
+  },
+  {
+    "drink_name": "Oikos Pro Fuel",
+    "manufacturer": "Danone",
+    "location": "Paris, France",
+    "website": "https://www.oikosprotein.com/"
+  },
+  {
+    "drink_name": "OK Energy Drink",
+    "manufacturer": "OK.-Energy AG",
+    "location": "Switzerland",
+    "website": "https://www.ok-energy.com/"
+  },
+  {
+    "drink_name": "OLIPOP Vintage Cola",
+    "manufacturer": "OLIPOP",
+    "location": "Oakland, California, USA",
+    "website": "https://drinkolipop.com"
+  },
+  {
+    "drink_name": "Orange Crush",
+    "manufacturer": "Keurig Dr Pepper",
+    "location": "Plano, Texas, USA",
+    "website": "https://www.crushsoda.com/"
+  },
+  {
+    "drink_name": "Oregon Chai Tea",
+    "manufacturer": "Oregon Chai, Inc.",
+    "location": "Portland, Oregon, USA",
+    "website": "https://www.oregonchai.com/"
+  },
+  {
+    "drink_name": "Pacific Chai",
+    "manufacturer": "Sara Lee Corporation",
+    "location": "Downers Grove, Illinois, USA",
+    "website": "https://www.pacificchai.com/"
+  },
+  {
+    "drink_name": "Panera Bread Coffee",
+    "manufacturer": "Panera Bread",
+    "location": "St. Louis, Missouri, USA",
+    "website": "https://www.panerabread.com/"
+  },
+  {
+    "drink_name": "PC Cola",
+    "manufacturer": "President's Choice",
+    "location": "Canada",
+    "website": "https://www.presidentschoice.ca/"
+  },
+  {
+    "drink_name": "PC Cola Diet",
+    "manufacturer": "President's Choice",
+    "location": "Canada",
+    "website": "https://www.presidentschoice.ca/"
+  },
+  {
+    "drink_name": "Peace Tea",
+    "manufacturer": "The Coca-Cola Company",
+    "location": "Atlanta, Georgia, USA",
+    "website": "https://www.peacetea.com/"
+  },
+  {
+    "drink_name": "Peet's Brewed Coffee",
+    "manufacturer": "Peet's Coffee",
+    "location": "Emeryville, California, USA",
+    "website": "https://www.peets.com"
+  },
+  {
+    "drink_name": "Peet's Caffe Americano",
+    "manufacturer": "Peet's Coffee",
+    "location": "Emeryville, California, USA",
+    "website": "https://www.peets.com"
+  },
+  {
+    "drink_name": "Peet's Caffe Latte",
+    "manufacturer": "Peet's Coffee",
+    "location": "Emeryville, California, USA",
+    "website": "https://www.peets.com"
+  },
+  {
+    "drink_name": "Peet's Caffe Mocha",
+    "manufacturer": "Peet's Coffee",
+    "location": "Emeryville, California, USA",
+    "website": "https://www.peets.com"
+  },
+  {
+    "drink_name": "Peet's Cappuccino",
+    "manufacturer": "Peet's Coffee",
+    "location": "Emeryville, California, USA",
+    "website": "https://www.peets.com"
+  },
+  {
+    "drink_name": "Peet's Coffee Espresso",
+    "manufacturer": "Peet's Coffee",
+    "location": "Emeryville, California, USA",
+    "website": "https://www.peets.com"
+  },
+  {
+    "drink_name": "Peet's Decaf Espresso",
+    "manufacturer": "Peet's Coffee",
+    "location": "Emeryville, California, USA",
+    "website": "https://www.peets.com"
+  },
+  {
+    "drink_name": "Peet's Iced Coffee",
+    "manufacturer": "Peet's Coffee",
+    "location": "Emeryville, California, USA",
+    "website": "https://www.peets.com"
+  },
+  {
+    "drink_name": "Peet's Iced Latte",
+    "manufacturer": "Peet's Coffee",
+    "location": "Emeryville, California, USA",
+    "website": "https://www.peets.com"
+  },
+  {
+    "drink_name": "Peet's Iced Mocha",
+    "manufacturer": "Peet's Coffee",
+    "location": "Emeryville, California, USA",
+    "website": "https://www.peets.com"
+  },
+  {
+    "drink_name": "Pep Talk Sparkling Water",
+    "manufacturer": "Pep Talk Beverages, LLC",
+    "location": "Austin, Texas, USA",
+    "website": "https://www.drinkpeptalk.com/"
+  },
+  {
+    "drink_name": "Pepsi",
+    "manufacturer": "PepsiCo, Inc.",
+    "location": "Purchase, New York, USA",
+    "website": "https://www.pepsi.com/"
+  },
+  {
+    "drink_name": "Pepsi Caffeine Free",
+    "manufacturer": "PepsiCo",
+    "location": "Purchase, New York, USA",
+    "website": "https://www.pepsi.com/"
+  },
+  {
+    "drink_name": "Pepsi Made With Sugar",
+    "manufacturer": "PepsiCo",
+    "location": "Purchase, New York, USA",
+    "website": "https://www.pepsi.com/"
+  },
+  {
+    "drink_name": "Pepsi Max (UK)",
+    "manufacturer": "PepsiCo",
+    "location": "United Kingdom",
+    "website": "https://www.pepsi.co.uk/"
+  },
+  {
+    "drink_name": "Pepsi Zero Sugar",
+    "manufacturer": "PepsiCo",
+    "location": "Purchase, New York, USA",
+    "website": "https://www.pepsi.com/"
+  },
+  {
+    "drink_name": "Performance Caffeine",
+    "manufacturer": "Performance Inspired Nutrition",
+    "location": "Pittsburgh, Pennsylvania, USA",
+    "website": "https://pi-nutrition.com"
+  },
+  {
+    "drink_name": "PerformElite Pre-Workout",
+    "manufacturer": "EndurElite",
+    "location": "Colorado, USA",
+    "website": "https://endurelite.com"
+  },
+  {
+    "drink_name": "Perk Energy Beverage",
+    "manufacturer": "Perk Energy",
+    "location": "Utah, USA",
+    "website": "https://perkenergy.com"
+  },
+  {
+    "drink_name": "Perrier Energize",
+    "manufacturer": "Nestl\u00e9",
+    "location": "Vevey, Switzerland",
+    "website": "https://www.perrier.com/"
+  },
+  {
+    "drink_name": "Perrier Sparkling Water",
+    "manufacturer": "Nestl\u00e9",
+    "location": "Verg\u00e8ze, France",
+    "website": "https://www.perrier.com/"
+  },
+  {
+    "drink_name": "PG Tips Black Tea",
+    "manufacturer": "Unilever",
+    "location": "United Kingdom",
+    "website": "https://www.pgtips.co.uk/"
+  },
+  {
+    "drink_name": "Phocus Sparkling Water",
+    "manufacturer": "Clear Cut Phocus",
+    "location": "Louisville, Kentucky, USA",
+    "website": "https://www.drinkphocus.com"
+  },
+  {
+    "drink_name": "Phoenix Energy Shot",
+    "manufacturer": "Phoenix Energy",
+    "location": "N/A",
+    "website": "https://phoenixenergyshot.com"
+  },
+  {
+    "drink_name": "Pibb Xtra",
+    "manufacturer": "The Coca-Cola Company",
+    "location": "Atlanta, Georgia, USA",
+    "website": "https://www.coca-cola.com/us/en/brands/pibb-xtra"
+  },
+  {
+    "drink_name": "Poland Spring Sparkling Energy Water",
+    "manufacturer": "Nestl\u00e9 Waters North America",
+    "location": "Stamford, Connecticut, USA",
+    "website": "https://www.polandspring.com/"
+  },
+  {
+    "drink_name": "Polar Frost Plus Energy",
+    "manufacturer": "Polar Beverages",
+    "location": "Worcester, Massachusetts, USA",
+    "website": "https://polarbeverages.com"
+  },
+  {
+    "drink_name": "Polar Seltzer Water",
+    "manufacturer": "Polar Beverages",
+    "location": "Worcester, Massachusetts, USA",
+    "website": "https://polarseltzer.com/"
+  },
+  {
+    "drink_name": "Poppi Soda Classic Cola",
+    "manufacturer": "Poppi",
+    "location": "Austin, Texas, USA",
+    "website": "https://www.drinkpoppi.com/"
+  },
+  {
+    "drink_name": "Power Horse Energy Drink (EU)",
+    "manufacturer": "Power Horse Energy Drinks GmbH",
+    "location": "Linz, Austria",
+    "website": "https://www.power-horse.com/"
+  },
+  {
+    "drink_name": "Premier Protein Cafe Latte",
+    "manufacturer": "Premier Nutrition Company, LLC",
+    "location": "Emeryville, California, USA",
+    "website": "https://www.premierprotein.com"
+  },
+  {
+    "drink_name": "Premium Cola (EU)",
+    "manufacturer": "Premium Kollektiv",
+    "location": "Hamburg, Germany",
+    "website": "https://www.premium-cola.de/"
+  },
+  {
+    "drink_name": "Prime Energy Drink",
+    "manufacturer": "Prime Hydration, LLC",
+    "location": "Louisville, Kentucky, USA",
+    "website": "https://drinkprime.com"
+  },
+  {
+    "drink_name": "Private Selection Canned Espresso",
+    "manufacturer": "Kroger",
+    "location": "Cincinnati, Ohio, USA",
+    "website": "https://www.kroger.com/"
+  },
+  {
+    "drink_name": "Propel Zero Powder",
+    "manufacturer": "PepsiCo",
+    "location": "Purchase, New York, USA",
+    "website": "https://www.propelwater.com"
+  },
+  {
+    "drink_name": "Proper Wild Energy Shot",
+    "manufacturer": "Proper Wild",
+    "location": "New York, NY, USA",
+    "website": "https://www.properwild.com"
+  },
+  {
+    "drink_name": "Protein2O + Energy",
+    "manufacturer": "Protein2o Inc.",
+    "location": "Chicago, Illinois, USA",
+    "website": "https://www.drinkprotein2o.com/"
+  },
+  {
+    "drink_name": "Pure Boost Energy Drink Mix",
+    "manufacturer": "Pureboost",
+    "location": "Scottsdale, Arizona, USA",
+    "website": "https://pureboost.com"
+  },
+  {
+    "drink_name": "Pure Cofain 699 (EU)",
+    "manufacturer": "Pure Cofain GmbH",
+    "location": "Vienna, Austria",
+    "website": "https://www.cofain.com/"
+  },
+  {
+    "drink_name": "Pure Kick Energy Drink Mix",
+    "manufacturer": "Pure Kick",
+    "location": "N/A",
+    "website": "https://purekick.com/"
+  },
+  {
+    "drink_name": "Pure Leaf Iced Tea",
+    "manufacturer": "PepsiCo and Unilever (via the Pepsi Lipton Tea Partnership)",
+    "location": "Purchase, New York, USA",
+    "website": "https://www.pureleaf.com/"
+  },
+  {
+    "drink_name": "Purity Coffee",
+    "manufacturer": "Purity Coffee, LLC",
+    "location": "Greenville, South Carolina, USA",
+    "website": "https://puritycoffee.com"
+  },
+  {
+    "drink_name": "Quake Energy Berry Blast Slurpee",
+    "manufacturer": "7-Eleven",
+    "location": "United States",
+    "website": "https://www.7-eleven.com/"
+  },
+  {
+    "drink_name": "Quake Energy Drink",
+    "manufacturer": "7-Eleven, Inc.",
+    "location": "Irving, Texas, USA",
+    "website": "https://www.7-eleven.com/"
+  },
+  {
+    "drink_name": "Rambler Energy Drink",
+    "manufacturer": "N/A",
+    "location": "N/A",
+    "website": "N/A"
+  },
+  {
+    "drink_name": "Raze Energy Drink",
+    "manufacturer": "REPP Sports",
+    "location": "Florida, USA",
+    "website": "https://reppsports.com/"
+  },
+  {
+    "drink_name": "RC (Royal Crown) Cola",
+    "manufacturer": "Keurig Dr Pepper",
+    "location": "Plano, Texas, USA",
+    "website": "https://www.drpeppersnapplegroup.com/brands/rc-cola"
+  },
+  {
+    "drink_name": "Red Bull",
+    "manufacturer": "Red Bull GmbH",
+    "location": "Fuschl am See, Austria",
+    "website": "https://www.redbull.com"
+  },
+  {
+    "drink_name": "Red Bull Editions",
+    "manufacturer": "Red Bull GmbH",
+    "location": "Fuschl am See, Austria",
+    "website": "https://www.redbull.com"
+  },
+  {
+    "drink_name": "Red Bull Simply Cola",
+    "manufacturer": "Red Bull GmbH",
+    "location": "Fuschl am See, Austria",
+    "website": "https://www.redbull.com"
+  },
+  {
+    "drink_name": "Red Bull Sugarfree",
+    "manufacturer": "Red Bull GmbH",
+    "location": "Fuschl am See, Austria",
+    "website": "https://www.redbull.com"
+  },
+  {
+    "drink_name": "Red Bull Zero",
+    "manufacturer": "Red Bull GmbH",
+    "location": "Fuschl am See, Austria",
+    "website": "https://www.redbull.com/"
+  },
+  {
+    "drink_name": "Red Devil Energy Drink",
+    "manufacturer": "Red Devil International",
+    "location": "Netherlands",
+    "website": "https://www.reddevilenergy.com/"
+  },
+  {
+    "drink_name": "Red Eye Energy Drink",
+    "manufacturer": "Tru Blu Beverages",
+    "location": "Australia",
+    "website": "https://www.trublubeverages.com.au/"
+  },
+  {
+    "drink_name": "Red Power Elixir",
+    "manufacturer": "N/A",
+    "location": "N/A",
+    "website": "N/A"
+  },
+  {
+    "drink_name": "Red Thunder Energy Drink",
+    "manufacturer": "Aldi",
+    "location": "Essen, Germany",
+    "website": "https://www.aldi.com/"
+  },
+  {
+    "drink_name": "Red Thunder Energy Shot",
+    "manufacturer": "Aldi",
+    "location": "Essen, Germany",
+    "website": "https://www.aldi.com/"
+  },
+  {
+    "drink_name": "Red Thunder Extra Strength",
+    "manufacturer": "Deutsche Extrakt Kaffee GmbH (for Aldi)",
+    "location": "Germany",
+    "website": "https://www.aldi.us"
+  },
+  {
+    "drink_name": "Redline Max 300",
+    "manufacturer": "VPX Sports",
+    "location": "Weston, Florida, USA",
+    "website": "https://bangenergy.com/"
+  },
+  {
+    "drink_name": "Redline Princess",
+    "manufacturer": "VPX Sports",
+    "location": "Weston, Florida, USA",
+    "website": "https://www.vpxsports.com/"
+  },
+  {
+    "drink_name": "Redline Xtreme Energy Drink",
+    "manufacturer": "VPX Sports",
+    "location": "Weston, Florida, USA",
+    "website": "https://vpxsports.com"
+  },
+  {
+    "drink_name": "Redline Xtreme Shot",
+    "manufacturer": "VPX Sports",
+    "location": "Weston, Florida, USA",
+    "website": "https://vpxsports.com"
+  },
+  {
+    "drink_name": "Reed's Ginger Energize Shot",
+    "manufacturer": "Reed's Inc.",
+    "location": "Norwalk, Connecticut, USA",
+    "website": "https://www.reedsinc.com/"
+  },
+  {
+    "drink_name": "Reign Storm",
+    "manufacturer": "Monster Beverage Corporation",
+    "location": "Corona, California, USA",
+    "website": "https://www.reignbodyfuel.com/"
+  },
+  {
+    "drink_name": "Reign Total Body Fuel",
+    "manufacturer": "Monster Beverage Corporation",
+    "location": "Corona, California, USA",
+    "website": "https://reignbodyfuel.com/"
+  },
+  {
+    "drink_name": "Revv Coffee Pods",
+    "manufacturer": "Keurig Dr Pepper",
+    "location": "Burlington, Massachusetts, USA",
+    "website": "https://www.keurig.com"
+  },
+  {
+    "drink_name": "Riot Energy",
+    "manufacturer": "Riot Energy, Inc.",
+    "location": "Los Angeles, California, USA",
+    "website": "https://www.riot.energy/"
+  },
+  {
+    "drink_name": "Rip It Energy Drink",
+    "manufacturer": "National Beverage Corp.",
+    "location": "Fort Lauderdale, Florida, USA",
+    "website": "https://www.ripitenergy.com/"
+  },
+  {
+    "drink_name": "Rip It Energy Shot",
+    "manufacturer": "National Beverage Corp.",
+    "location": "Fort Lauderdale, Florida, USA",
+    "website": "https://www.ripitenergy.com/"
+  },
+  {
+    "drink_name": "Rise Nitro Cold Brew Coffee",
+    "manufacturer": "RISE Brewing Co.",
+    "location": "New York, NY, USA",
+    "website": "https://www.risebrewingco.com"
+  },
+  {
+    "drink_name": "Ritz Cola",
+    "manufacturer": "Parle Agro",
+    "location": "India",
+    "website": "https://www.parleagro.com/"
+  },
+  {
+    "drink_name": "Roaring Lion Energy Drink",
+    "manufacturer": "Roaring Lion, LLC",
+    "location": "Los Angeles, California, USA",
+    "website": "https://www.roaringlion.com"
+  },
+  {
+    "drink_name": "Robusta Coffee",
+    "manufacturer": "N/A",
+    "location": "N/A",
+    "website": "N/A"
+  },
+  {
+    "drink_name": "Rockstar Boom",
+    "manufacturer": "Rockstar, Inc.",
+    "location": "Las Vegas, Nevada, USA",
+    "website": "https://www.rockstarenergy.com/"
+  },
+  {
+    "drink_name": "Rockstar Energy Drink (Original)",
+    "manufacturer": "PepsiCo",
+    "location": "Purchase, New York, USA",
+    "website": "https://www.rockstarenergy.com/"
+  },
+  {
+    "drink_name": "Rockstar Halo Infinite",
+    "manufacturer": "Rockstar Energy",
+    "location": "Purchase, New York, USA",
+    "website": "https://www.rockstarenergy.com/"
+  },
+  {
+    "drink_name": "Rockstar Juiced",
+    "manufacturer": "Rockstar, Inc.",
+    "location": "Purchase, New York, USA",
+    "website": "https://www.rockstarenergy.com/"
+  },
+  {
+    "drink_name": "Rockstar Organic Energy Drink",
+    "manufacturer": "Rockstar, Inc.",
+    "location": "Purchase, New York, USA",
+    "website": "https://www.rockstarenergy.com/"
+  },
+  {
+    "drink_name": "Rockstar Punched",
+    "manufacturer": "Rockstar, Inc.",
+    "location": "Purchase, New York, USA",
+    "website": "https://www.rockstarenergy.com/"
+  },
+  {
+    "drink_name": "Rockstar Pure Zero",
+    "manufacturer": "Rockstar, Inc.",
+    "location": "Purchase, New York, USA",
+    "website": "https://www.rockstarenergy.com/"
+  },
+  {
+    "drink_name": "Rockstar Recovery",
+    "manufacturer": "Rockstar, Inc.",
+    "location": "Purchase, New York, USA",
+    "website": "https://www.rockstarenergy.com/"
+  },
+  {
+    "drink_name": "Rockstar Sugar Free",
+    "manufacturer": "Rockstar, Inc.",
+    "location": "Las Vegas, Nevada, USA",
+    "website": "https://www.rockstarenergy.com/"
+  },
+  {
+    "drink_name": "Rockstar Thermo",
+    "manufacturer": "Rockstar, Inc.",
+    "location": "Purchase, New York, USA",
+    "website": "https://www.rockstarenergy.com/"
+  },
+  {
+    "drink_name": "Rockstar Unplugged",
+    "manufacturer": "PepsiCo",
+    "location": "Purchase, New York, USA",
+    "website": "https://www.rockstarenergy.com/"
+  },
+  {
+    "drink_name": "Rockstar XDurance",
+    "manufacturer": "PepsiCo",
+    "location": "Purchase, New York, USA",
+    "website": "https://www.rockstarenergy.com/"
+  },
+  {
+    "drink_name": "Rockstar Zero Carb",
+    "manufacturer": "Rockstar, Inc.",
+    "location": "Las Vegas, Nevada, USA",
+    "website": "https://www.rockstarenergy.com/"
+  },
+  {
+    "drink_name": "Rogue Energy Drink",
+    "manufacturer": "Rogue Energy",
+    "location": "Punta Gorda, Florida, USA",
+    "website": "https://rogueenergy.com"
+  },
+  {
+    "drink_name": "Rogue Energy Drink Mix",
+    "manufacturer": "Rogue Energy",
+    "location": "St. Petersburg, Florida, USA",
+    "website": "https://rogueenergy.com"
+  },
+  {
+    "drink_name": "RootJack Caffeinated Pirate Root Beer",
+    "manufacturer": "Vermont Sweetwater Bottling Company",
+    "location": "Poultney, Vermont, USA",
+    "website": "https://www.vermontsweetwater.com/"
+  },
+  {
+    "drink_name": "Rowdy Energy Drink",
+    "manufacturer": "Rowdy Energy, LLC",
+    "location": "Los Angeles, California, USA",
+    "website": "https://rowdyenergy.com"
+  },
+  {
+    "drink_name": "Ruby Red Squirt",
+    "manufacturer": "Keurig Dr Pepper",
+    "location": "Plano, Texas, USA",
+    "website": "https://www.squirt.com/"
+  },
+  {
+    "drink_name": "Runa",
+    "manufacturer": "Runa LLC",
+    "location": "New York, NY, USA",
+    "website": "https://www.runa.org/"
+  },
+  {
+    "drink_name": "Rush! Energy Drink",
+    "manufacturer": "Blue Coast Beverages",
+    "location": "South Africa",
+    "website": "https://www.rushenergy.co.za/"
+  },
+  {
+    "drink_name": "Ryse Fuel",
+    "manufacturer": "Ryse Supplements",
+    "location": "Frisco, Texas, USA",
+    "website": "https://www.rysesupps.com/"
+  },
+  {
+    "drink_name": "Sambazon Amazon Energy Drink",
+    "manufacturer": "Sambazon, Inc.",
+    "location": "San Clemente, California, USA",
+    "website": "https://www.sambazon.com/"
+  },
+  {
+    "drink_name": "Sarsaparilla",
+    "manufacturer": "N/A",
+    "location": "N/A",
+    "website": "N/A"
+  },
+  {
+    "drink_name": "Scheckters Energy Drink",
+    "manufacturer": "Scheckter's Organic Beverages Ltd.",
+    "location": "London, United Kingdom",
+    "website": "https://www.schecktersorganic.com/"
+  },
+  {
+    "drink_name": "Screamin Energy Max Hit",
+    "manufacturer": "Vital 4U",
+    "location": "California, USA",
+    "website": "https://vital4u.com"
+  },
+  {
+    "drink_name": "Seattle's Best Brewed Coffee",
+    "manufacturer": "Seattle's Best Coffee",
+    "location": "Seattle, Washington, USA",
+    "website": "https://www.seattlesbest.com/"
+  },
+  {
+    "drink_name": "Sencha Green Tea Shot",
+    "manufacturer": "N/A",
+    "location": "N/A",
+    "website": "N/A"
+  },
+  {
+    "drink_name": "Shasta Cola",
+    "manufacturer": "Shasta Beverages, Inc.",
+    "location": "Hayward, California, USA",
+    "website": "https://www.shastapop.com/"
+  },
+  {
+    "drink_name": "Shasta Diet Cola",
+    "manufacturer": "Shasta Beverages, Inc.",
+    "location": "Hayward, California, USA",
+    "website": "https://www.shastapop.com/"
+  },
+  {
+    "drink_name": "Shasta Mountain Rush",
+    "manufacturer": "Shasta Beverages, Inc.",
+    "location": "Hayward, California, USA",
+    "website": "https://www.shastapop.com/"
+  },
+  {
+    "drink_name": "Ski Soda",
+    "manufacturer": "Double Cola Company",
+    "location": "Chattanooga, Tennessee, USA",
+    "website": "https://doublecola.com/ski/"
+  },
+  {
+    "drink_name": "Slammers Energy Drink (EU)",
+    "manufacturer": "N/A",
+    "location": "European Union",
+    "website": "N/A"
+  },
+  {
+    "drink_name": "SlimFast Shake - Cappuccino",
+    "manufacturer": "SlimFast",
+    "location": "West Palm Beach, Florida, USA",
+    "website": "https://slimfast.com"
+  },
+  {
+    "drink_name": "Slurpee",
+    "manufacturer": "7-Eleven, Inc.",
+    "location": "Irving, Texas, USA",
+    "website": "https://www.7-eleven.com/slurpee"
+  },
+  {
+    "drink_name": "Snapple Tea",
+    "manufacturer": "Keurig Dr Pepper",
+    "location": "Burlington, Massachusetts, USA",
+    "website": "https://www.snapple.com/"
+  },
+  {
+    "drink_name": "Sneak Energy Drink Mix",
+    "manufacturer": "Sneak Energy Ltd.",
+    "location": "Manchester, United Kingdom",
+    "website": "https://sneakenergy.com"
+  },
+  {
+    "drink_name": "SoBe Energy Citrus",
+    "manufacturer": "PepsiCo",
+    "location": "Purchase, New York, USA",
+    "website": "https://www.sobe.com/"
+  },
+  {
+    "drink_name": "SoBe Green Tea",
+    "manufacturer": "PepsiCo",
+    "location": "Purchase, New York, USA",
+    "website": "https://www.sobe.com/"
+  },
+  {
+    "drink_name": "Soda Stream",
+    "manufacturer": "SodaStream International Ltd.",
+    "location": "Kfar Saba, Israel",
+    "website": "https://sodastream.com"
+  },
+  {
+    "drink_name": "Solimo Energy Drink",
+    "manufacturer": "Amazon",
+    "location": "Seattle, Washington, USA",
+    "website": "https://www.amazon.com/"
+  },
+  {
+    "drink_name": "Source 1899 (UK)",
+    "manufacturer": "Source Drinks Ltd",
+    "location": "London, United Kingdom",
+    "website": "https://sourcedrinks.co.uk/"
+  },
+  {
+    "drink_name": "Southern Sweet Tea",
+    "manufacturer": "N/A",
+    "location": "N/A",
+    "website": "N/A"
+  },
+  {
+    "drink_name": "Soylent Stacked",
+    "manufacturer": "Soylent Nutrition, Inc.",
+    "location": "Los Angeles, California, USA",
+    "website": "https://soylent.com"
+  },
+  {
+    "drink_name": "Spark Energy Drink Mix",
+    "manufacturer": "AdvoCare International, LLC",
+    "location": "Richardson, Texas, USA",
+    "website": "https://www.advocare.com"
+  },
+  {
+    "drink_name": "Sparkling Ice Caffeine",
+    "manufacturer": "Talking Rain Beverage Company",
+    "location": "Preston, Washington, USA",
+    "website": "https://www.sparklingice.com/"
+  },
+  {
+    "drink_name": "Speed Energy Fuel",
+    "manufacturer": "Speed Energy",
+    "location": "United States",
+    "website": "https://speedenergy.com/"
+  },
+  {
+    "drink_name": "Spider Energy Drink",
+    "manufacturer": "Spider Energy Drink, LLC",
+    "location": "Corona, California, USA",
+    "website": "http://www.spiderenergydrink.com"
+  },
+  {
+    "drink_name": "Spike Energy Double Shot",
+    "manufacturer": "Biotest Laboratories",
+    "location": "Colorado Springs, Colorado, USA",
+    "website": "https://www.spikeenergy.com/"
+  },
+  {
+    "drink_name": "Spike Hardcore Energy",
+    "manufacturer": "Biotest Laboratories",
+    "location": "Colorado Springs, Colorado, USA",
+    "website": "https://www.spikeenergy.com/"
+  },
+  {
+    "drink_name": "Spike Shooter",
+    "manufacturer": "Biotest Laboratories",
+    "location": "Colorado Springs, Colorado, USA",
+    "website": "https://www.spikeshooter.com/"
+  },
+  {
+    "drink_name": "Sprecher Cherry Cola",
+    "manufacturer": "Sprecher Brewing Co., Inc.",
+    "location": "Glendale, Wisconsin, USA",
+    "website": "https://sprecherbrewery.com"
+  },
+  {
+    "drink_name": "Sprite",
+    "manufacturer": "The Coca-Cola Company",
+    "location": "Atlanta, Georgia, USA",
+    "website": "https://www.sprite.com/"
+  },
+  {
+    "drink_name": "Squirt Soda",
+    "manufacturer": "Keurig Dr Pepper",
+    "location": "Plano, Texas, USA",
+    "website": "https://www.squirtsoda.com/"
+  },
+  {
+    "drink_name": "Stacker Extreme Energy Shot",
+    "manufacturer": "NVE Pharmaceuticals",
+    "location": "Andover, New Jersey, USA",
+    "website": "https://stacker2.com/"
+  },
+  {
+    "drink_name": "Starbucks 2X Coffee Pods",
+    "manufacturer": "Starbucks Corporation",
+    "location": "Seattle, Washington, USA",
+    "website": "https://www.starbucks.com/"
+  },
+  {
+    "drink_name": "Starbucks Bottled Iced Coffee",
+    "manufacturer": "PepsiCo (under license from Starbucks Corporation)",
+    "location": "Purchase, New York, USA",
+    "website": "https://www.starbucks.com/"
+  },
+  {
+    "drink_name": "Starbucks Canned Nitro Cold Brew",
+    "manufacturer": "Starbucks Corporation",
+    "location": "Seattle, Washington, USA",
+    "website": "https://www.starbucks.com"
+  },
+  {
+    "drink_name": "Starbucks Caramel Macchiato",
+    "manufacturer": "Starbucks Corporation",
+    "location": "Seattle, Washington, USA",
+    "website": "https://www.starbucks.com/"
+  },
+  {
+    "drink_name": "Starbucks Cold & Crafted",
+    "manufacturer": "Starbucks Corporation",
+    "location": "Seattle, Washington, USA",
+    "website": "https://www.starbucks.com"
+  },
+  {
+    "drink_name": "Starbucks Cold Brew Bottled",
+    "manufacturer": "Starbucks Corporation",
+    "location": "Seattle, Washington, USA",
+    "website": "https://www.starbucks.com"
+  },
+  {
+    "drink_name": "Starbucks Cold Brew Canned",
+    "manufacturer": "Starbucks Corporation",
+    "location": "Seattle, Washington, USA",
+    "website": "https://www.starbucks.com"
+  },
+  {
+    "drink_name": "Starbucks Cold Brew Coffee",
+    "manufacturer": "Starbucks Corporation",
+    "location": "Seattle, Washington, USA",
+    "website": "https://www.starbucks.com/"
+  },
+  {
+    "drink_name": "Starbucks Cordusio Mocha",
+    "manufacturer": "Starbucks",
+    "location": "Seattle, Washington, USA",
+    "website": "https://www.starbucks.com/"
+  },
+  {
+    "drink_name": "Starbucks Decaf Coffee",
+    "manufacturer": "Starbucks Corporation",
+    "location": "Seattle, Washington, USA",
+    "website": "https://www.starbucks.com"
+  },
+  {
+    "drink_name": "Starbucks Doubleshot Energy",
+    "manufacturer": "PepsiCo (in partnership with Starbucks)",
+    "location": "Purchase, New York, USA",
+    "website": "https://www.starbucks.com/"
+  },
+  {
+    "drink_name": "Starbucks Doubleshot Espresso",
+    "manufacturer": "Starbucks Corporation",
+    "location": "Seattle, Washington, USA",
+    "website": "https://www.starbucks.com/"
+  },
+  {
+    "drink_name": "Starbucks Frappuccino (Bottled)",
+    "manufacturer": "PepsiCo, Inc.",
+    "location": "Purchase, New York, USA",
+    "website": "https://www.starbucks.com/"
+  },
+  {
+    "drink_name": "Starbucks Grande Caffe Americano",
+    "manufacturer": "Starbucks Corporation",
+    "location": "Seattle, Washington, USA",
+    "website": "https://www.starbucks.com/"
+  },
+  {
+    "drink_name": "Starbucks Grande Caffe Latte",
+    "manufacturer": "Starbucks Corporation",
+    "location": "Seattle, Washington, USA",
+    "website": "https://www.starbucks.com/"
+  },
+  {
+    "drink_name": "Starbucks Grande Caffe Mocha",
+    "manufacturer": "Starbucks Corporation",
+    "location": "Seattle, Washington, USA",
+    "website": "https://www.starbucks.com/"
+  },
+  {
+    "drink_name": "Starbucks Grande Cappuccino",
+    "manufacturer": "Starbucks Corporation",
+    "location": "Seattle, Washington, USA",
+    "website": "https://www.starbucks.com/"
+  },
+  {
+    "drink_name": "Starbucks Grande Coffee",
+    "manufacturer": "Starbucks Corporation",
+    "location": "Seattle, Washington, USA",
+    "website": "https://www.starbucks.com"
+  },
+  {
+    "drink_name": "Starbucks Iced Americano",
+    "manufacturer": "Starbucks Corporation",
+    "location": "Seattle, Washington, USA",
+    "website": "https://www.starbucks.com"
+  },
+  {
+    "drink_name": "Starbucks Iced Espresso Classics",
+    "manufacturer": "Starbucks Corporation",
+    "location": "Seattle, Washington, USA",
+    "website": "https://www.starbucks.com"
+  },
+  {
+    "drink_name": "Starbucks Nitro Cold Brew Coffee",
+    "manufacturer": "Starbucks Corporation",
+    "location": "Seattle, Washington, USA",
+    "website": "https://www.starbucks.com"
+  },
+  {
+    "drink_name": "Starbucks Pink Drink",
+    "manufacturer": "Starbucks Corporation",
+    "location": "Seattle, Washington, USA",
+    "website": "https://www.starbucks.com/"
+  },
+  {
+    "drink_name": "Starbucks Pumpkin Cream Cold Brew",
+    "manufacturer": "Starbucks",
+    "location": "Seattle, Washington, USA",
+    "website": "https://www.starbucks.com/"
+  },
+  {
+    "drink_name": "Starbucks Refreshers",
+    "manufacturer": "Starbucks Corporation",
+    "location": "Seattle, Washington, USA",
+    "website": "https://www.starbucks.com"
+  },
+  {
+    "drink_name": "Starbucks Refreshers Canned",
+    "manufacturer": "Starbucks Corporation",
+    "location": "Seattle, Washington, USA",
+    "website": "https://www.starbucks.com/"
+  },
+  {
+    "drink_name": "Starbucks Triple Shot Energy",
+    "manufacturer": "PepsiCo (in partnership with Starbucks)",
+    "location": "Purchase, New York, USA",
+    "website": "https://www.starbucks.com/"
+  },
+  {
+    "drink_name": "Starbucks Verismo Coffee Pods",
+    "manufacturer": "Starbucks Corporation",
+    "location": "Seattle, Washington, USA",
+    "website": "https://www.starbucks.com/"
+  },
+  {
+    "drink_name": "Starbucks Via Ready Brew",
+    "manufacturer": "Starbucks Corporation",
+    "location": "Seattle, Washington, USA",
+    "website": "https://www.starbucks.com"
+  },
+  {
+    "drink_name": "Steaz Energy",
+    "manufacturer": "Steaz (Healthy Beverage, LLC)",
+    "location": "Doylestown, Pennsylvania, USA",
+    "website": "https://www.steaz.com/"
+  },
+  {
+    "drink_name": "Steep 18 Cold Brew",
+    "manufacturer": "Keurig Dr Pepper",
+    "location": "Burlington, Massachusetts, USA",
+    "website": "https://www.keurigdrpepper.com/"
+  },
+  {
+    "drink_name": "Sting Energy Drink",
+    "manufacturer": "PepsiCo",
+    "location": "Purchase, New York, USA",
+    "website": "https://www.pepsico.com/"
+  },
+  {
+    "drink_name": "Stipe Miocic Extra Strength Coffee",
+    "manufacturer": "Kill Cliff",
+    "location": "Atlanta, Georgia, USA",
+    "website": "https://killcliff.com"
+  },
+  {
+    "drink_name": "Stok Coffee Shots",
+    "manufacturer": "Danone North America",
+    "location": "White Plains, New York, USA",
+    "website": "https://www.stokbrew.com/"
+  },
+  {
+    "drink_name": "Stok Cold Brew",
+    "manufacturer": "Danone North America",
+    "location": "White Plains, New York, USA",
+    "website": "https://www.stokbrew.com/"
+  },
+  {
+    "drink_name": "Strike Force Energy Drink Mix",
+    "manufacturer": "Strike Force Beverage LLC",
+    "location": "Virginia Beach, Virginia, USA",
+    "website": "https://www.strikeforceenergy.com"
+  },
+  {
+    "drink_name": "Stumptown Cold Brew Coffee",
+    "manufacturer": "Stumptown Coffee Roasters",
+    "location": "Portland, Oregon, USA",
+    "website": "https://www.stumptowncoffee.com/"
+  },
+  {
+    "drink_name": "Stumptown Nitro Cold Brew",
+    "manufacturer": "Stumptown Coffee Roasters",
+    "location": "Portland, Oregon, USA",
+    "website": "https://www.stumptowncoffee.com"
+  },
+  {
+    "drink_name": "Sudden Instant Coffee",
+    "manufacturer": "Sudden Coffee",
+    "location": "San Francisco, California, USA",
+    "website": "https://www.suddencoffee.com/"
+  },
+  {
+    "drink_name": "Sun Drop Soda",
+    "manufacturer": "Keurig Dr Pepper",
+    "location": "Plano, Texas, USA",
+    "website": "https://www.sundrop.com/"
+  },
+  {
+    "drink_name": "Sunkist Orange Soda",
+    "manufacturer": "Keurig Dr Pepper",
+    "location": "Frisco, Texas, USA",
+    "website": "https://www.sunkistsoda.com/"
+  },
+  {
+    "drink_name": "Sunup Pure Green Coffee",
+    "manufacturer": "Sunup Inc.",
+    "location": "Honolulu, Hawaii, USA",
+    "website": "https://www.drinksunup.com"
+  },
+  {
+    "drink_name": "T-Virus Antidote",
+    "manufacturer": "Boston America Corp.",
+    "location": "Woburn, Massachusetts, USA",
+    "website": "https://www.bostonamerica.com/"
+  },
+  {
+    "drink_name": "Taft Coffee (EU)",
+    "manufacturer": "Taft Coffee",
+    "location": "Netherlands",
+    "website": "https://taftcoffee.com/"
+  },
+  {
+    "drink_name": "Taiwanese Milk Tea",
+    "manufacturer": "N/A",
+    "location": "Taiwan",
+    "website": "N/A"
+  },
+  {
+    "drink_name": "Taster's Choice Instant Coffee",
+    "manufacturer": "Nestl\u00e9",
+    "location": "Vevey, Switzerland",
+    "website": "https://www.nescafe.com/us/our-coffees/tasters-choice"
+  },
+  {
+    "drink_name": "Taurus Energy Drink",
+    "manufacturer": "MB Impex Ltd.",
+    "location": "United Kingdom",
+    "website": "https://www.mbimpex.com/"
+  },
+  {
+    "drink_name": "Tazo Chai",
+    "manufacturer": "Tazo",
+    "location": "Seattle, Washington, USA",
+    "website": "https://www.tazo.com/"
+  },
+  {
+    "drink_name": "Tea (Black)",
+    "manufacturer": "N/A",
+    "location": "N/A",
+    "website": "N/A"
+  },
+  {
+    "drink_name": "Tea (Decaf)",
+    "manufacturer": "N/A",
+    "location": "N/A",
+    "website": "N/A"
+  },
+  {
+    "drink_name": "Tea (Green)",
+    "manufacturer": "N/A",
+    "location": "N/A",
+    "website": "N/A"
+  },
+  {
+    "drink_name": "Tea (Herbal)",
+    "manufacturer": "N/A",
+    "location": "N/A",
+    "website": "N/A"
+  },
+  {
+    "drink_name": "Tea (Iced)",
+    "manufacturer": "N/A",
+    "location": "N/A",
+    "website": "N/A"
+  },
+  {
+    "drink_name": "Tea (Instant)",
+    "manufacturer": "N/A",
+    "location": "N/A",
+    "website": "N/A"
+  },
+  {
+    "drink_name": "Tea (Jasmine)",
+    "manufacturer": "N/A",
+    "location": "N/A",
+    "website": "N/A"
+  },
+  {
+    "drink_name": "Tea (Oolong)",
+    "manufacturer": "N/A",
+    "location": "N/A",
+    "website": "N/A"
+  },
+  {
+    "drink_name": "Tea (White)",
+    "manufacturer": "N/A",
+    "location": "N/A",
+    "website": "N/A"
+  },
+  {
+    "drink_name": "Teas' Tea Oolong",
+    "manufacturer": "ITO EN",
+    "location": "Tokyo, Japan",
+    "website": "https://www.itoen.com/"
+  },
+  {
+    "drink_name": "Teavana Tea",
+    "manufacturer": "Teavana (a subsidiary of Starbucks Corporation)",
+    "location": "Seattle, Washington, USA",
+    "website": "https://www.teavana.com/"
+  },
+  {
+    "drink_name": "Tejava Iced Tea",
+    "manufacturer": "Crystal Geyser Water Company",
+    "location": "California, USA",
+    "website": "https://www.tejava.com/"
+  },
+  {
+    "drink_name": "TENZING Natural Energy",
+    "manufacturer": "TENZING",
+    "location": "London, United Kingdom",
+    "website": "https://www.tenzingnaturalenergy.com/"
+  },
+  {
+    "drink_name": "Tiger Energy Drink",
+    "manufacturer": "Maspex",
+    "location": "Poland",
+    "website": "https://www.tigerenergy.pl/"
+  },
+  {
+    "drink_name": "Tim Hortons Large Brewed Coffee",
+    "manufacturer": "Tim Hortons",
+    "location": "Toronto, Ontario, Canada",
+    "website": "https://www.timhortons.ca/"
+  },
+  {
+    "drink_name": "Tim Hortons Small French Vanilla Coffee",
+    "manufacturer": "Tim Hortons",
+    "location": "Canada",
+    "website": "https://www.timhortons.ca/"
+  },
+  {
+    "drink_name": "Tonic Water",
+    "manufacturer": "N/A",
+    "location": "N/A",
+    "website": "N/A"
+  },
+  {
+    "drink_name": "Triton Energy Drink",
+    "manufacturer": "7-Eleven",
+    "location": "Irving, Texas, USA",
+    "website": "https://www.7-eleven.com"
+  },
+  {
+    "drink_name": "Tropicana Twister Soda",
+    "manufacturer": "PepsiCo",
+    "location": "Purchase, New York, USA",
+    "website": "https://www.pepsico.com/"
+  },
+  {
+    "drink_name": "Tru Energy Wakeup",
+    "manufacturer": "TRU",
+    "location": "United States",
+    "website": "https://drinktru.com/"
+  },
+  {
+    "drink_name": "TruBrain Extra",
+    "manufacturer": "TruBrain",
+    "location": "Santa Monica, California, USA",
+    "website": "https://www.trubrain.com/"
+  },
+  {
+    "drink_name": "True Lemon Energy Mix",
+    "manufacturer": "True Citrus",
+    "location": "Baltimore, Maryland, USA",
+    "website": "https://www.truelemon.com"
+  },
+  {
+    "drink_name": "TrueStart Performance Coffee",
+    "manufacturer": "TrueStart Coffee",
+    "location": "Bristol, United Kingdom",
+    "website": "https://www.truestartcoffee.com/"
+  },
+  {
+    "drink_name": "Turkey Hill Iced Tea",
+    "manufacturer": "Turkey Hill Dairy",
+    "location": "Conestoga, Pennsylvania, USA",
+    "website": "https://www.turkeyhill.com/"
+  },
+  {
+    "drink_name": "Turkish Coffee",
+    "manufacturer": "N/A",
+    "location": "Turkey",
+    "website": "N/A"
+  },
+  {
+    "drink_name": "Tweaker Energy Drink",
+    "manufacturer": "Bay Area Nutrition, LLC",
+    "location": "Houston, Texas, USA",
+    "website": "https://www.tweakerenergy.com/"
+  },
+  {
+    "drink_name": "Tweaker Shot",
+    "manufacturer": "NVE Pharmaceuticals",
+    "location": "Andover, New Jersey, USA",
+    "website": "https://www.nveusa.com/"
+  },
+  {
+    "drink_name": "Twig Tea (Kukicha)",
+    "manufacturer": "N/A",
+    "location": "Japan",
+    "website": "N/A"
+  },
+  {
+    "drink_name": "Ugly Energy Water",
+    "manufacturer": "Ugly Drinks",
+    "location": "New York, NY, USA",
+    "website": "https://uglydrinks.com"
+  },
+  {
+    "drink_name": "UPTIME Energy Drink",
+    "manufacturer": "UPTIME Energy",
+    "location": "Santa Monica, California, USA",
+    "website": "https://www.uptimeenergy.com/"
+  },
+  {
+    "drink_name": "USANA Rev3 Energy Drink",
+    "manufacturer": "USANA Health Sciences, Inc.",
+    "location": "Salt Lake City, Utah, USA",
+    "website": "https://www.usana.com"
+  },
+  {
+    "drink_name": "V Iced Coffee",
+    "manufacturer": "Frucor Suntory",
+    "location": "Auckland, New Zealand",
+    "website": "https://www.venergy.com.au/"
+  },
+  {
+    "drink_name": "V Energy Drink",
+    "manufacturer": "Frucor Suntory",
+    "location": "Auckland, New Zealand",
+    "website": "https://www.v.co.nz/"
+  },
+  {
+    "drink_name": "V8 +Energy Drink",
+    "manufacturer": "Campbell Soup Company",
+    "location": "Camden, New Jersey, USA",
+    "website": "https://www.v8juice.com/products/v8-energy/"
+  },
+  {
+    "drink_name": "Venom Death Adder",
+    "manufacturer": "Dr Pepper Snapple Group",
+    "location": "Plano, Texas, USA",
+    "website": "https://www.venomenergy.com/"
+  },
+  {
+    "drink_name": "Vernors Ginger Ale",
+    "manufacturer": "Dr Pepper Snapple Group (Keurig Dr Pepper)",
+    "location": "Plano, Texas, USA",
+    "website": "https://www.drpeppersnapplegroup.com/"
+  },
+  {
+    "drink_name": "Very Strong Coffee",
+    "manufacturer": "Very Strong Coffee Ltd",
+    "location": "United Kingdom",
+    "website": "https://www.verystrongcoffee.com/"
+  },
+  {
+    "drink_name": "Virtue Clean Energy Beverage",
+    "manufacturer": "Virtue Drinks",
+    "location": "London, United Kingdom",
+    "website": "https://www.virtuedrinks.com/"
+  },
+  {
+    "drink_name": "Viso Energy Drink",
+    "manufacturer": "Viso Beverage Company",
+    "location": "Portland, Oregon, USA",
+    "website": "https://visoenergy.com/"
+  },
+  {
+    "drink_name": "Vital 4U Liquid Energy",
+    "manufacturer": "PacificHealth Laboratories, Inc.",
+    "location": "Woodland, California, USA",
+    "website": "https://vital4u.com/"
+  },
+  {
+    "drink_name": "VitaminWater Energy",
+    "manufacturer": "The Coca-Cola Company",
+    "location": "Atlanta, Georgia, USA",
+    "website": "https://www.vitaminwater.com/"
+  },
+  {
+    "drink_name": "VitaRain Zero Enhanced Water",
+    "manufacturer": "Kirkland Signature",
+    "location": "Issaquah, Washington, USA",
+    "website": "https://www.costco.com/kirkland-signature.html"
+  },
+  {
+    "drink_name": "Voila Instant Coffee",
+    "manufacturer": "Voila",
+    "location": "Bend, Oregon, USA",
+    "website": "https://voila.coffee"
+  },
+  {
+    "drink_name": "Vuum",
+    "manufacturer": "Vuum Energy",
+    "location": "USA",
+    "website": "https://vuumenergy.com/"
+  },
+  {
+    "drink_name": "Waka Decaf Instant Coffee",
+    "manufacturer": "Waka Coffee",
+    "location": "Los Angeles, California, USA",
+    "website": "https://www.wakacoffee.com"
+  },
+  {
+    "drink_name": "Waka Indian Instant Coffee",
+    "manufacturer": "Waka Coffee & Tea",
+    "location": "Los Angeles, California, USA",
+    "website": "https://www.wakacoffee.com"
+  },
+  {
+    "drink_name": "Waka Instant Coffee",
+    "manufacturer": "Waka Coffee",
+    "location": "Los Angeles, California, USA",
+    "website": "https://www.wakacoffee.com"
+  },
+  {
+    "drink_name": "Waka Instant Tea",
+    "manufacturer": "Waka Coffee & Tea",
+    "location": "Los Angeles, California, USA",
+    "website": "https://www.wakacoffee.com/"
+  },
+  {
+    "drink_name": "Water Joe",
+    "manufacturer": "Water Joe, Inc.",
+    "location": "Minnesota, USA",
+    "website": "https://waterjoe.com/"
+  },
+  {
+    "drink_name": "Wave Soda",
+    "manufacturer": "Wave Soda, LLC",
+    "location": "San Marcos, California, USA",
+    "website": "https://www.wavesoda.com/"
+  },
+  {
+    "drink_name": "Wawa Coffee",
+    "manufacturer": "Wawa, Inc.",
+    "location": "Wawa, Pennsylvania, USA",
+    "website": "https://www.wawa.com"
+  },
+  {
+    "drink_name": "Wendy's Iced Tea",
+    "manufacturer": "Wendy's",
+    "location": "Dublin, Ohio, USA",
+    "website": "https://www.wendys.com/"
+  },
+  {
+    "drink_name": "Whipped (Dalgona) Coffee",
+    "manufacturer": "N/A",
+    "location": "N/A",
+    "website": "N/A"
+  },
+  {
+    "drink_name": "Wide Awake Coffee Cold Brew",
+    "manufacturer": "Wide Awake Coffee Co.",
+    "location": "Rochester, New York, USA",
+    "website": "https://www.wideawakecoffee.com/"
+  },
+  {
+    "drink_name": "Wide Awake Energy Coffee",
+    "manufacturer": "Wide Awake Coffee Co.",
+    "location": "Victor, New York, USA",
+    "website": "https://www.wideawakecoffee.com/"
+  },
+  {
+    "drink_name": "Wide Awake Iced Coffee Drinks",
+    "manufacturer": "Wide Awake Coffee Co.",
+    "location": "Buffalo, New York, USA",
+    "website": "https://www.wideawakecoffee.com/"
+  },
+  {
+    "drink_name": "Wild Cherry Pepsi",
+    "manufacturer": "PepsiCo",
+    "location": "Purchase, New York, USA",
+    "website": "https://www.pepsi.com/"
+  },
+  {
+    "drink_name": "Wild Tiger Energy Drink",
+    "manufacturer": "Wild Tiger Beverage Industries Co.",
+    "location": "Thailand",
+    "website": "http://www.wildtiger.co.th/"
+  },
+  {
+    "drink_name": "Wildcat Energy Drink (UK)",
+    "manufacturer": "Wildcat Energy Drink Ltd",
+    "location": "London, United Kingdom",
+    "website": "https://www.wildcatenergydrink.com/"
+  },
+  {
+    "drink_name": "Wired X 3000 Energy Drink",
+    "manufacturer": "Unique Beverage Company, LLC",
+    "location": "Everett, Washington, USA",
+    "website": "https://wiredenergy.com/"
+  },
+  {
+    "drink_name": "Wired X Berry Rush",
+    "manufacturer": "Wired Energy Drink",
+    "location": "USA",
+    "website": "http://wiredenergy.com/"
+  },
+  {
+    "drink_name": "Wired X344 Energy Drink",
+    "manufacturer": "Unique Beverage Company, LLC",
+    "location": "Everett, Washington, USA",
+    "website": "https://wiredenergy.com/"
+  },
+  {
+    "drink_name": "Woke Up Energy Shot",
+    "manufacturer": "Woke Up! Energy",
+    "location": "USA",
+    "website": "https://wokeupenergy.com/"
+  },
+  {
+    "drink_name": "X Ray Energy Drink",
+    "manufacturer": "CO-RO A/S",
+    "location": "Frederikssund, Denmark",
+    "website": "https://www.co-ro.com/"
+  },
+  {
+    "drink_name": "X-Mode Energy Shot",
+    "manufacturer": "X-Mode",
+    "location": "New York, USA",
+    "website": "https://xmodeenergy.com/"
+  },
+  {
+    "drink_name": "Xing Craft Brew",
+    "manufacturer": "XingTea",
+    "location": "Denver, Colorado, USA",
+    "website": "https://xingicedtea.com/"
+  },
+  {
+    "drink_name": "Xingtea Iced Green Tea",
+    "manufacturer": "New Age Beverages Corporation",
+    "location": "Denver, Colorado, USA",
+    "website": "https://xingtea.com/"
+  },
+  {
+    "drink_name": "XL Energy Drink (EU)",
+    "manufacturer": "XL Energy Drink",
+    "location": "Warsaw, Poland",
+    "website": "https://xl-energy.com/"
+  },
+  {
+    "drink_name": "XS Energy Drink",
+    "manufacturer": "Amway",
+    "location": "Ada, Michigan, USA",
+    "website": "https://www.xsenergydrink.com/"
+  },
+  {
+    "drink_name": "Xyience Energy Drink",
+    "manufacturer": "Big Red, Inc.",
+    "location": "Austin, Texas, USA",
+    "website": "https://xyience.com/"
+  },
+  {
+    "drink_name": "Yellow Tea",
+    "manufacturer": "N/A",
+    "location": "China",
+    "website": "N/A"
+  },
+  {
+    "drink_name": "Yerba Mate Tea",
+    "manufacturer": "N/A",
+    "location": "N/A",
+    "website": "N/A"
+  },
+  {
+    "drink_name": "Yerbae Sparkling Water",
+    "manufacturer": "Yerbae Brands Corp.",
+    "location": "Scottsdale, Arizona, USA",
+    "website": "https://yerbae.com"
+  },
+  {
+    "drink_name": "YMateina Yerba Mate",
+    "manufacturer": "YMateina",
+    "location": "Canada",
+    "website": "https://ymateina.com/"
+  },
+  {
+    "drink_name": "Zest Highly Caffeinated Tea",
+    "manufacturer": "Zest Tea",
+    "location": "Baltimore, Maryland, USA",
+    "website": "https://www.zesttea.com"
+  },
+  {
+    "drink_name": "Zest Sparkling Tea",
+    "manufacturer": "Zest Tea",
+    "location": "Baltimore, Maryland, USA",
+    "website": "https://www.zesttea.com/"
+  },
+  {
+    "drink_name": "Zevia Cola",
+    "manufacturer": "Zevia LLC",
+    "location": "Los Angeles, California, USA",
+    "website": "https://www.zevia.com"
+  },
+  {
+    "drink_name": "Zevia Energy Drink",
+    "manufacturer": "Zevia LLC",
+    "location": "Los Angeles, California, USA",
+    "website": "https://www.zevia.com"
+  },
+  {
+    "drink_name": "ZipFizz Energy Drink Mix",
+    "manufacturer": "Zipfizz Corporation",
+    "location": "Mill Creek, Washington, USA",
+    "website": "https://www.zipfizz.com/"
+  },
+  {
+    "drink_name": "Zoa Energy Drink",
+    "manufacturer": "Zoa Energy, LLC",
+    "location": "United States",
+    "website": "https://zoaenergy.com"
+  },
+  {
+    "drink_name": "Zola Coconut Water Espresso",
+    "manufacturer": "Zola",
+    "location": "San Francisco, California, USA",
+    "website": "https://www.livezola.com/"
+  },
+  {
+    "drink_name": "Zombie Blood Energy Potion",
+    "manufacturer": "Harcos Laboratories",
+    "location": "Los Angeles, California, USA",
+    "website": "https://www.harcoslabs.com/"
+  }
+]

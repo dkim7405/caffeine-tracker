@@ -1,4 +1,4 @@
-from flask import Flask, send_from_directory
+from flask import Flask
 from db_conn import db_conn
 
 app = Flask(__name__)
@@ -6,7 +6,7 @@ db = db_conn()
 
 @app.route('/')
 def home():
-    return "<h1>Welcome to the Flask App!</h1>"
+    return "Server is running!"
 
 if __name__ == '__main__':
     app.run(

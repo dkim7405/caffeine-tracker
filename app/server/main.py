@@ -13,10 +13,6 @@ db.connect()
 def home():
     return "Server is running!"
 
-@app.route('/health')
-def health():
-    return jsonify({'status': 'ok'})
-
 @app.route('/drinks', methods=['GET'])
 def get_drinks():
     sql = """
@@ -33,6 +29,64 @@ def get_drinks():
         ])
     except Exception as e:
         return jsonify({'error': str(e)}), 500
+    
+@app.route('/drinks/<int:drink_id>', methods=['GET'])
+def get_drink_details(drink_id):
+    sql = """
+    EXECUTE dbo.sp_getDrinkDetails @drinkid = ?
+    """
+
+    try:
+        db.cursor.execute(sql, [drink_id])
+        rows = db.cursor.fetchall()
+        cols = [col[0] for col in db.cursor.description]
+
+        if not rows:
+            return jsonify({'error': 'Drink not found'}), 404
+
+        return jsonify([
+            dict(zip(cols, row)) for row in rows
+        ])
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+@app.route('/servingsizes/<string:drink_type>', methods=['GET'])
+def get_serving_sizes(drink_type):
+    sql = """
+    EXECUTE dbo.sp_getServingSizes @drink_type_name = ?
+    """
+
+    try:
+        db.cursor.execute(sql, [drink_type])
+        rows = db.cursor.fetchall()
+        cols = [col[0] for col in db.cursor.description]
+
+        if not rows:
+            return jsonify({'message': 'No serving sizes found'}), 404
+
+        return jsonify([dict(zip(cols, row)) for row in rows])
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+    
+@app.route('/addDrink', methods=['POST'])
+def add_drink():
+    data = request.get_json()
+    
+    user_id = data.get('user_id')
+    drink_id = data.get('drink_id')
+    total_amount = data.get('total_amount')
+
+    try:
+        sql = """
+        EXEC dbo.sp_insertAdd @userid = ?, @drinkid = ?, @totalamount = ?
+        """
+        db.cursor.execute(sql, [user_id, drink_id, total_amount])
+        db.connection.commit()
+
+        return jsonify({'message': 'Drink added successfully'}), 200
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
     
 if __name__ == '__main__':
     app.run(

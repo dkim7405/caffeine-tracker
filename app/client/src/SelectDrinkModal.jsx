@@ -1,22 +1,18 @@
-import { useState, useEffect, useMemo } from 'react';
+import { useState, useEffect } from 'react';
 import { X, Search, ArrowRight } from 'lucide-react';
 import PropTypes from 'prop-types';
-import DrinksManager from './DrinksManager';
 
 function SelectDrinkModal({ drinks, onClose, onConfirm }) {
     const [searchTerm, setSearchTerm] = useState('');
     const [filtered, setFiltered] = useState([]);
     const [selected, setSelected] = useState(null);
 
-    const manager = useMemo(() => {
-        const m = new DrinksManager(drinks);
-        m.load();
-        return m;
-    }, [drinks]);
-
     useEffect(() => {
-        setFiltered(manager.searchDrinks(searchTerm));
-    }, [searchTerm, manager]);
+        const results = drinks.filter((drink) =>
+            drink.name.toLowerCase().includes(searchTerm.toLowerCase())
+        );
+        setFiltered(results);
+    }, [searchTerm, drinks]);
 
     return (
         <div className="flex flex-col h-full">
@@ -105,7 +101,6 @@ function DrinkItem({ drink }) {
         </div>
     );
 }
-
 SelectDrinkModal.propTypes = {
     drinks: PropTypes.array.isRequired,
     onClose: PropTypes.func.isRequired,

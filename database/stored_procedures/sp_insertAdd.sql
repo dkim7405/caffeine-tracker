@@ -1,9 +1,9 @@
 USE FinalProject_S1G6
 GO
 
-CREATE OR ALTER PROCEDURE AddLog
+CREATE OR ALTER PROCEDURE sp_insertAdd
     @userid int,
-    @drinkid int = null,
+    @drinkid int,
     @totalamount float
 AS
 BEGIN

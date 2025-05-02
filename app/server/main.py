@@ -89,10 +89,6 @@ def add_drink():
     except Exception as e:
         return jsonify({'error': str(e)}), 500
 
-    
-
-
-
 @app.route("/api/login", methods=["POST"])
 def login():
     data = request.form
@@ -147,8 +143,6 @@ def register():
     data.get("caffeine_limit"),
     data.get("date_of_birth")
 ))
-
-
         # Get user ID
         db.cursor.execute("SELECT id FROM [User] WHERE username = ?", (username,))
         user_id = db.cursor.fetchone()[0]
@@ -161,8 +155,6 @@ def register():
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 
-
-    
 if __name__ == '__main__':
     app.run(
         debug=True,

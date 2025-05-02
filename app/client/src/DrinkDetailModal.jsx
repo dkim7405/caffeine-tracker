@@ -52,7 +52,7 @@ function DrinkDetailModal({ drink, servingSizes, onBack, onConfirm, onClose }) {
                 <button onClick={onClose} className="absolute top-3 right-4 text-white hover:text-white/60">
                     <X className="w-5 h-5" />
                 </button>
-                Confirm Drink
+                {drink.drink_name || drink.name}
             </div>
 
             {/* Body */}

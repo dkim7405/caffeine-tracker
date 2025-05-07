@@ -17,6 +17,7 @@ def home():
 
 @app.route('/drinks', methods=['GET'])
 def get_drinks():
+
     sql = """
     SELECT * FROM dbo.Drink ORDER BY name
     """

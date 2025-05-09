@@ -5,6 +5,8 @@ CREATE OR ALTER PROCEDURE sp_readAdd
     @userid INT
 AS
 BEGIN
+    SET NOCOUNT ON;
+
     -- Check if the user exists
     IF NOT EXISTS (
         SELECT 1 FROM dbo.[User] WHERE id = @userid

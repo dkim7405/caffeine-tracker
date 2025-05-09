@@ -1,10 +1,12 @@
 USE FinalProject_S1G6
 GO
 
-CREATE PROCEDURE sp_getServingSizes
+CREATE OR ALTER PROCEDURE sp_getServingSizes
     @drink_type_name NVARCHAR(50)
 AS
 BEGIN
+    SET NOCOUNT ON;
+
     SELECT 
         ss.id AS serving_id,
         ss.name AS serving_name,

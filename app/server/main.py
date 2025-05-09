@@ -12,11 +12,11 @@ db.connect()
 
 @app.route('/')
 def home():
-    return "Server is running!"
+    return "Server is running!" 
 
 @app.route('/drinks', methods=['GET'])
 def get_drinks():
-    sql = "SELECT * FROM dbo.Drink ORDER BY name"
+    sql = "EXECUTE dbo.sp_getDrinks"
     try:
         db.cursor.execute(sql)
         rows = db.cursor.fetchall()

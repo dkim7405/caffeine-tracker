@@ -15,8 +15,8 @@ function App() {
             <Routes>
                 <Route path="/" element={<Login />} />
                 <Route path="/register" element={<Register />} />
-                <Route path="/home" element={<Home userId={1} db={db} />} />
-                <Route path="/logs" element={<Logs userId={1} db={db} />} />
+                <Route path="/home" element={<Home userId={10} db={db} />} />
+                <Route path="/logs" element={<Logs userId={10} db={db} />} />
             </Routes>
         </Router>
     );

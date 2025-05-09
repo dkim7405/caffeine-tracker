@@ -6,6 +6,8 @@ CREATE OR ALTER PROCEDURE sp_deleteAdd
     @time_added DATETIME
 AS
 BEGIN
+    SET NOCOUNT ON;
+
     -- If the user exists
     IF NOT EXISTS (
         SELECT 1 FROM dbo.[User] WHERE id = @userid

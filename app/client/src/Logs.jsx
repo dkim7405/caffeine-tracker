@@ -35,7 +35,7 @@ function Logs({ userId, db }) {
         setEditingDate(date);
         setEditingTime(time);
         setEditCaffeine(String(entry.total_amount));
-        setEditDrinkType(entry.drink_name || '');
+        setEditDrinkType(entry.drink_id);
     };
 
     const handleSaveEdit = async () => {
@@ -76,7 +76,9 @@ function Logs({ userId, db }) {
     };
 
     useEffect(() => {
-        if (userId && db) fetchLogs();
+        if (userId && db) {
+            fetchLogs();
+        }
     }, [userId, db]);
 
     if (!userId) {
@@ -93,6 +95,7 @@ function Logs({ userId, db }) {
             </div>
             <div className="p-4 flex-1">
                 <LogsList
+                    db={db}
                     logs={addsData}
                     editingTime={editingTime}
                     editingDate={editingDate}

@@ -8,6 +8,8 @@ CREATE OR ALTER PROCEDURE sp_updateAdd
     @new_totalamount FLOAT
 AS
 BEGIN
+    SET NOCOUNT ON;
+
     -- If the user exists
     IF NOT EXISTS (
         SELECT 1 FROM dbo.[User] WHERE id = @userid

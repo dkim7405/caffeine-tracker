@@ -1,10 +1,11 @@
 import { Plus } from 'lucide-react';
 import React, { useState } from 'react';
+import PropTypes from 'prop-types';
 
 import GaugeChart from './GaugeChart';
 import AddCaffeineModal from './AddCaffeineModal';
 
-function Home() {
+function Home({ userId, db }) {
     const [isModalOpen, setIsModalOpen] = useState(false);
 
     return (
@@ -20,12 +21,18 @@ function Home() {
 
             {isModalOpen && (
                 <AddCaffeineModal
-                    userId={1}
+                    userId={userId}
+                    db={db}
                     onClose={() => setIsModalOpen(false)}
                 />
             )}
         </div>
     );
 }
+
+Home.propTypes = {
+    userId: PropTypes.number.isRequired,
+    db: PropTypes.object.isRequired,
+};
 
 export default Home;

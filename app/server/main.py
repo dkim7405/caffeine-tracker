@@ -1,12 +1,11 @@
 import os
-import hashlib
-import uuid
 from flask import Flask, jsonify, request
 from flask_cors import CORS
 from db_conn import db_conn
+from datetime import datetime
 
 app = Flask(__name__)
-CORS(app) # Enable CORS for all routes
+CORS(app)
 
 db = db_conn()
 db.connect()
@@ -17,28 +16,19 @@ def home():
 
 @app.route('/drinks', methods=['GET'])
 def get_drinks():
-
-    sql = """
-    SELECT * FROM dbo.Drink ORDER BY name
-    """
-
+    sql = "SELECT * FROM dbo.Drink ORDER BY name"
     try:
         db.cursor.execute(sql)
         rows = db.cursor.fetchall()
         cols = [col[0] for col in db.cursor.description]
 
-        return jsonify([
-            dict(zip(cols, row)) for row in rows
-        ])
+        return jsonify([dict(zip(cols, row)) for row in rows]), 200
     except Exception as e:
         return jsonify({'error': str(e)}), 500
-    
+
 @app.route('/drinks/<int:drink_id>', methods=['GET'])
 def get_drink_details(drink_id):
-    sql = """
-    EXECUTE dbo.sp_getDrinkDetails @drinkid = ?
-    """
-
+    sql = "EXECUTE dbo.sp_getDrinkDetails @drinkid = ?"
     try:
         db.cursor.execute(sql, [drink_id])
         rows = db.cursor.fetchall()
@@ -46,19 +36,14 @@ def get_drink_details(drink_id):
 
         if not rows:
             return jsonify({'error': 'Drink not found'}), 404
-
-        return jsonify([
-            dict(zip(cols, row)) for row in rows
-        ])
+        
+        return jsonify([dict(zip(cols, row)) for row in rows]), 200
     except Exception as e:
         return jsonify({'error': str(e)}), 500
 
 @app.route('/servingsizes/<string:drink_type>', methods=['GET'])
 def get_serving_sizes(drink_type):
-    sql = """
-    EXECUTE dbo.sp_getServingSizes @drink_type_name = ?
-    """
-
+    sql = "EXECUTE dbo.sp_getServingSizes @drink_type_name = ?"
     try:
         db.cursor.execute(sql, [drink_type])
         rows = db.cursor.fetchall()
@@ -66,98 +51,91 @@ def get_serving_sizes(drink_type):
 
         if not rows:
             return jsonify({'message': 'No serving sizes found'}), 404
-
-        return jsonify([dict(zip(cols, row)) for row in rows])
+        
+        return jsonify([dict(zip(cols, row)) for row in rows]), 200
     except Exception as e:
         return jsonify({'error': str(e)}), 500
-    
-@app.route('/addDrink', methods=['POST'])
-def add_drink():
+
+@app.route('/users/<int:user_id>/adds', methods=['GET'])
+def get_user_adds(user_id):
+    sql = "EXECUTE dbo.sp_readAdd @userid = ?"
+    try:
+        db.cursor.execute(sql, [user_id])
+        rows = db.cursor.fetchall()
+        cols = [col[0] for col in db.cursor.description]
+
+        result = []
+
+        for row in rows:
+            record = dict(zip(cols, row))
+            time_added = record.get('time_added')
+
+            if isinstance(time_added, datetime):
+                # DateTime matching SQL Server format
+                record['time_added'] = time_added.strftime('%Y-%m-%dT%H:%M:%S.%f')
+
+            result.append(record)
+        
+        return jsonify(result), 200
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+@app.route('/users/<int:user_id>/adds', methods=['POST'])
+def add_drink(user_id):
     data = request.get_json()
-    
-    user_id = data.get('user_id')
     drink_id = data.get('drink_id')
     total_amount = data.get('total_amount')
 
+    sql = "EXEC dbo.sp_insertAdd @userid = ?, @drinkid = ?, @totalamount = ?"
+
     try:
-        sql = """
-        EXEC dbo.sp_insertAdd @userid = ?, @drinkid = ?, @totalamount = ?
-        """
         db.cursor.execute(sql, [user_id, drink_id, total_amount])
         db.connection.commit()
-
-        return jsonify({'message': 'Drink added successfully'}), 200
+        return jsonify({'message': 'Drink added successfully'}), 201
     except Exception as e:
         return jsonify({'error': str(e)}), 500
 
-@app.route("/api/login", methods=["POST"])
-def login():
-    data = request.form
-    username = data.get("username")
-    password = data.get("password")
+# path = allows slashes and punctuations
+@app.route('/users/<int:user_id>/adds/<path:time_added>', methods=['PUT'])
+def update_drink(user_id, time_added):
+    data = request.get_json()
+    new_drink_id = data.get('new_drink_id')
+    new_total_amount = data.get('new_total_amount')
 
-    try:
-        db.cursor.execute("SELECT id FROM [User] WHERE username = ?", (username,))
-        user_row = db.cursor.fetchone()
-        if not user_row:
-            return jsonify({"error": "Invalid username"}), 401
-
-        user_id = user_row[0]
-
-        db.cursor.execute("SELECT password_hash, salt FROM [Login] WHERE user_id = ?", (user_id,))
-        row = db.cursor.fetchone()
-        if not row:
-            return jsonify({"error": "Login credentials not found"}), 401
-
-        stored_hash, salt = row
-        input_hash = hashlib.sha256((password + salt).encode()).hexdigest()
-
-        if input_hash == stored_hash:
-            return jsonify({"message": "Login successful"})
-        else:
-            return jsonify({"error": "Invalid password"}), 401
-
-    except Exception as e:
-        return jsonify({"error": str(e)}), 500
+    if new_total_amount is None:
+        return jsonify({'error': 'Missing required fields'}), 400
     
-
-@app.route("/api/register", methods=["POST"])
-def register():
-    data = request.form
-    username = data.get("username")
-    password = data.get("password")
-    salt = uuid.uuid4().hex
-    password_hash = hashlib.sha256((password + salt).encode()).hexdigest()
+    try:
+        # Expect ISO with full microseconds
+        dt = datetime.strptime(time_added, '%Y-%m-%dT%H:%M:%S.%f')
+    except ValueError:
+        return jsonify({'error': 'Invalid datetime format'}), 400
+    
+    sql = "EXEC dbo.sp_updateAdd @userid = ?, @time_added = ?, @new_drinkid = ?, @new_totalamount = ?"
 
     try:
-        # Insert into User table
-        db.cursor.execute("""
-    INSERT INTO [User](username, first_name, middle_name, last_name, gender, body_weight, caffeine_limit, date_of_birth)
-    VALUES (?, ?, ?, ?, ?, ?, ?, ?)
-""", (
-    username,
-    data.get("first_name"),
-    data.get("middle_name"),
-    data.get("last_name"),
-    data.get("gender"),
-    data.get("body_weight"),
-    data.get("caffeine_limit"),
-    data.get("date_of_birth")
-))
-        # Get user ID
-        db.cursor.execute("SELECT id FROM [User] WHERE username = ?", (username,))
-        user_id = db.cursor.fetchone()[0]
-
-        # Insert into Login table
-        db.cursor.execute("INSERT INTO [Login](user_id, password_hash, salt) VALUES (?, ?, ?)", (user_id, password_hash, salt))
+        db.cursor.execute(sql, [user_id, dt, new_drink_id, new_total_amount])
         db.connection.commit()
-
-        return jsonify({"message": "Registration successful"})
+        return jsonify({'message': 'Drink updated successfully'}), 200
     except Exception as e:
-        return jsonify({"error": str(e)}), 500
+        return jsonify({'error': str(e)}), 500
+
+# path: allows slashes and punctuations
+@app.route('/users/<int:user_id>/adds/<path:time_added>', methods=['DELETE'])
+def delete_drink(user_id, time_added):
+    try:
+        dt = datetime.strptime(time_added, '%Y-%m-%dT%H:%M:%S.%f')
+    except ValueError:
+        return jsonify({'error': 'Invalid datetime format'}), 400
+    
+    sql = "EXEC dbo.sp_deleteAdd @userid = ?, @time_added = ?"
+
+    try:
+        db.cursor.execute(sql, [user_id, dt])
+        db.connection.commit()
+        return jsonify({'message': 'Drink deleted successfully'}), 200
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
 
 if __name__ == '__main__':
-    app.run(
-        debug=True,
-        port=5000
-    )
+    app.run(debug=True, port=5000)

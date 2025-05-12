@@ -1,10 +1,5 @@
 USE [FinalProject_S1G6]
 GO
- 
-SET ANSI_NULLS ON
-GO
-SET QUOTED_IDENTIFIER ON
-GO
 
 CREATE OR ALTER PROCEDURE [dbo].[sp_update_user]
   @user_id         INT,

@@ -163,6 +163,44 @@ class DBManager {
         }
     }
 
+    async updateUserProfile(userData) {
+        try {
+            const response = await fetch(`${this.base_url}/api/user/update`, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+                body: new URLSearchParams(userData)
+            });
+    
+            const data = await response.json();
+            if (!response.ok) {
+                throw new Error(data.error || `HTTP ${response.status}`);
+            }
+            return data;
+        } catch (error) {
+            console.error('Update error:', error);
+            throw error;
+        }
+    }
+
+    async deleteUser(userId) {
+        try {
+            const response = await fetch(`${this.base_url}/api/user/delete`, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+                body: new URLSearchParams({ userId })
+            });
+    
+            const data = await response.json();
+            if (!response.ok) {
+                throw new Error(data.error || `HTTP ${response.status}`);
+            }
+            return data;
+        } catch (error) {
+            console.error('Delete error:', error);
+            throw error;
+        }
+    }
+
     async register({
         username,
         password,

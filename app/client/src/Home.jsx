@@ -1,12 +1,15 @@
 import { Plus } from 'lucide-react';
-import React, { useState,useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
+import PropTypes from 'prop-types';
+
 // import { useNavigate } from "react-router-dom";
+
 import GaugeChart from './GaugeChart';
 import LogoutButton from './LogoutButton';
 import AddCaffeineModal from './AddCaffeineModal';
 import { Navigate }    from "react-router-dom";
 
-function Home() {
+function Home({ userId, db }) {
   const [isModalOpen, setIsModalOpen]     = useState(false);
   const [todayCaffeine, setTodayCaffeine] = useState(0);
   const userId = localStorage.getItem('user_id');
@@ -52,17 +55,19 @@ function Home() {
             </button>
 
             {isModalOpen && (
-            <AddCaffeineModal
-              userId={Number(userId)}
-              onClose={() => setIsModalOpen(false)}          
-              onSuccess={() => {                            
-                fetchTodayCaffeine();                       
-                setIsModalOpen(false);                    
-              }}
-            />
-          )}
+                <AddCaffeineModal
+                    userId={userId}
+                    db={db}
+                    onClose={() => setIsModalOpen(false)}
+                />
+            )}
         </div>
     );
 }
+
+Home.propTypes = {
+    userId: PropTypes.number.isRequired,
+    db: PropTypes.object.isRequired,
+};
 
 export default Home;

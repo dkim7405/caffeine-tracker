@@ -2,14 +2,13 @@ import { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import SelectDrinkModal from './SelectDrinkModal';
 import DrinkDetailModal from './DrinkDetailModal';
-import DBManager from './DBManager';
 
+function AddCaffeineModal({ userId, db, onClose }) {
 function AddCaffeineModal({ userId, onClose, onSuccess }) {
     const [step, setStep] = useState('select');
     const [drinks, setDrinks] = useState([]);
     const [selectedDrink, setSelectedDrink] = useState(null);
     const [servingSizes, setServingSizes] = useState([]);
-    const db = new DBManager('http://localhost:5000');
 
     useEffect(() => {
         const loadDrinks = async () => {
@@ -21,7 +20,7 @@ function AddCaffeineModal({ userId, onClose, onSuccess }) {
             }
         };
         loadDrinks();
-    }, []);
+    }, [db]);
 
     const handleSelectConfirm = async (drink) => {
         try {
@@ -39,23 +38,20 @@ function AddCaffeineModal({ userId, onClose, onSuccess }) {
 
     const handleFinalConfirm = async (drinkWithSize) => {
         if (!drinkWithSize) return;
-    
+
         const { mg_per_oz, selectedSize, customAmount, customUnit, id: drinkId } = drinkWithSize;
-    
+
         let totalOz = 0;
-    
+
         if (selectedSize) {
             totalOz = selectedSize.amount_oz;
         } else if (customAmount) {
             const amount = Number(customAmount);
             totalOz = customUnit === 'oz' ? amount : amount / 29.5735;
         }
-    
+
         const caffeine = Math.round(totalOz * mg_per_oz);
-    
-        console.log(`Caffeine Intake: ${caffeine} mg from ${totalOz.toFixed(2)} oz`);
-        console.log(`Drink ID: ${drinkId}`);
-    
+
         try {
             await db.addDrinkEntry(userId, drinkId, caffeine);
             // onClose();
@@ -66,8 +62,6 @@ function AddCaffeineModal({ userId, onClose, onSuccess }) {
             alert("Failed to add drink");
         }
     };
-    
-    
 
     return (
         <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-20">
@@ -97,6 +91,7 @@ function AddCaffeineModal({ userId, onClose, onSuccess }) {
 
 AddCaffeineModal.propTypes = {
     userId: PropTypes.number.isRequired,
+    db: PropTypes.object.isRequired,
     onClose: PropTypes.func.isRequired,
     onSuccess: PropTypes.func
 };

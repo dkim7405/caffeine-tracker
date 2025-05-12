@@ -7,6 +7,8 @@ CREATE OR ALTER PROCEDURE sp_insertAdd
     @totalamount float
 AS
 BEGIN
+    SET NOCOUNT ON;
+
     IF NOT EXISTS (
         SELECT 1 FROM dbo.[User] WHERE id = @userid
     )

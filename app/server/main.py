@@ -248,9 +248,10 @@ def register():
         data.get("gender"),          
         data.get("body_weight"),       
         data.get("caffeine_limit"),    
-        data.get("date_of_birth")      
+        data.get("date_of_birth")
+    ]      
 
-      try:
+    try:
         db.cursor.execute(
             "EXEC dbo.sp_create_user ?,?,?,?,?,?,?,?,?,?",
             params
@@ -269,7 +270,7 @@ def register():
 
         return jsonify({"message": "Registration successful",
                         "userId": new_id}), 201
-
+    
     except Exception as e:
         db.connection.rollback()
         return jsonify({"error": str(e)}), 500

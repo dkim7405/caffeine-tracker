@@ -22,7 +22,7 @@ class db_conn:
             raise ValueError("Username and password cannot be NULL.")
         
         self.connection = None
-        self.cursor = None
+        # self.cursor = None
     
     def connect(self):
         connection_string = f"""
@@ -31,6 +31,7 @@ class db_conn:
             DATABASE={self.database_name};
             UID={self.username};
             PWD={self.password};
+            MARS_Connection=Yes;
         """
         
         try:
@@ -39,6 +40,11 @@ class db_conn:
             print("\nConnected to the database successfully.\n")
         except odbc.DatabaseError as e:
             print(f"Database connection error: {e}")
+
+    def get_cursor(self):
+        if not self.connection:
+            raise ValueError("No active database connection.")
+        return self.connection.cursor()
     
     def close(self):
         if self.cursor:

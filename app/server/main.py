@@ -68,7 +68,7 @@ def get_user_adds(user_id):
         cols = [col[0] for col in db.cursor.description]
 
         result = []
-
+        
         for row in rows:
             record = dict(zip(cols, row))
             time_added = record.get('time_added')
@@ -78,7 +78,6 @@ def get_user_adds(user_id):
                 record['time_added'] = time_added.strftime('%Y-%m-%dT%H:%M:%S.%f')
 
             result.append(record)
-        
         return jsonify(result), 200
     except Exception as e:
         return jsonify({'error': str(e)}), 500
@@ -90,7 +89,7 @@ def add_drink(user_id):
     total_amount = data.get('total_amount')
 
     sql = "EXEC dbo.sp_insertAdd @userid = ?, @drinkid = ?, @totalamount = ?"
-
+    
     try:
         db.cursor.execute(sql, [user_id, drink_id, total_amount])
         db.connection.commit()
@@ -122,8 +121,8 @@ def update_drink(user_id, time_added):
         return jsonify({'message': 'Drink updated successfully'}), 200
     except Exception as e:
         return jsonify({'error': str(e)}), 500
-    
-    # path: allows slashes and punctuations
+
+# path: allows slashes and punctuations
 @app.route('/users/<int:user_id>/adds/<path:time_added>', methods=['DELETE'])
 def delete_drink(user_id, time_added):
     try:
@@ -138,29 +137,93 @@ def delete_drink(user_id, time_added):
         db.connection.commit()
         return jsonify({'message': 'Drink deleted successfully'}), 200
     except Exception as e:
-        return jsonify({"error": str(e)}), 500
+        return jsonify({'error': str(e)}), 500
+    
+@app.route('/api/user/update', methods=['POST'])
+def update_user():
+    try:
+        user_id = request.form.get('userId')
+        username = request.form.get('username')
+        first_name = request.form.get('first_name')
+        middle_name = request.form.get('middle_name')
+        last_name = request.form.get('last_name')
+        gender = request.form.get('gender')
+        body_weight = request.form.get('body_weight')
+        caffeine_limit = request.form.get('caffeine_limit')
 
-@app.route("/api/login", methods=["POST"])
+        date_of_birth_str = request.form.get('date_of_birth')
+        date_of_birth = None
+        if date_of_birth_str and date_of_birth_str.strip():
+            try:
+                date_of_birth = datetime.strptime(date_of_birth_str, "%Y-%m-%d")
+            except ValueError:
+                return jsonify({'error': 'Invalid date format. Use YYYY-MM-DD'}), 
+
+        if not user_id:
+            return jsonify({'error': 'userId is required'}), 400
+
+        sql = """
+        EXEC dbo.sp_update_user
+          @user_id = ?,
+          @username = ?,
+          @first_name = ?,
+          @middle_name = ?,
+          @last_name = ?,
+          @gender = ?,
+          @body_weight = ?,
+          @caffeine_limit = ?,
+          @date_of_birth = ?
+        """
+
+        params = [
+            user_id,
+            username,
+            first_name,
+            middle_name,
+            last_name,
+            gender,
+            float(body_weight) if body_weight else None,
+            int(caffeine_limit) if caffeine_limit else None,
+            date_of_birth
+        ]
+
+        db.cursor.execute(sql, params)
+        db.connection.commit()
+        return jsonify({'message': 'User profile updated successfully'}), 200
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+@app.route('/api/login', methods=['POST'])
 def login():
-    data = request.form
-    username = data.get("username")
-    password = data.get("password")
+    username = request.form.get('username')
+    password = request.form.get('password')
+
+    if not username or not password:
+        return jsonify({'error': 'Missing username or password'}), 400
 
     try:
-        db.cursor.execute("EXEC dbo.sp_getLoginInfo @username = ?", (username,))
+        sql = """
+            SELECT u.id, l.salt, l.password_hash
+            FROM dbo.[User] u
+            JOIN dbo.Login l ON u.id = l.user_id
+            WHERE u.username = ?
+        """
+        db.cursor.execute(sql, [username])
         row = db.cursor.fetchone()
 
         if not row:
-            return jsonify({"error": "Invalid username"}), 401
+            return jsonify({'error': 'Invalid username or password'}), 401
 
-        user_id, stored_hash, salt = row
-        input_hash = hashlib.sha256((password + salt).encode()).hexdigest()
+        user_id, salt, stored_hash = row
+        computed_hash = hashlib.sha256((password + salt).encode('utf-8')).hexdigest()
 
-        if input_hash == stored_hash:
-            return jsonify({"message": "Login successful", "userId": user_id})
-        else:
-            return jsonify({"error": "Invalid password"}), 401
+        if computed_hash != stored_hash:
+            return jsonify({'error': 'Invalid username or password'}), 401
+
+        return jsonify({'message': 'Login successful', 'userId': user_id}), 200
+
     except Exception as e:
+        print(f"[ERROR] Login failed: {e}")
         return jsonify({'error': str(e)}), 500
 
 @app.route("/api/register", methods=["POST"])
@@ -186,9 +249,8 @@ def register():
         data.get("body_weight"),       
         data.get("caffeine_limit"),    
         data.get("date_of_birth")      
-    ]
 
-    try:
+      try:
         db.cursor.execute(
             "EXEC dbo.sp_create_user ?,?,?,?,?,?,?,?,?,?",
             params
@@ -211,6 +273,22 @@ def register():
     except Exception as e:
         db.connection.rollback()
         return jsonify({"error": str(e)}), 500
+      
+@app.route('/api/user/delete', methods=['POST'])
+def delete_user():
+    try:
+        user_id = request.form.get('userId')
+
+        if not user_id:
+            return jsonify({'error': 'Missing userId'}), 400
+
+        sql = "EXEC dbo.sp_delete_user @user_id = ?"
+        db.cursor.execute(sql, [user_id])
+        db.connection.commit()
+
+        return jsonify({'message': 'User deleted successfully'}), 200
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
 
 @app.route("/api/today-caffeine", methods=["GET"])
 def today_caffeine():

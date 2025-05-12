@@ -5,8 +5,8 @@ SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
 GO
- 
-CREATE PROCEDURE [dbo].[sp_update_user]
+
+CREATE OR ALTER PROCEDURE [dbo].[sp_update_user]
   @user_id         INT,
   @username        NVARCHAR(50) = NULL,
   @first_name      NVARCHAR(50) = NULL,
@@ -18,7 +18,6 @@ CREATE PROCEDURE [dbo].[sp_update_user]
   @date_of_birth   DATETIME     = NULL
 AS
 BEGIN
-
   IF NOT EXISTS (
     SELECT 1 FROM dbo.[User] WHERE id = @user_id
   )
@@ -26,7 +25,7 @@ BEGIN
     RAISERROR('User ID not found.', 16, 1);
     RETURN;
   END;
- 
+
   UPDATE dbo.[User]
   SET
     username        = ISNULL(@username, username),

@@ -1,15 +1,38 @@
 import { Plus } from 'lucide-react';
-import React, { useState } from 'react';
+import { useState, useEffect, useCallback } from 'react';
+import PropTypes from 'prop-types';
+import { Navigate } from "react-router-dom";
 
 import GaugeChart from './GaugeChart';
+import LogoutButton from './LogoutButton';
 import AddCaffeineModal from './AddCaffeineModal';
 
-function Home() {
+function Home({ userId, db }) {
     const [isModalOpen, setIsModalOpen] = useState(false);
+    const [todayCaffeine, setTodayCaffeine] = useState(0);
+
+    const fetchTodayCaffeine = useCallback(async () => {
+        if (!userId) return;
+        try {
+            const { todayCaffeine } = await db.getTodayCaffeine(userId);
+            setTodayCaffeine(todayCaffeine);
+        } catch (err) {
+            console.error(err);
+        }
+    }, [db, userId]);
+
+    useEffect(() => {
+        fetchTodayCaffeine();
+    }, [fetchTodayCaffeine]);
+
+    if (!userId) {
+        return <Navigate to="/" replace />;
+    }
 
     return (
         <div className="flex flex-row h-screen">
-            <GaugeChart caffeineIntake={200} safetyLimit={400} />
+            <LogoutButton />
+            <GaugeChart caffeineIntake={todayCaffeine} safetyLimit={400} />
 
             <button
                 onClick={() => setIsModalOpen(true)}
@@ -20,12 +43,22 @@ function Home() {
 
             {isModalOpen && (
                 <AddCaffeineModal
-                    userId={1}
+                    userId={userId}
+                    db={db}
                     onClose={() => setIsModalOpen(false)}
+                    onSuccess={() => {
+                        fetchTodayCaffeine();
+                        setIsModalOpen(false);
+                    }}
                 />
             )}
         </div>
     );
 }
+
+Home.propTypes = {
+    userId: PropTypes.number.isRequired,
+    db: PropTypes.object.isRequired
+};
 
 export default Home;

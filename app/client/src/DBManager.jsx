@@ -4,16 +4,14 @@ class DBManager {
     }
 
     async getDrinks() {
-        // [id, name, mg_per_oz, image_url, manufacturer_id]
-
         try {
             const response = await fetch(`${this.base_url}/drinks`);
+
             if (!response.ok) {
-                throw new Error(`HTTP Error Status: ${response.status}`);
+                throw new Error(`HTTP Error: ${response.status}`);
             }
-            
-            const data = await response.json();
-            return data;
+
+            return await response.json();
         } catch (error) {
             console.error('Error fetching drinks:', error);
             throw error;
@@ -21,67 +19,189 @@ class DBManager {
     }
 
     async getDrinkDetails(drinkId) {
-        // [id, name, mg_per_oz, image_url, manufacturer_name, drink_type]
-
         try {
             const response = await fetch(`${this.base_url}/drinks/${drinkId}`);
+
             if (!response.ok) {
-                throw new Error(`HTTP Error Status: ${response.status}`);
+                throw new Error(`HTTP Error: ${response.status}`);
             }
-    
-            const data = await response.json();
-            return data;
+
+            return await response.json();
         } catch (error) {
-            console.error(`Error fetching drink details for ID ${drinkId}:`, error);
+            console.error(`Error fetching drink ID ${drinkId}:`, error);
             throw error;
         }
     }
 
     async getServingSizes(drinkType) {
-        // [serving_id, serving_name, amount_ml, amount_oz, drink_type]
-    
         try {
-            // Encode the drink type for url safety
             const encodedType = encodeURIComponent(drinkType);
             const response = await fetch(`${this.base_url}/servingsizes/${encodedType}`);
+
             if (!response.ok) {
-                throw new Error(`HTTP Error Status: ${response.status}`);
+                throw new Error(`HTTP Error: ${response.status}`);
             }
-    
-            const data = await response.json();
-            return data;
+
+            return await response.json();
         } catch (error) {
-            console.error(`Error fetching serving sizes for type "${drinkType}":`, error);
+            console.error(`Error fetching serving sizes for "${drinkType}":`, error);
+            throw error;
+        }
+    }
+
+    async getUserAdds(userId) {
+        try {
+            const response = await fetch(`${this.base_url}/users/${userId}/adds`);
+
+            if (!response.ok) {
+                throw new Error(`HTTP Error: ${response.status}`);
+            }
+
+            return await response.json();
+        } catch (error) {
+            console.error(`Error fetching adds for user ${userId}:`, error);
             throw error;
         }
     }
 
     async addDrinkEntry(userId, drinkId, totalAmount) {
         try {
-            const response = await fetch(`${this.base_url}/addDrink`, {
+            const response = await fetch(`${this.base_url}/users/${userId}/adds`, {
                 method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json',
-                },
+                headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({
-                    user_id: userId,
                     drink_id: drinkId,
                     total_amount: totalAmount
-                }),
+                })
             });
-    
+
             if (!response.ok) {
-                const errorData = await response.json();
-                throw new Error(errorData.error || `HTTP Error Status: ${response.status}`);
+                throw new Error((await response.json()).error || `HTTP Error: ${response.status}`);
             }
-    
-            const data = await response.json();
-            return data;
+
+            return await response.json();
         } catch (error) {
             console.error('Error adding drink entry:', error);
             throw error;
         }
-    }    
+    }
+
+    async updateDrinkEntry(userId, timeAdded, newDrinkId, newTotalAmount) {
+        try {
+            const response = await fetch(`${this.base_url}/users/${userId}/adds/${encodeURIComponent(timeAdded)}`, {
+                method: 'PUT',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    new_drink_id: newDrinkId,
+                    new_total_amount: newTotalAmount
+                })
+            });
+
+            if (!response.ok) {
+                throw new Error((await response.json()).error || `HTTP Error: ${response.status}`);
+            }
+
+            return await response.json();
+        } catch (error) {
+            console.error('Error updating drink entry:', error);
+            throw error;
+        }
+    }
+
+    async deleteDrinkEntry(userId, timeAdded) {
+        try {
+            const response = await fetch(`${this.base_url}/users/${userId}/adds/${encodeURIComponent(timeAdded)}`, {
+                method: 'DELETE'
+            });
+
+            if (!response.ok) {
+                throw new Error((await response.json()).error || `HTTP Error: ${response.status}`);
+            }
+
+            return await response.json();
+        } catch (error) {
+            console.error('Error deleting drink entry:', error);
+            throw error;
+        }
+    }
+
+    async login(username, password) {
+        try {
+            const response = await fetch(`${this.base_url}/api/login`, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+                body: new URLSearchParams({ username, password })
+            });
+
+            const data = await response.json();
+
+            if (!response.ok) {
+                throw new Error(data.error || `HTTP ${response.status}`);
+            }
+
+            return data;
+        } catch (error) {
+            console.error('Login error:', error);
+            throw error;
+        }
+    }
+
+    async getTodayCaffeine(userId) {
+        try {
+            const response = await fetch(
+                `${this.base_url}/api/today-caffeine?user_id=${userId}`
+            );
+
+            if (!response.ok) {
+                throw new Error(`HTTP Error: ${response.status}`);
+            }
+
+            return await response.json();
+        } catch (error) {
+            console.error(`Error fetching today’s caffeine for user ${userId}:`, error);
+            throw error;
+        }
+    }
+
+    async register({
+        username,
+        password,
+        first_name,
+        last_name,
+        middle_name,
+        gender,
+        body_weight,
+        caffeine_limit,
+        date_of_birth
+    }) {
+        try {
+            const response = await fetch(`${this.base_url}/api/register`, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+                body: new URLSearchParams({
+                    username,
+                    password,
+                    first_name,
+                    last_name,
+                    middle_name,
+                    gender,
+                    body_weight,
+                    caffeine_limit,
+                    date_of_birth
+                })
+            });
+
+            const data = await response.json();
+
+            if (!response.ok) {
+                throw new Error(data.error || `HTTP ${response.status}`);
+            }
+            
+        } catch (error) {
+            console.error('Registration error:', error);
+            throw error;
+        }
+    }
 }
 
 export default DBManager;

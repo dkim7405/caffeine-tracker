@@ -20,12 +20,20 @@ export default function Login() {
 
     const result = await response.json();
 
+    // if (response.ok) {
+    //   setMessage('Login successful');
+    //   navigate('/home');
+    // } else {
+    //   setMessage(`${result.error}`);
+    // }
     if (response.ok) {
+      localStorage.setItem('userId', result.userId); 
       setMessage('Login successful');
       navigate('/home');
     } else {
       setMessage(`${result.error}`);
     }
+
   };
 
   return (

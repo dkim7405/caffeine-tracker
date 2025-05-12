@@ -21,6 +21,7 @@ export default function Login() {
     const result = await response.json();
 
     if (response.ok) {
+      localStorage.setItem('user_id', result.userId);
       setMessage('Login successful');
       navigate('/home');
     } else {

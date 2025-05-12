@@ -10,6 +10,7 @@ IF OBJECT_ID('dbo.Drink', 'U') IS NOT NULL DROP TABLE dbo.[Drink];
 IF OBJECT_ID('dbo.DrinksType', 'U') IS NOT NULL DROP TABLE dbo.[DrinksType];
 IF OBJECT_ID('dbo.Manufacturer', 'U') IS NOT NULL DROP TABLE dbo.[Manufacturer];
 IF OBJECT_ID('dbo.User', 'U') IS NOT NULL DROP TABLE dbo.[User];
+IF OBJECT_ID('dbo.Login', 'U') IS NOT NULL DROP TABLE dbo.[Login];
 
 -- Age is computed attribute based on date_of_birth
 CREATE TABLE [User] (
@@ -97,3 +98,12 @@ CREATE TABLE [Adds] (
 
     PRIMARY KEY (time_added, user_id)
 );
+
+CREATE TABLE [Login] (
+    [user_id] int PRIMARY KEY REFERENCES [User](id)
+        ON DELETE CASCADE
+        ON UPDATE CASCADE,
+    [password_hash] nvarchar(255) NOT NULL,
+    [salt] nvarchar(255) NOT NULL
+);
+

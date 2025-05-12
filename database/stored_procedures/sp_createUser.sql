@@ -1,4 +1,4 @@
-CREATE PROCEDURE dbo.sp_create_user
+CREATE PROCEDURE sp_create_user
   @username NVARCHAR(50),
   @password_hash NVARCHAR(255),
   @salt NVARCHAR(255),
@@ -14,11 +14,13 @@ BEGIN
 
   INSERT INTO dbo.[User] (username, first_name, middle_name, last_name, gender, body_weight, caffeine_limit, date_of_birth)
 
-  VALUES (@username, @first_name, @middle_name, @last_name, @gender, @body_weight, @caffeine_limit, @date_of_birth);
+  VALUES (@username, @first_name, @middle_name, @last_name, @gender, @body_weight, @caffeine_limit, @date_of_birth)
 
-  DECLARE @new_user_id INT = SCOPE_IDENTITY();
+  DECLARE @new_user_id INT = SCOPE_IDENTITY()
 
   INSERT INTO dbo.Login (user_id, password_hash,salt)
-  VALUES (@new_user_id, @password_hash, @salt);
-END;
+  VALUES (@new_user_id, @password_hash, @salt)
+
+  SELECT @new_user_id AS new_id
+END
 GO

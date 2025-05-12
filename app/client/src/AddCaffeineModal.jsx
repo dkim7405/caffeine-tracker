@@ -4,7 +4,7 @@ import SelectDrinkModal from './SelectDrinkModal';
 import DrinkDetailModal from './DrinkDetailModal';
 import DBManager from './DBManager';
 
-function AddCaffeineModal({ userId, onClose }) {
+function AddCaffeineModal({ userId, onClose, onSuccess }) {
     const [step, setStep] = useState('select');
     const [drinks, setDrinks] = useState([]);
     const [selectedDrink, setSelectedDrink] = useState(null);
@@ -58,7 +58,9 @@ function AddCaffeineModal({ userId, onClose }) {
     
         try {
             await db.addDrinkEntry(userId, drinkId, caffeine);
-            onClose();
+            // onClose();
+            if (onSuccess) onSuccess();
+            else if (onClose) onClose();
         } catch (error) {
             console.error("Failed to add drink to database:", error);
             alert("Failed to add drink");
@@ -96,6 +98,7 @@ function AddCaffeineModal({ userId, onClose }) {
 AddCaffeineModal.propTypes = {
     userId: PropTypes.number.isRequired,
     onClose: PropTypes.func.isRequired,
+    onSuccess: PropTypes.func
 };
 
 export default AddCaffeineModal;

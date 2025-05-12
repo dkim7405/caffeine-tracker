@@ -17,20 +17,15 @@ def home():
 
 @app.route('/drinks', methods=['GET'])
 def get_drinks():
-    sql = """
-    SELECT * FROM dbo.Drink ORDER BY name
-    """
-
     try:
-        db.cursor.execute(sql)
+        db.cursor.execute("EXEC dbo.sp_getAllDrinks")
         rows = db.cursor.fetchall()
-        cols = [col[0] for col in db.cursor.description]
-
-        return jsonify([
-            dict(zip(cols, row)) for row in rows
-        ])
+        cols = [c[0] for c in db.cursor.description]
+        return jsonify([dict(zip(cols, r)) for r in rows])
     except Exception as e:
         return jsonify({'error': str(e)}), 500
+
+
     
 @app.route('/drinks/<int:drink_id>', methods=['GET'])
 def get_drink_details(drink_id):
@@ -72,22 +67,24 @@ def get_serving_sizes(drink_type):
     
 @app.route('/addDrink', methods=['POST'])
 def add_drink():
-    data = request.get_json()
-    
-    user_id = data.get('user_id')
-    drink_id = data.get('drink_id')
-    total_amount = data.get('total_amount')
+    data = request.get_json(force=True)  
+    uid  = data.get('user_id')
+    did  = data.get('drink_id')
+    amt  = data.get('total_amount')
+    if not all([uid, did, amt]):
+        return jsonify({'error': 'user_id, drink_id and total_amount are required'}), 400
 
     try:
-        sql = """
-        EXEC dbo.sp_insertAdd @userid = ?, @drinkid = ?, @totalamount = ?
-        """
-        db.cursor.execute(sql, [user_id, drink_id, total_amount])
+        db.cursor.execute(
+            "EXEC dbo.sp_insertAdd @userid = ?, @drinkid = ?, @totalamount = ?",
+            [uid, did, amt]
+        )
         db.connection.commit()
 
         return jsonify({'message': 'Drink added successfully'}), 200
     except Exception as e:
         return jsonify({'error': str(e)}), 500
+
 
 @app.route("/api/login", methods=["POST"])
 def login():
@@ -96,62 +93,94 @@ def login():
     password = data.get("password")
 
     try:
-        db.cursor.execute("SELECT id FROM [User] WHERE username = ?", (username,))
-        user_row = db.cursor.fetchone()
-        if not user_row:
+        db.cursor.execute("EXEC dbo.sp_getLoginInfo @username = ?", (username,))
+        row = db.cursor.fetchone()
+
+        if not row:
             return jsonify({"error": "Invalid username"}), 401
 
-        user_id = user_row[0]
-
-        db.cursor.execute("SELECT password_hash, salt FROM [Login] WHERE user_id = ?", (user_id,))
-        row = db.cursor.fetchone()
-        if not row:
-            return jsonify({"error": "Login credentials not found"}), 401
-
-        stored_hash, salt = row
+        user_id, stored_hash, salt = row
         input_hash = hashlib.sha256((password + salt).encode()).hexdigest()
 
         if input_hash == stored_hash:
-            return jsonify({"message": "Login successful"})
+            return jsonify({"message": "Login successful", "userId": user_id})
         else:
             return jsonify({"error": "Invalid password"}), 401
-
     except Exception as e:
-        return jsonify({"error": str(e)}), 500
+            return jsonify({"error": str(e)}), 500
     
+
 
 @app.route("/api/register", methods=["POST"])
 def register():
     data = request.form
+
     username = data.get("username")
-    password = data.get("password")
-    salt = uuid.uuid4().hex
-    password_hash = hashlib.sha256((password + salt).encode()).hexdigest()
+    raw_pw   = data.get("password")
+    if not username or not raw_pw:
+        return jsonify({"error": "username & password required"}), 400
+
+    salt    = uuid.uuid4().hex
+    pw_hash = hashlib.sha256((raw_pw + salt).encode()).hexdigest()
+
+    params = [
+        username,                      
+        pw_hash,                      
+        salt,                     
+        data.get("first_name"),     
+        data.get("middle_name"),       
+        data.get("last_name"),         
+        data.get("gender"),          
+        data.get("body_weight"),       
+        data.get("caffeine_limit"),    
+        data.get("date_of_birth")      
+    ]
 
     try:
-        # Insert into User table
-        db.cursor.execute("""
-    INSERT INTO [User](username, first_name, middle_name, last_name, gender, body_weight, caffeine_limit, date_of_birth)
-    VALUES (?, ?, ?, ?, ?, ?, ?, ?)
-""", (
-    username,
-    data.get("first_name"),
-    data.get("middle_name"),
-    data.get("last_name"),
-    data.get("gender"),
-    data.get("body_weight"),
-    data.get("caffeine_limit"),
-    data.get("date_of_birth")
-))
-        # Get user ID
-        db.cursor.execute("SELECT id FROM [User] WHERE username = ?", (username,))
-        user_id = db.cursor.fetchone()[0]
+        db.cursor.execute(
+            "EXEC dbo.sp_create_user ?,?,?,?,?,?,?,?,?,?",
+            params
+        )
 
-        # Insert into Login table
-        db.cursor.execute("INSERT INTO [Login](user_id, password_hash, salt) VALUES (?, ?, ?)", (user_id, password_hash, salt))
+        while db.cursor.description is None and db.cursor.nextset():
+            pass
+    
+        row = db.cursor.fetchone()
+        if not row or row[0] is None:
+            db.connection.rollback()
+            return jsonify({"error": "sp_create_user did not return an id"}), 500
+
+        new_id = int(row[0])
         db.connection.commit()
 
-        return jsonify({"message": "Registration successful"})
+        return jsonify({"message": "Registration successful",
+                        "userId": new_id}), 201
+
+    except Exception as e:
+        db.connection.rollback()
+        return jsonify({"error": str(e)}), 500
+
+
+
+
+
+@app.route("/api/today-caffeine", methods=["GET"])
+def today_caffeine():
+
+    user_id = request.args.get("user_id", type=int)
+    if not user_id:
+        return jsonify({"error": "user_id required"}), 400
+
+    try:
+  
+        db.cursor.execute(
+            "EXEC dbo.sp_getDailyCaffeine @userId = ?", 
+            [user_id]
+        )
+        row = db.cursor.fetchone()     
+        total = row[0] if row else 0
+
+        return jsonify({"todayCaffeine": total})
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 

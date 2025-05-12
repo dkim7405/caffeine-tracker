@@ -1,50 +1,37 @@
 import { Plus } from 'lucide-react';
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import PropTypes from 'prop-types';
-
-// import { useNavigate } from "react-router-dom";
+import { Navigate } from "react-router-dom";
 
 import GaugeChart from './GaugeChart';
 import LogoutButton from './LogoutButton';
 import AddCaffeineModal from './AddCaffeineModal';
-import { Navigate }    from "react-router-dom";
 
 function Home({ userId, db }) {
-  const [isModalOpen, setIsModalOpen]     = useState(false);
-  const [todayCaffeine, setTodayCaffeine] = useState(0);
-  const userId = localStorage.getItem('user_id');
-  
+    const [isModalOpen, setIsModalOpen] = useState(false);
+    const [todayCaffeine, setTodayCaffeine] = useState(0);
 
-  const fetchTodayCaffeine = async () => {
-    if (!userId) return;
-    try {
-      const res = await fetch(
-        `http://localhost:5000/api/today-caffeine?user_id=${userId}`
-      );
-      if (!res.ok) throw new Error('Fetch failed');
-      const { todayCaffeine } = await res.json();
-      setTodayCaffeine(todayCaffeine);
-    } catch (err) {
-      console.error(err);
+    const fetchTodayCaffeine = useCallback(async () => {
+        if (!userId) return;
+        try {
+            const { todayCaffeine } = await db.getTodayCaffeine(userId);
+            setTodayCaffeine(todayCaffeine);
+        } catch (err) {
+            console.error(err);
+        }
+    }, [db, userId]);
+
+    useEffect(() => {
+        fetchTodayCaffeine();
+    }, [fetchTodayCaffeine]);
+
+    if (!userId) {
+        return <Navigate to="/" replace />;
     }
-  };
-  useEffect(() => {
-    if (userId) {
-      fetchTodayCaffeine();
-    }
-  }, [userId]);
-
-  if (!userId) {
-    return <Navigate to="/" replace />;
-  }
-      
-
-
-    
 
     return (
         <div className="flex flex-row h-screen">
-          <LogoutButton /> 
+            <LogoutButton />
             <GaugeChart caffeineIntake={todayCaffeine} safetyLimit={400} />
 
             <button
@@ -59,6 +46,10 @@ function Home({ userId, db }) {
                     userId={userId}
                     db={db}
                     onClose={() => setIsModalOpen(false)}
+                    onSuccess={() => {
+                        fetchTodayCaffeine();
+                        setIsModalOpen(false);
+                    }}
                 />
             )}
         </div>
@@ -67,7 +58,7 @@ function Home({ userId, db }) {
 
 Home.propTypes = {
     userId: PropTypes.number.isRequired,
-    db: PropTypes.object.isRequired,
+    db: PropTypes.object.isRequired
 };
 
 export default Home;

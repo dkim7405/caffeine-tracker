@@ -1,4 +1,7 @@
 import os
+import uuid
+import hashlib
+
 from flask import Flask, jsonify, request
 from flask_cors import CORS
 from db_conn import db_conn
@@ -117,6 +120,25 @@ def update_drink(user_id, time_added):
         db.cursor.execute(sql, [user_id, dt, new_drink_id, new_total_amount])
         db.connection.commit()
         return jsonify({'message': 'Drink updated successfully'}), 200
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+    
+    # path: allows slashes and punctuations
+@app.route('/users/<int:user_id>/adds/<path:time_added>', methods=['DELETE'])
+def delete_drink(user_id, time_added):
+    try:
+        dt = datetime.strptime(time_added, '%Y-%m-%dT%H:%M:%S.%f')
+    except ValueError:
+        return jsonify({'error': 'Invalid datetime format'}), 400
+    
+    sql = "EXEC dbo.sp_deleteAdd @userid = ?, @time_added = ?"
+
+    try:
+        db.cursor.execute(sql, [user_id, dt])
+        db.connection.commit()
+        return jsonify({'message': 'Drink deleted successfully'}), 200
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
 
 @app.route("/api/login", methods=["POST"])
 def login():
@@ -140,22 +162,6 @@ def login():
             return jsonify({"error": "Invalid password"}), 401
     except Exception as e:
         return jsonify({'error': str(e)}), 500
-
-# path: allows slashes and punctuations
-@app.route('/users/<int:user_id>/adds/<path:time_added>', methods=['DELETE'])
-def delete_drink(user_id, time_added):
-    try:
-        dt = datetime.strptime(time_added, '%Y-%m-%dT%H:%M:%S.%f')
-    except ValueError:
-        return jsonify({'error': 'Invalid datetime format'}), 400
-    
-    sql = "EXEC dbo.sp_deleteAdd @userid = ?, @time_added = ?"
-
-    try:
-        db.cursor.execute(sql, [user_id, dt])
-            return jsonify({"error": str(e)}), 500
-    
-
 
 @app.route("/api/register", methods=["POST"])
 def register():
@@ -205,10 +211,6 @@ def register():
     except Exception as e:
         db.connection.rollback()
         return jsonify({"error": str(e)}), 500
-
-
-
-
 
 @app.route("/api/today-caffeine", methods=["GET"])
 def today_caffeine():

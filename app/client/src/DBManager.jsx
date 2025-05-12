@@ -117,10 +117,88 @@ class DBManager {
             if (!response.ok) {
                 throw new Error((await response.json()).error || `HTTP Error: ${response.status}`);
             }
-            
+
             return await response.json();
         } catch (error) {
             console.error('Error deleting drink entry:', error);
+            throw error;
+        }
+    }
+
+    async login(username, password) {
+        try {
+            const response = await fetch(`${this.base_url}/api/login`, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+                body: new URLSearchParams({ username, password })
+            });
+
+            const data = await response.json();
+
+            if (!response.ok) {
+                throw new Error(data.error || `HTTP ${response.status}`);
+            }
+
+            return data;
+        } catch (error) {
+            console.error('Login error:', error);
+            throw error;
+        }
+    }
+
+    async getTodayCaffeine(userId) {
+        try {
+            const response = await fetch(
+                `${this.base_url}/api/today-caffeine?user_id=${userId}`
+            );
+
+            if (!response.ok) {
+                throw new Error(`HTTP Error: ${response.status}`);
+            }
+
+            return await response.json();
+        } catch (error) {
+            console.error(`Error fetching today’s caffeine for user ${userId}:`, error);
+            throw error;
+        }
+    }
+
+    async register({
+        username,
+        password,
+        first_name,
+        last_name,
+        middle_name,
+        gender,
+        body_weight,
+        caffeine_limit,
+        date_of_birth
+    }) {
+        try {
+            const response = await fetch(`${this.base_url}/api/register`, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+                body: new URLSearchParams({
+                    username,
+                    password,
+                    first_name,
+                    last_name,
+                    middle_name,
+                    gender,
+                    body_weight,
+                    caffeine_limit,
+                    date_of_birth
+                })
+            });
+
+            const data = await response.json();
+
+            if (!response.ok) {
+                throw new Error(data.error || `HTTP ${response.status}`);
+            }
+            
+        } catch (error) {
+            console.error('Registration error:', error);
             throw error;
         }
     }

@@ -3,8 +3,7 @@ import PropTypes from 'prop-types';
 import SelectDrinkModal from './SelectDrinkModal';
 import DrinkDetailModal from './DrinkDetailModal';
 
-function AddCaffeineModal({ userId, db, onClose }) {
-function AddCaffeineModal({ userId, onClose, onSuccess }) {
+function AddCaffeineModal({ userId, db, onClose, onSuccess }) {
     const [step, setStep] = useState('select');
     const [drinks, setDrinks] = useState([]);
     const [selectedDrink, setSelectedDrink] = useState(null);
@@ -24,10 +23,11 @@ function AddCaffeineModal({ userId, onClose, onSuccess }) {
 
     const handleSelectConfirm = async (drink) => {
         try {
-            const detail = await db.getDrinkDetails(drink.id);
-            setSelectedDrink(detail[0]);
+            const detailArray = await db.getDrinkDetails(drink.id);
+            const detail = detailArray[0];
+            setSelectedDrink(detail);
 
-            const sizes = await db.getServingSizes(detail[0].drink_type);
+            const sizes = await db.getServingSizes(detail.drink_type);
             setServingSizes(sizes);
 
             setStep('detail');
@@ -37,26 +37,38 @@ function AddCaffeineModal({ userId, onClose, onSuccess }) {
     };
 
     const handleFinalConfirm = async (drinkWithSize) => {
-        if (!drinkWithSize) return;
+        if (!drinkWithSize) {
+            return;
+        }
 
-        const { mg_per_oz, selectedSize, customAmount, customUnit, id: drinkId } = drinkWithSize;
+        const {
+            mg_per_oz,
+            selectedSize,
+            customAmount,
+            customUnit,
+            id: drinkId
+        } = drinkWithSize;
 
         let totalOz = 0;
 
         if (selectedSize) {
             totalOz = selectedSize.amount_oz;
         } else if (customAmount) {
-            const amount = Number(customAmount);
-            totalOz = customUnit === 'oz' ? amount : amount / 29.5735;
+            const amt = Number(customAmount);
+            totalOz = customUnit === 'oz' ? amt : amt / 29.5735;
         }
 
         const caffeine = Math.round(totalOz * mg_per_oz);
 
         try {
             await db.addDrinkEntry(userId, drinkId, caffeine);
-            // onClose();
-            if (onSuccess) onSuccess();
-            else if (onClose) onClose();
+
+            if (onSuccess) {
+                onSuccess();
+            }
+            else {
+                onClose();
+            }
         } catch (error) {
             console.error("Failed to add drink to database:", error);
             alert("Failed to add drink");
@@ -66,7 +78,7 @@ function AddCaffeineModal({ userId, onClose, onSuccess }) {
     return (
         <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-20">
             <div
-                className="bg-white rounded-xl shadow-xl w-full max-w-md m-4 relative flex flex-col"
+                className="bg-white rounded-xl shadow-xl max-w-md w-full m-4 relative flex flex-col"
                 style={{ width: '400px', height: '500px' }}
             >
                 {step === 'select' ? (

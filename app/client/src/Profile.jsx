@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
+import DBManager from './DBManager';
 
-export default function Profile({ userId }) {
+export default function Profile({ userId, db }) {
   const [form, setForm] = useState({
     username: '',
     first_name: '',
@@ -16,14 +17,12 @@ export default function Profile({ userId }) {
   const [message, setMessage] = useState('');
   const navigate = useNavigate();
 
-  // Load current user data
   useEffect(() => {
     const fetchUser = async () => {
       try {
-        const res = await fetch(`http://localhost:5000/api/user/${userId}`);
-        const data = await res.json();
-
-        if (res.ok) {
+        const response = await fetch(`${db.base_url}/api/user/${userId}`);
+        const data = await response.json();
+        if (response.ok) {
           setForm({
             username: data.username || '',
             first_name: data.first_name || '',
@@ -37,13 +36,13 @@ export default function Profile({ userId }) {
         } else {
           setMessage(data.error || 'Failed to load user');
         }
-      } catch (err) {
+      } catch (error) {
         setMessage('Error fetching user profile');
       }
     };
-
+  
     fetchUser();
-  }, [userId]);
+  }, [userId]);    
 
   const handleChange = (e) => {
     setForm({ ...form, [e.target.name]: e.target.value });
@@ -51,38 +50,25 @@ export default function Profile({ userId }) {
 
   const handleUpdate = async (e) => {
     e.preventDefault();
-    const params = new URLSearchParams({ userId, ...form });
-
-    const res = await fetch('http://localhost:5000/api/user/update', {
-      method: 'POST',
-      body: params,
-    });
-
-    const result = await res.json();
-    if (res.ok) {
+    try {
+      const result = await db.updateUserProfile({ userId, ...form });
       setMessage('Profile updated successfully');
-    } else {
-      setMessage(result.error || 'Update failed');
+    } catch (err) {
+      setMessage(err.message || 'Update failed');
     }
   };
 
   const handleDelete = async () => {
     if (!window.confirm('Are you sure you want to delete your profile?')) return;
-  
-    const res = await fetch('http://localhost:5000/api/user/delete', {
-      method: 'POST',
-      body: new URLSearchParams({ userId }),
-    });
-  
-    const result = await res.json();
-    if (res.ok) {
+    try {
+      await db.deleteUser(userId);
       localStorage.removeItem('userId');
       setMessage('Profile deleted');
       navigate('/');
-    } else {
-      setMessage(result.error || 'Delete failed');
+    } catch (err) {
+      setMessage(err.message || 'Delete failed');
     }
-  };
+  };  
 
   return (
     <div style={{ maxWidth: '400px', margin: '40px auto', fontFamily: 'sans-serif' }}>

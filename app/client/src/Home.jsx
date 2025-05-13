@@ -7,7 +7,7 @@ import GaugeChart from './GaugeChart';
 import LogoutButton from './LogoutButton';
 import AddCaffeineModal from './AddCaffeineModal';
 
-function Home({ userId, db }) {
+function Home({ userId, db, onLogout  }) {
     const [isModalOpen, setIsModalOpen] = useState(false);
     const [todayCaffeine, setTodayCaffeine] = useState(0);
 
@@ -31,7 +31,8 @@ function Home({ userId, db }) {
 
     return (
         <div className="flex flex-row h-screen">
-            <LogoutButton />
+            {/* <LogoutButton /> */}
+            <LogoutButton onLogout={onLogout} />
             <GaugeChart caffeineIntake={todayCaffeine} safetyLimit={400} />
 
             <button
@@ -57,7 +58,8 @@ function Home({ userId, db }) {
 }
 
 Home.propTypes = {
-    userId: PropTypes.number.isRequired,
+    // userId: PropTypes.number.isRequired,
+    userId: PropTypes.number, 
     db: PropTypes.object.isRequired
 };
 

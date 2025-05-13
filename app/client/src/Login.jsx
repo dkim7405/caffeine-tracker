@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import { useNavigate, Link } from 'react-router-dom';
 
-function Login({ db }) {
+function Login({db, onLogin }) {
     const [form, setForm] = useState({ username: '', password: '' });
     const [message, setMessage] = useState('');
     const navigate = useNavigate();
@@ -17,6 +17,7 @@ function Login({ db }) {
         try {
             const { userId } = await db.login(form.username, form.password);
             localStorage.setItem('user_id', userId);
+            onLogin(userId); 
             setMessage('Login successful');
             navigate('/home');
         } catch (err) {
@@ -110,7 +111,8 @@ function Login({ db }) {
 Login.propTypes = {
     db: PropTypes.shape({
         login: PropTypes.func.isRequired
-    }).isRequired
+    }).isRequired,
+    onLogin: PropTypes.func.isRequired
 };
 
 export default Login;

@@ -165,22 +165,30 @@ class DBManager {
 
     async updateUserProfile(userData) {
         try {
+            const formParams = new URLSearchParams();
+    
+            for (const [key, value] of Object.entries(userData)) {
+                formParams.append(key, value != null ? String(value) : '');
+            }
+    
             const response = await fetch(`${this.base_url}/api/user/update`, {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-                body: new URLSearchParams(userData)
+                body: formParams
             });
     
             const data = await response.json();
             if (!response.ok) {
                 throw new Error(data.error || `HTTP ${response.status}`);
             }
+    
             return data;
         } catch (error) {
             console.error('Update error:', error);
             throw error;
         }
-    }
+    }    
+    
 
     async deleteUser(userId) {
         try {

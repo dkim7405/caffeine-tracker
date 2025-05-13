@@ -50,8 +50,11 @@ export default function Profile({ userId, db }) {
 
   const handleUpdate = async (e) => {
     e.preventDefault();
+    const payload = { userId, ...form };
+    console.log("Sending update payload:", payload);
+  
     try {
-      const result = await db.updateUserProfile({ userId, ...form });
+      const result = await db.updateUserProfile(payload);
       setMessage('Profile updated successfully');
     } catch (err) {
       setMessage(err.message || 'Update failed');

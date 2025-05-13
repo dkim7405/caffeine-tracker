@@ -157,7 +157,7 @@ def update_user():
             try:
                 date_of_birth = datetime.strptime(date_of_birth_str, "%Y-%m-%d")
             except ValueError:
-                return jsonify({'error': 'Invalid date format. Use YYYY-MM-DD'}), 
+                return jsonify({'error': 'Invalid date format. Use YYYY-MM-DD'}), 400
 
         if not user_id:
             return jsonify({'error': 'userId is required'}), 400
@@ -310,6 +310,36 @@ def today_caffeine():
         return jsonify({"todayCaffeine": total})
     except Exception as e:
         return jsonify({'error': str(e)}), 500
+    
+@app.route('/api/user/<int:user_id>', methods=['GET'])
+def get_user_profile(user_id):
+    sql = """
+    SELECT username, first_name, middle_name, last_name, gender,
+           body_weight, caffeine_limit, date_of_birth
+    FROM dbo.[User]
+    WHERE id = ?
+    """
+    try:
+        db.cursor.execute(sql, [user_id])
+        row = db.cursor.fetchone()
+
+        if not row:
+            return jsonify({'error': 'User not found'}), 404
+
+        user_data = dict(zip([
+            'username', 'first_name', 'middle_name', 'last_name', 'gender',
+            'body_weight', 'caffeine_limit', 'date_of_birth'
+        ], row))
+
+        dob = user_data.get('date_of_birth')
+        if isinstance(dob, datetime):
+            user_data['date_of_birth'] = dob.strftime('%Y-%m-%d')
+
+        return jsonify(user_data), 200
+
+    except Exception as e:
+            return jsonify({'error': str(e)}), 500
+
 
 if __name__ == '__main__':
     app.run(debug=True, port=5000)
